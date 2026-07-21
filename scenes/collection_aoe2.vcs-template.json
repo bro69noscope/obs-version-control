@@ -1623,7 +1623,7 @@
       "id": "monitor_capture",
       "versioned_id": "monitor_capture",
       "settings": {
-        "monitor_id": "\\\\?\\DISPLAY#ACI24A4#5&1d98d0b3&0&UID4353#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}"
+        "monitor_id": "{{CENTER_MONITOR_ID}}"
       },
       "mixers": 0,
       "sync": 0,

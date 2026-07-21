@@ -122,8 +122,8 @@
     "monitoring_type": 0,
     "private_settings": {}
   },
-  "current_scene": "scene_screencap",
-  "current_program_scene": "scene_screencap",
+  "current_scene": "scene_facecam",
+  "current_program_scene": "scene_facecam",
   "scene_order": [
     {
       "name": "scene_facecam"
@@ -260,9 +260,9 @@
       "id": "dshow_input",
       "versioned_id": "dshow_input",
       "settings": {
-        "device_id": "Cam Link 4K:\\\\?\\usb#22vid_0fd9&pid_0066&mi_00#229&70bb0fb&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
-        "video_device_id": "Cam Link 4K:\\\\?\\usb#22vid_0fd9&pid_0066&mi_00#229&70bb0fb&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
-        "last_video_device_id": "Cam Link 4K:\\\\?\\usb#22vid_0fd9&pid_0066&mi_00#229&70bb0fb&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+        "device_id": "{{MAIN_CAMERA_DEVICE}}",
+        "video_device_id": "{{MAIN_CAMERA_DEVICE}}",
+        "last_video_device_id": "{{MAIN_CAMERA_DEVICE}}",
         "active": true
       },
       "mixers": 192,
@@ -2629,7 +2629,7 @@
       "settings": {
         "read_from_file": false,
         "outline": true,
-        "text": "BRB in 3 mins\nElapsed: 01:32",
+        "text": "BRB in 1 min\nElapsed: 08:10",
         "antialiasing": true
       },
       "mixers": 0,

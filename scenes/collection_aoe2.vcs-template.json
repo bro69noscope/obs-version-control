@@ -122,11 +122,11 @@
     "monitoring_type": 0,
     "private_settings": {}
   },
-  "current_scene": "scene_dslr",
-  "current_program_scene": "scene_dslr",
+  "current_scene": "scene_screencap",
+  "current_program_scene": "scene_screencap",
   "scene_order": [
     {
-      "name": "scene_dslr"
+      "name": "scene_facecam"
     },
     {
       "name": "scene_zoom"
@@ -150,7 +150,7 @@
       "name": "scene_browser"
     },
     {
-      "name": "scene_screencap_center_monitor"
+      "name": "scene_screencap"
     },
     {
       "name": "scene_osu"
@@ -166,7 +166,7 @@
   "sources": [
     {
       "prev_ver": 536870916,
-      "name": "scene_dslr",
+      "name": "scene_facecam",
       "uuid": "0496eed9-07df-46f4-83bd-53a54a834ec5",
       "id": "scene",
       "versioned_id": "scene",
@@ -175,62 +175,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "capture_virtual_camera",
-            "source_uuid": "22e0b984-b68d-42c3-bc07-a758be6668c5",
-            "visible": false,
-            "locked": false,
-            "rot": 0.0,
-            "scale_ref": {
-              "x": 1920.0,
-              "y": 1080.0
-            },
-            "align": 5,
-            "bounds_type": 0,
-            "bounds_align": 0,
-            "bounds_crop": false,
-            "crop_left": 0,
-            "crop_top": 0,
-            "crop_right": 0,
-            "crop_bottom": 0,
-            "id": 5,
-            "group_item_backup": false,
-            "pos": {
-              "x": 0.0,
-              "y": 0.0
-            },
-            "pos_rel": {
-              "x": -1.7777777910232544,
-              "y": -1.0
-            },
-            "scale": {
-              "x": 1.0,
-              "y": 1.0
-            },
-            "scale_rel": {
-              "x": 1.0,
-              "y": 1.0
-            },
-            "bounds": {
-              "x": 0.0,
-              "y": 0.0
-            },
-            "bounds_rel": {
-              "x": 0.0,
-              "y": 0.0
-            },
-            "scale_filter": "disable",
-            "blend_method": "default",
-            "blend_type": "normal",
-            "show_transition": {
-              "duration": 0
-            },
-            "hide_transition": {
-              "duration": 0
-            },
-            "private_settings": {}
-          },
-          {
-            "name": "capture_dslr",
+            "name": "capture_facecam",
             "source_uuid": "f3a15382-06a1-4d80-931b-e72a2578c8ba",
             "visible": true,
             "locked": false,
@@ -300,9 +245,7 @@
       "hotkeys": {
         "OBSBasic.SelectScene": [],
         "libobs.show_scene_item.1": [],
-        "libobs.hide_scene_item.1": [],
-        "libobs.show_scene_item.5": [],
-        "libobs.hide_scene_item.5": []
+        "libobs.hide_scene_item.1": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
@@ -312,15 +255,15 @@
     },
     {
       "prev_ver": 536870916,
-      "name": "capture_dslr",
+      "name": "capture_facecam",
       "uuid": "f3a15382-06a1-4d80-931b-e72a2578c8ba",
       "id": "dshow_input",
       "versioned_id": "dshow_input",
       "settings": {
-        "active": true,
-        "video_device_id": "OBS Virtual Camera:",
-        "last_video_device_id": "OBS Virtual Camera:",
-        "device_id": "YOUR_CAMLINK_DEVICE_ID"
+        "device_id": "Cam Link 4K:\\\\?\\usb#22vid_0fd9&pid_0066&mi_00#229&70bb0fb&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+        "video_device_id": "Cam Link 4K:\\\\?\\usb#22vid_0fd9&pid_0066&mi_00#229&70bb0fb&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+        "last_video_device_id": "Cam Link 4K:\\\\?\\usb#22vid_0fd9&pid_0066&mi_00#229&70bb0fb&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+        "active": true
       },
       "mixers": 192,
       "sync": 0,
@@ -412,7 +355,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene_dslr",
+            "name": "scene_facecam",
             "source_uuid": "0496eed9-07df-46f4-83bd-53a54a834ec5",
             "visible": true,
             "locked": false,
@@ -651,7 +594,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene_dslr",
+            "name": "scene_facecam",
             "source_uuid": "0496eed9-07df-46f4-83bd-53a54a834ec5",
             "visible": true,
             "locked": false,
@@ -831,7 +774,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "scene_dslr",
+            "name": "scene_facecam",
             "source_uuid": "0496eed9-07df-46f4-83bd-53a54a834ec5",
             "visible": true,
             "locked": false,
@@ -1270,7 +1213,7 @@
             "private_settings": {}
           },
           {
-            "name": "clone_scene_dslr",
+            "name": "clone_scene_facecam",
             "source_uuid": "40fa7aee-0133-4026-b224-66b8b6d3bb93",
             "visible": true,
             "locked": false,
@@ -1409,12 +1352,12 @@
     },
     {
       "prev_ver": 536870916,
-      "name": "clone_scene_dslr",
+      "name": "clone_scene_facecam",
       "uuid": "40fa7aee-0133-4026-b224-66b8b6d3bb93",
       "id": "source-clone",
       "versioned_id": "source-clone",
       "settings": {
-        "clone": "scene_dslr",
+        "clone": "scene_facecam",
         "audio": false
       },
       "mixers": 255,
@@ -1472,7 +1415,7 @@
     },
     {
       "prev_ver": 536870916,
-      "name": "scene_screencap_center_monitor",
+      "name": "scene_screencap",
       "uuid": "0603cea6-833b-4ecf-a512-ccccdda1af23",
       "id": "scene",
       "versioned_id": "scene",
@@ -1481,7 +1424,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "capture_display_vg248",
+            "name": "capture_display_center",
             "source_uuid": "a222ee10-9763-47af-bedc-108b742b84f4",
             "visible": true,
             "locked": false,
@@ -1536,7 +1479,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene_dslr",
+            "name": "scene_facecam",
             "source_uuid": "0496eed9-07df-46f4-83bd-53a54a834ec5",
             "visible": true,
             "locked": false,
@@ -1675,7 +1618,7 @@
     },
     {
       "prev_ver": 536870916,
-      "name": "capture_display_vg248",
+      "name": "capture_display_center",
       "uuid": "a222ee10-9763-47af-bedc-108b742b84f4",
       "id": "monitor_capture",
       "versioned_id": "monitor_capture",
@@ -1765,7 +1708,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene_dslr",
+            "name": "scene_facecam",
             "source_uuid": "0496eed9-07df-46f4-83bd-53a54a834ec5",
             "visible": true,
             "locked": false,
@@ -2002,7 +1945,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene_dslr",
+            "name": "scene_facecam",
             "source_uuid": "0496eed9-07df-46f4-83bd-53a54a834ec5",
             "visible": true,
             "locked": false,
@@ -2239,7 +2182,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene_dslr",
+            "name": "scene_facecam",
             "source_uuid": "0496eed9-07df-46f4-83bd-53a54a834ec5",
             "visible": true,
             "locked": false,
@@ -2554,7 +2497,7 @@
       "id": "source-clone",
       "versioned_id": "source-clone",
       "settings": {
-        "clone": "capture_display_vg248"
+        "clone": "capture_display_center"
       },
       "mixers": 255,
       "sync": 0,
@@ -2896,7 +2839,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene_dslr",
+            "name": "scene_facecam",
             "source_uuid": "0496eed9-07df-46f4-83bd-53a54a834ec5",
             "visible": true,
             "locked": false,
@@ -3063,38 +3006,6 @@
       "deinterlace_field_order": 0,
       "monitoring_type": 0,
       "private_settings": {}
-    },
-    {
-      "prev_ver": 536870916,
-      "name": "capture_virtual_camera",
-      "uuid": "22e0b984-b68d-42c3-bc07-a758be6668c5",
-      "id": "dshow_input",
-      "versioned_id": "dshow_input",
-      "settings": {
-        "video_device_id": "OBS Virtual Camera:",
-        "last_video_device_id": "OBS Virtual Camera:"
-      },
-      "mixers": 255,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {
-        "libobs.mute": [],
-        "libobs.unmute": [],
-        "libobs.push-to-mute": [],
-        "libobs.push-to-talk": []
-      },
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {}
     }
   ],
   "groups": [],
@@ -3128,7 +3039,7 @@
   "transition_duration": 300,
   "preview_locked": false,
   "scaling_enabled": false,
-  "scaling_level": -12,
+  "scaling_level": -8,
   "scaling_off_x": 0.0,
   "scaling_off_y": 0.0,
   "virtual-camera": {

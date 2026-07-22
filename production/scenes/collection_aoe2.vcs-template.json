@@ -122,8 +122,8 @@
     "monitoring_type": 0,
     "private_settings": {}
   },
-  "current_scene": "scene_facecam",
-  "current_program_scene": "scene_facecam",
+  "current_scene": "scene_screencap",
+  "current_program_scene": "scene_screencap",
   "scene_order": [
     {
       "name": "scene_facecam"
@@ -2629,7 +2629,7 @@
       "settings": {
         "read_from_file": false,
         "outline": true,
-        "text": "BRB in 1 min\nElapsed: 08:10",
+        "text": "BRB in 1 min\nElapsed: 58:12",
         "antialiasing": true
       },
       "mixers": 0,

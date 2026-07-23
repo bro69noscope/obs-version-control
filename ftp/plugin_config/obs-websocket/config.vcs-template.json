@@ -1,0 +1,8 @@
+{
+  "alerts_enabled": false,
+  "auth_required": false,
+  "first_load": false,
+  "server_enabled": true,
+  "server_password": "GCICAAAAAAAAmt73",
+  "server_port": "{{OBS_PORTABLE_FTP_PORT}}"
+}

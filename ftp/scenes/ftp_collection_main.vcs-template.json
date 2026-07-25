@@ -131,7 +131,7 @@
       "id": "text_gdiplus",
       "versioned_id": "text_gdiplus_v3",
       "settings": {
-        "text": "BRB in 3 mins\nElapsed: 37:29"
+        "text": "BRB in 3 mins\nElapsed: 58:41"
       },
       "mixers": 0,
       "sync": 0,
@@ -1238,7 +1238,7 @@
           {
             "name": "capture_tobii",
             "source_uuid": "de3c4a69-629d-4fbd-9842-9f1b245faaaf",
-            "visible": false,
+            "visible": true,
             "locked": false,
             "rot": 0.0,
             "scale_ref": {
@@ -1333,8 +1333,8 @@
       "name": "scene_facecam"
     }
   ],
-  "current_scene": "scene_lounge",
-  "current_program_scene": "scene_lounge",
+  "current_scene": "scene_screencap",
+  "current_program_scene": "scene_screencap",
   "canvases": [],
   "current_transition": "Fade",
   "transition_duration": 300,
@@ -1365,7 +1365,7 @@
   "saved_projectors": [],
   "preview_locked": false,
   "scaling_enabled": false,
-  "scaling_level": -7,
+  "scaling_level": -8,
   "scaling_off_x": 0.0,
   "scaling_off_y": 0.0,
   "virtual-camera": {

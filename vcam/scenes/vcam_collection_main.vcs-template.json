@@ -70,9 +70,9 @@
       "id": "dshow_input",
       "versioned_id": "dshow_input",
       "settings": {
-        "last_video_device_id": "OBS Virtual Camera:",
         "active": true,
-        "video_device_id": "{{MAIN_CAMERA_DEVICE}}"
+        "video_device_id": "{{MAIN_CAMERA_DEVICE}}",
+        "last_video_device_id": "{{MAIN_CAMERA_DEVICE}}"
       },
       "mixers": 255,
       "sync": 0,
@@ -127,19 +127,19 @@
             "id": 1,
             "group_item_backup": false,
             "pos": {
-              "x": 0.0,
+              "x": 1920.0,
               "y": 0.0
             },
             "pos_rel": {
-              "x": -1.7777777910232544,
+              "x": 1.7777777910232544,
               "y": -1.0
             },
             "scale": {
-              "x": 1.0,
+              "x": -1.0,
               "y": 1.0
             },
             "scale_rel": {
-              "x": 1.0,
+              "x": -1.0,
               "y": 1.0
             },
             "bounds": {

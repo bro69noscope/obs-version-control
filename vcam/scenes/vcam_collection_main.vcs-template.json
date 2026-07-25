@@ -1,7 +1,7 @@
 {
   "name": "vcam_collection_main",
   "DesktopAudioDevice1": {
-    "prev_ver": 536936450,
+    "prev_ver": 537001985,
     "name": "Desktop Audio",
     "uuid": "ba5071cf-1746-4878-8762-b227c86c372b",
     "id": "wasapi_output_capture",
@@ -32,7 +32,7 @@
     "private_settings": {}
   },
   "AuxAudioDevice1": {
-    "prev_ver": 536936450,
+    "prev_ver": 537001985,
     "name": "Mic/Aux",
     "uuid": "c2106d7b-1a88-44ef-85b7-f34243b6776b",
     "id": "wasapi_input_capture",
@@ -64,15 +64,15 @@
   },
   "sources": [
     {
-      "prev_ver": 536936450,
+      "prev_ver": 537001985,
       "name": "vcam_capture_facecam",
       "uuid": "043c95da-274a-49e3-a38c-4dfed7b445bd",
       "id": "dshow_input",
       "versioned_id": "dshow_input",
       "settings": {
         "last_video_device_id": "OBS Virtual Camera:",
-        "video_device_id": "OBS Virtual Camera:",
-        "active": true
+        "active": true,
+        "video_device_id": "{{MAIN_CAMERA_DEVICE}}"
       },
       "mixers": 255,
       "sync": 0,
@@ -97,7 +97,7 @@
       "private_settings": {}
     },
     {
-      "prev_ver": 536936450,
+      "prev_ver": 537001985,
       "name": "vcam_scene_facecam",
       "uuid": "eacd2f1b-58a5-4dca-9e03-c434302da4ee",
       "id": "scene",
@@ -224,7 +224,7 @@
   "saved_projectors": [],
   "preview_locked": false,
   "scaling_enabled": false,
-  "scaling_level": -8,
+  "scaling_level": -16,
   "scaling_off_x": 0.0,
   "scaling_off_y": 0.0,
   "virtual-camera": {

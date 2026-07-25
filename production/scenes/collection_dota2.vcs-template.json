@@ -1,6 +1,7 @@
 {
+  "name": "collection_dota2",
   "AuxAudioDevice1": {
-    "prev_ver": 536870916,
+    "prev_ver": 537001985,
     "name": "MG12XU USB OUT",
     "uuid": "4eb10f99-89b9-4c2a-b79a-b76b96e6e5b2",
     "id": "wasapi_input_capture",
@@ -31,7 +32,7 @@
     "private_settings": {},
     "filters": [
       {
-        "prev_ver": 536870916,
+        "prev_ver": 537001985,
         "name": "Gain",
         "uuid": "09e855c1-fcbe-4b3e-aac2-eccec0184972",
         "id": "gain_filter",
@@ -58,29 +59,9 @@
       }
     ]
   },
-  "current_scene": "METASCENE",
-  "current_program_scene": "METASCENE",
-  "scene_order": [
-    {
-      "name": "DSLR"
-    },
-    {
-      "name": "Dota2"
-    },
-    {
-      "name": "METASCENE"
-    },
-    {
-      "name": "Game Start"
-    },
-    {
-      "name": "screen cap"
-    }
-  ],
-  "name": "collection_dota2",
   "sources": [
     {
-      "prev_ver": 536870916,
+      "prev_ver": 537001985,
       "name": "game: Dota 2",
       "uuid": "e2b2d2b2-485c-48c7-86ad-3d06d0da5fa0",
       "id": "game_capture",
@@ -114,7 +95,619 @@
       "private_settings": {}
     },
     {
-      "prev_ver": 536870916,
+      "prev_ver": 537001985,
+      "name": "Video Capture Device",
+      "uuid": "6bd363a9-9881-46b5-a6e4-a7c86005ba4d",
+      "id": "dshow_input",
+      "versioned_id": "dshow_input",
+      "settings": {
+        "video_device_id": "{{MAIN_CAMERA_DEVICE}}",
+        "last_video_device_id": "{{MAIN_CAMERA_DEVICE}}",
+        "active": true
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "Dota2 Clone",
+      "uuid": "e3862d21-3bc3-4676-8d68-7b1d829b0c7c",
+      "id": "source-clone",
+      "versioned_id": "source-clone",
+      "settings": {
+        "clone_type": 0,
+        "active_clone": false,
+        "clone": "game: Dota 2",
+        "audio": false
+      },
+      "mixers": 192,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "<< Ladies and gents, we might be back >>",
+      "uuid": "8cb4a555-bd0c-46bf-80ad-d192da84c5c8",
+      "id": "ffmpeg_source",
+      "versioned_id": "ffmpeg_source",
+      "settings": {
+        "local_file": "{{STREAMING_DATA_PATH}}video-clips/ladies and gents outlined v8 (6s).avi"
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "MediaSource.Restart": [],
+        "MediaSource.Play": [],
+        "MediaSource.Pause": [],
+        "MediaSource.Stop": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "<< brb buying milk >>",
+      "uuid": "c0400c88-4d96-4b86-8185-7faf1164088a",
+      "id": "text_gdiplus",
+      "versioned_id": "text_gdiplus_v2",
+      "settings": {
+        "undo_uuid": "c0400c88-4d96-4b86-8185-7faf1164088a",
+        "text": "brb buying milk..",
+        "font": {
+          "face": "Arial",
+          "style": "Regular",
+          "size": 72,
+          "flags": 0
+        }
+      },
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "shop_open_duration_message",
+      "uuid": "8e87941c-e068-424e-9ba1-7b79ad5321fb",
+      "id": "text_gdiplus",
+      "versioned_id": "text_gdiplus_v2",
+      "settings": {
+        "text": "Bro you've been in the shop for 25 seconds, just buy something...",
+        "font": {
+          "face": "Arial",
+          "style": "Regular",
+          "size": 72,
+          "flags": 0
+        }
+      },
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "Cyberbird",
+      "uuid": "6d89927d-6ebe-4758-9b2a-6e4a30fbd554",
+      "id": "ffmpeg_source",
+      "versioned_id": "ffmpeg_source",
+      "settings": {
+        "local_file": "{{STREAMING_DATA_PATH}}Music/Ghost in the Shell_ Stand Alone Complex _Cyberbird (-9db).wav",
+        "is_local_file": true
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "MediaSource.Restart": [],
+        "MediaSource.Play": [],
+        "MediaSource.Pause": [],
+        "MediaSource.Stop": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 1,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "Narrator: test",
+      "uuid": "86b0feea-5926-4fc2-8e7e-9f10352f3403",
+      "id": "ffmpeg_source",
+      "versioned_id": "ffmpeg_source",
+      "settings": {
+        "close_when_inactive": false,
+        "local_file": "{{STREAMING_DATA_PATH}}audio-clips/Narrator Test v3 (-6db).wav",
+        "is_local_file": true
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "MediaSource.Restart": [],
+        "MediaSource.Play": [],
+        "MediaSource.Pause": [],
+        "MediaSource.Stop": [],
+        "AudioMonitor.Enable": [],
+        "AudioMonitor.Disable": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [
+        {
+          "prev_ver": 537001985,
+          "name": "Audio Monitor",
+          "uuid": "daf7376f-fabb-48df-98c7-4cf84dc08a4d",
+          "id": "audio_monitor",
+          "versioned_id": "audio_monitor",
+          "settings": {
+            "deviceName": "9/10 (2- USB PNP SOUND DEVICE)",
+            "device": "{0.0.0.00000000}.{32774783-da54-4a77-bae8-9e81368e7e6a}"
+          },
+          "mixers": 255,
+          "sync": 0,
+          "flags": 0,
+          "volume": 1.0,
+          "balance": 0.5,
+          "enabled": true,
+          "muted": false,
+          "push-to-mute": false,
+          "push-to-mute-delay": 0,
+          "push-to-talk": false,
+          "push-to-talk-delay": 0,
+          "hotkeys": {},
+          "deinterlace_mode": 0,
+          "deinterlace_field_order": 0,
+          "monitoring_type": 0,
+          "private_settings": {}
+        }
+      ]
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "DSLR Clone (Fade)",
+      "uuid": "43fe1f49-0124-4f3c-94e2-758fc29ae7c6",
+      "id": "source-clone",
+      "versioned_id": "source-clone",
+      "settings": {
+        "clone": "DSLR",
+        "audio": false
+      },
+      "mixers": 192,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "DSLR Clone (Cut)",
+      "uuid": "af988ae1-d0b9-457e-8edb-a91862d2e2a0",
+      "id": "source-clone",
+      "versioned_id": "source-clone",
+      "settings": {
+        "clone": "DSLR",
+        "audio": false
+      },
+      "mixers": 192,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "Moving DSLR",
+      "uuid": "987876fe-2b57-4f2a-b3fa-5e38851554ad",
+      "id": "source-clone",
+      "versioned_id": "source-clone",
+      "settings": {
+        "clone": "DSLR"
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "Display Capture",
+      "uuid": "78d57ed7-0ccc-4e49-89b9-f5beef785c6a",
+      "id": "monitor_capture",
+      "versioned_id": "monitor_capture",
+      "settings": {
+        "monitor_id": "{{CENTER_MONITOR_ID}}"
+      },
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "tobi ghost",
+      "uuid": "3c01284f-694c-4338-a375-c353f62f8ad3",
+      "id": "game_capture",
+      "versioned_id": "game_capture",
+      "settings": {
+        "window": "SSOverlay:SSOverlay:SSOverlay.exe",
+        "capture_mode": "window",
+        "allow_transparency": true
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "hotkey_start": [],
+        "hotkey_stop": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "nohboard",
+      "uuid": "3ddf0a47-6670-4e06-bd97-169bd2339944",
+      "id": "window_capture",
+      "versioned_id": "window_capture",
+      "settings": {
+        "window": "NohBoard v1.3.0:WindowsForms10.Window.8.app.0.141b42a_r7_ad1:NohBoard.exe"
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [
+        {
+          "prev_ver": 537001985,
+          "name": "Color Key",
+          "uuid": "380d2437-5a7e-4580-aa49-cc90de3d5ca7",
+          "id": "color_key_filter",
+          "versioned_id": "color_key_filter_v2",
+          "settings": {
+            "key_color": 4278190080,
+            "key_color_type": "custom",
+            "smoothness": 50
+          },
+          "mixers": 0,
+          "sync": 0,
+          "flags": 0,
+          "volume": 1.0,
+          "balance": 0.5,
+          "enabled": true,
+          "muted": false,
+          "push-to-mute": false,
+          "push-to-mute-delay": 0,
+          "push-to-talk": false,
+          "push-to-talk-delay": 0,
+          "hotkeys": {},
+          "deinterlace_mode": 0,
+          "deinterlace_field_order": 0,
+          "monitoring_type": 0,
+          "private_settings": {}
+        }
+      ]
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "Audio Output Capture",
+      "uuid": "9294fbc0-2e9f-4a67-aaf4-251122e8cc27",
+      "id": "wasapi_output_capture",
+      "versioned_id": "wasapi_output_capture",
+      "settings": {
+        "device_id": "{{DESKTOP_AUDIO_DEVICE}}"
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 0.18025527894496918,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "osu cap",
+      "uuid": "f93ce431-03e7-4b53-980f-a55ca8edc57c",
+      "id": "game_capture",
+      "versioned_id": "game_capture",
+      "settings": {
+        "window": "osu!:WindowsForms10.Window.2b.app.0.358a177_r7_ad1:osu!.exe",
+        "capture_mode": "window"
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "hotkey_start": [],
+        "hotkey_stop": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "dota top bar zoom",
+      "uuid": "f8c02a54-baa6-48fe-b2a1-ea374989124d",
+      "id": "source-clone",
+      "versioned_id": "source-clone",
+      "settings": {
+        "clone": "Dota2",
+        "active_clone": false,
+        "audio": false
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "pic - tard teammate 1",
+      "uuid": "8091b818-599b-4b15-8544-666c5e3b924a",
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "settings": {
+        "file": "{{STREAMING_DATA_PATH}}Pictures/Retarded_mates/pic1.png"
+      },
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001985,
       "name": "DSLR",
       "uuid": "2fc6f1f0-ad65-4a9a-a0bc-a4c2e00715c7",
       "id": "scene",
@@ -203,40 +796,7 @@
       "private_settings": {}
     },
     {
-      "prev_ver": 536870916,
-      "name": "Video Capture Device",
-      "uuid": "6bd363a9-9881-46b5-a6e4-a7c86005ba4d",
-      "id": "dshow_input",
-      "versioned_id": "dshow_input",
-      "settings": {
-        "video_device_id": "{{MAIN_CAMERA_DEVICE}}",
-        "last_video_device_id": "{{MAIN_CAMERA_DEVICE}}",
-        "active": true
-      },
-      "mixers": 255,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {
-        "libobs.mute": [],
-        "libobs.unmute": [],
-        "libobs.push-to-mute": [],
-        "libobs.push-to-talk": []
-      },
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {}
-    },
-    {
-      "prev_ver": 536870916,
+      "prev_ver": 537001985,
       "name": "METASCENE",
       "uuid": "d22e77b1-efc2-4123-816b-455d03d6b2ba",
       "id": "scene",
@@ -1181,7 +1741,7 @@
       "private_settings": {},
       "filters": [
         {
-          "prev_ver": 536870916,
+          "prev_ver": 537001985,
           "name": "Move Source",
           "uuid": "ead7a305-51d6-4376-a572-51853020d2e5",
           "id": "move_source_filter",
@@ -1240,245 +1800,7 @@
       ]
     },
     {
-      "prev_ver": 536870916,
-      "name": "Dota2 Clone",
-      "uuid": "e3862d21-3bc3-4676-8d68-7b1d829b0c7c",
-      "id": "source-clone",
-      "versioned_id": "source-clone",
-      "settings": {
-        "clone_type": 0,
-        "active_clone": false,
-        "clone": "game: Dota 2",
-        "audio": false
-      },
-      "mixers": 192,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {
-        "libobs.mute": [],
-        "libobs.unmute": [],
-        "libobs.push-to-mute": [],
-        "libobs.push-to-talk": []
-      },
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {}
-    },
-    {
-      "prev_ver": 536870916,
-      "name": "<< Ladies and gents, we might be back >>",
-      "uuid": "8cb4a555-bd0c-46bf-80ad-d192da84c5c8",
-      "id": "ffmpeg_source",
-      "versioned_id": "ffmpeg_source",
-      "settings": {
-        "local_file": "{{STREAMING_DATA_PATH}}video-clips/ladies and gents outlined v8 (6s).avi"
-      },
-      "mixers": 255,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {
-        "libobs.mute": [],
-        "libobs.unmute": [],
-        "libobs.push-to-mute": [],
-        "libobs.push-to-talk": [],
-        "MediaSource.Restart": [],
-        "MediaSource.Play": [],
-        "MediaSource.Pause": [],
-        "MediaSource.Stop": []
-      },
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {}
-    },
-    {
-      "prev_ver": 536870916,
-      "name": "<< brb buying milk >>",
-      "uuid": "c0400c88-4d96-4b86-8185-7faf1164088a",
-      "id": "text_gdiplus",
-      "versioned_id": "text_gdiplus_v2",
-      "settings": {
-        "undo_uuid": "c0400c88-4d96-4b86-8185-7faf1164088a",
-        "text": "brb buying milk..",
-        "font": {
-          "face": "Arial",
-          "style": "Regular",
-          "size": 72,
-          "flags": 0
-        }
-      },
-      "mixers": 0,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {},
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {}
-    },
-    {
-      "prev_ver": 536870916,
-      "name": "shop_open_duration_message",
-      "uuid": "8e87941c-e068-424e-9ba1-7b79ad5321fb",
-      "id": "text_gdiplus",
-      "versioned_id": "text_gdiplus_v2",
-      "settings": {
-        "text": "Bro you've been in the shop for 25 seconds, just buy something...",
-        "font": {
-          "face": "Arial",
-          "style": "Regular",
-          "size": 72,
-          "flags": 0
-        }
-      },
-      "mixers": 0,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {},
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {}
-    },
-    {
-      "prev_ver": 536870916,
-      "name": "Cyberbird",
-      "uuid": "6d89927d-6ebe-4758-9b2a-6e4a30fbd554",
-      "id": "ffmpeg_source",
-      "versioned_id": "ffmpeg_source",
-      "settings": {
-        "local_file": "{{STREAMING_DATA_PATH}}Music/Ghost in the Shell_ Stand Alone Complex _Cyberbird (-9db).wav",
-        "is_local_file": true
-      },
-      "mixers": 255,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {
-        "libobs.mute": [],
-        "libobs.unmute": [],
-        "libobs.push-to-mute": [],
-        "libobs.push-to-talk": [],
-        "MediaSource.Restart": [],
-        "MediaSource.Play": [],
-        "MediaSource.Pause": [],
-        "MediaSource.Stop": []
-      },
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 1,
-      "private_settings": {}
-    },
-    {
-      "prev_ver": 536870916,
-      "name": "Narrator: test",
-      "uuid": "86b0feea-5926-4fc2-8e7e-9f10352f3403",
-      "id": "ffmpeg_source",
-      "versioned_id": "ffmpeg_source",
-      "settings": {
-        "close_when_inactive": false,
-        "local_file": "{{STREAMING_DATA_PATH}}audio-clips/Narrator Test v3 (-6db).wav",
-        "is_local_file": true
-      },
-      "mixers": 255,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {
-        "libobs.mute": [],
-        "libobs.unmute": [],
-        "libobs.push-to-mute": [],
-        "libobs.push-to-talk": [],
-        "MediaSource.Restart": [],
-        "MediaSource.Play": [],
-        "MediaSource.Pause": [],
-        "MediaSource.Stop": [],
-        "AudioMonitor.Enable": [],
-        "AudioMonitor.Disable": []
-      },
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {},
-      "filters": [
-        {
-          "prev_ver": 536870916,
-          "name": "Audio Monitor",
-          "uuid": "daf7376f-fabb-48df-98c7-4cf84dc08a4d",
-          "id": "audio_monitor",
-          "versioned_id": "audio_monitor",
-          "settings": {
-            "deviceName": "9/10 (2- USB PNP SOUND DEVICE)",
-            "device": "{0.0.0.00000000}.{32774783-da54-4a77-bae8-9e81368e7e6a}"
-          },
-          "mixers": 255,
-          "sync": 0,
-          "flags": 0,
-          "volume": 1.0,
-          "balance": 0.5,
-          "enabled": true,
-          "muted": false,
-          "push-to-mute": false,
-          "push-to-mute-delay": 0,
-          "push-to-talk": false,
-          "push-to-talk-delay": 0,
-          "hotkeys": {},
-          "deinterlace_mode": 0,
-          "deinterlace_field_order": 0,
-          "monitoring_type": 0,
-          "private_settings": {}
-        }
-      ]
-    },
-    {
-      "prev_ver": 536870916,
+      "prev_ver": 537001985,
       "name": "Dota2",
       "uuid": "bb4d26ee-2e45-4e77-a8b2-455e4a5218b6",
       "id": "scene",
@@ -1624,7 +1946,7 @@
       "private_settings": {}
     },
     {
-      "prev_ver": 536870916,
+      "prev_ver": 537001985,
       "name": "Game Start",
       "uuid": "88e32f60-8084-4bca-8cfe-948d7f575358",
       "id": "scene",
@@ -1772,7 +2094,7 @@
       "private_settings": {},
       "filters": [
         {
-          "prev_ver": 536870916,
+          "prev_ver": 537001985,
           "name": "Move to origin",
           "uuid": "ded55439-78d6-4b37-a062-288b26cb9db4",
           "id": "move_source_filter",
@@ -1833,7 +2155,7 @@
           "private_settings": {}
         },
         {
-          "prev_ver": 536870916,
+          "prev_ver": 537001985,
           "name": "Move to buy phase",
           "uuid": "d93fe3d0-189e-4085-a364-36e26afe86bd",
           "id": "move_source_filter",
@@ -1897,102 +2219,7 @@
       ]
     },
     {
-      "prev_ver": 536870916,
-      "name": "DSLR Clone (Fade)",
-      "uuid": "43fe1f49-0124-4f3c-94e2-758fc29ae7c6",
-      "id": "source-clone",
-      "versioned_id": "source-clone",
-      "settings": {
-        "clone": "DSLR",
-        "audio": false
-      },
-      "mixers": 192,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {
-        "libobs.mute": [],
-        "libobs.unmute": [],
-        "libobs.push-to-mute": [],
-        "libobs.push-to-talk": []
-      },
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {}
-    },
-    {
-      "prev_ver": 536870916,
-      "name": "DSLR Clone (Cut)",
-      "uuid": "af988ae1-d0b9-457e-8edb-a91862d2e2a0",
-      "id": "source-clone",
-      "versioned_id": "source-clone",
-      "settings": {
-        "clone": "DSLR",
-        "audio": false
-      },
-      "mixers": 192,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {
-        "libobs.mute": [],
-        "libobs.unmute": [],
-        "libobs.push-to-mute": [],
-        "libobs.push-to-talk": []
-      },
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {}
-    },
-    {
-      "prev_ver": 536870916,
-      "name": "Moving DSLR",
-      "uuid": "987876fe-2b57-4f2a-b3fa-5e38851554ad",
-      "id": "source-clone",
-      "versioned_id": "source-clone",
-      "settings": {
-        "clone": "DSLR"
-      },
-      "mixers": 255,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {
-        "libobs.mute": [],
-        "libobs.unmute": [],
-        "libobs.push-to-mute": [],
-        "libobs.push-to-talk": []
-      },
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {}
-    },
-    {
-      "prev_ver": 536870916,
+      "prev_ver": 537001985,
       "name": "screen cap",
       "uuid": "45b3e1ad-c2ae-4ec9-8892-0eced93ebc98",
       "id": "scene",
@@ -2307,257 +2534,11 @@
       "monitoring_type": 0,
       "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
       "private_settings": {}
-    },
-    {
-      "prev_ver": 536870916,
-      "name": "Display Capture",
-      "uuid": "78d57ed7-0ccc-4e49-89b9-f5beef785c6a",
-      "id": "monitor_capture",
-      "versioned_id": "monitor_capture",
-      "settings": {
-        "monitor_id": "{{CENTER_MONITOR_ID}}"
-      },
-      "mixers": 0,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {},
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {}
-    },
-    {
-      "prev_ver": 536870916,
-      "name": "tobi ghost",
-      "uuid": "3c01284f-694c-4338-a375-c353f62f8ad3",
-      "id": "game_capture",
-      "versioned_id": "game_capture",
-      "settings": {
-        "window": "SSOverlay:SSOverlay:SSOverlay.exe",
-        "capture_mode": "window",
-        "allow_transparency": true
-      },
-      "mixers": 255,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {
-        "libobs.mute": [],
-        "libobs.unmute": [],
-        "libobs.push-to-mute": [],
-        "libobs.push-to-talk": [],
-        "hotkey_start": [],
-        "hotkey_stop": []
-      },
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {}
-    },
-    {
-      "prev_ver": 536870916,
-      "name": "nohboard",
-      "uuid": "3ddf0a47-6670-4e06-bd97-169bd2339944",
-      "id": "window_capture",
-      "versioned_id": "window_capture",
-      "settings": {
-        "window": "NohBoard v1.3.0:WindowsForms10.Window.8.app.0.141b42a_r7_ad1:NohBoard.exe"
-      },
-      "mixers": 255,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {
-        "libobs.mute": [],
-        "libobs.unmute": [],
-        "libobs.push-to-mute": [],
-        "libobs.push-to-talk": []
-      },
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {},
-      "filters": [
-        {
-          "prev_ver": 536870916,
-          "name": "Color Key",
-          "uuid": "380d2437-5a7e-4580-aa49-cc90de3d5ca7",
-          "id": "color_key_filter",
-          "versioned_id": "color_key_filter_v2",
-          "settings": {
-            "key_color": 4278190080,
-            "key_color_type": "custom",
-            "smoothness": 50
-          },
-          "mixers": 0,
-          "sync": 0,
-          "flags": 0,
-          "volume": 1.0,
-          "balance": 0.5,
-          "enabled": true,
-          "muted": false,
-          "push-to-mute": false,
-          "push-to-mute-delay": 0,
-          "push-to-talk": false,
-          "push-to-talk-delay": 0,
-          "hotkeys": {},
-          "deinterlace_mode": 0,
-          "deinterlace_field_order": 0,
-          "monitoring_type": 0,
-          "private_settings": {}
-        }
-      ]
-    },
-    {
-      "prev_ver": 536870916,
-      "name": "Audio Output Capture",
-      "uuid": "9294fbc0-2e9f-4a67-aaf4-251122e8cc27",
-      "id": "wasapi_output_capture",
-      "versioned_id": "wasapi_output_capture",
-      "settings": {
-        "device_id": "{{DESKTOP_AUDIO_DEVICE}}"
-      },
-      "mixers": 255,
-      "sync": 0,
-      "flags": 0,
-      "volume": 0.18025527894496918,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {
-        "libobs.mute": [],
-        "libobs.unmute": [],
-        "libobs.push-to-mute": [],
-        "libobs.push-to-talk": []
-      },
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {}
-    },
-    {
-      "prev_ver": 536870916,
-      "name": "osu cap",
-      "uuid": "f93ce431-03e7-4b53-980f-a55ca8edc57c",
-      "id": "game_capture",
-      "versioned_id": "game_capture",
-      "settings": {
-        "window": "osu!:WindowsForms10.Window.2b.app.0.358a177_r7_ad1:osu!.exe",
-        "capture_mode": "window"
-      },
-      "mixers": 255,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {
-        "libobs.mute": [],
-        "libobs.unmute": [],
-        "libobs.push-to-mute": [],
-        "libobs.push-to-talk": [],
-        "hotkey_start": [],
-        "hotkey_stop": []
-      },
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {}
-    },
-    {
-      "prev_ver": 536870916,
-      "name": "dota top bar zoom",
-      "uuid": "f8c02a54-baa6-48fe-b2a1-ea374989124d",
-      "id": "source-clone",
-      "versioned_id": "source-clone",
-      "settings": {
-        "clone": "Dota2",
-        "active_clone": false,
-        "audio": false
-      },
-      "mixers": 255,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {
-        "libobs.mute": [],
-        "libobs.unmute": [],
-        "libobs.push-to-mute": [],
-        "libobs.push-to-talk": []
-      },
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {}
-    },
-    {
-      "prev_ver": 536870916,
-      "name": "pic - tard teammate 1",
-      "uuid": "8091b818-599b-4b15-8544-666c5e3b924a",
-      "id": "image_source",
-      "versioned_id": "image_source",
-      "settings": {
-        "file": "{{STREAMING_DATA_PATH}}Pictures/Retarded_mates/pic1.png"
-      },
-      "mixers": 0,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {},
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {}
     }
   ],
   "groups": [
     {
-      "prev_ver": 536870916,
+      "prev_ver": 537001985,
       "name": "Scenes Clones",
       "uuid": "7d8fea7a-09e9-4645-8646-2a755519c945",
       "id": "group",
@@ -2769,7 +2750,7 @@
       "private_settings": {},
       "filters": [
         {
-          "prev_ver": 536870916,
+          "prev_ver": 537001985,
           "name": "Apply LUT - GrayScale",
           "uuid": "5bfd0c53-e222-4de9-94ba-2ad3ebdf80ae",
           "id": "clut_filter",
@@ -2795,7 +2776,7 @@
           "private_settings": {}
         },
         {
-          "prev_ver": 536870916,
+          "prev_ver": 537001985,
           "name": "Apply LUT - Golden Warm",
           "uuid": "bee0d8bd-5862-4713-a153-d3ce02675d5e",
           "id": "clut_filter",
@@ -2823,7 +2804,7 @@
       ]
     },
     {
-      "prev_ver": 536870916,
+      "prev_ver": 537001985,
       "name": "Text messages",
       "uuid": "efabae7a-e485-4b1f-be0d-ec80ebce8376",
       "id": "group",
@@ -2970,7 +2951,7 @@
       "private_settings": {}
     },
     {
-      "prev_ver": 536870916,
+      "prev_ver": 537001985,
       "name": "Transitions",
       "uuid": "5725f44b-62aa-42b7-8169-8f9b1f7ca1c4",
       "id": "group",
@@ -3060,7 +3041,7 @@
       "private_settings": {}
     },
     {
-      "prev_ver": 536870916,
+      "prev_ver": 537001985,
       "name": "Voice Clips",
       "uuid": "7121b8ac-292e-421a-852b-0b14597b25f9",
       "id": "group",
@@ -3150,7 +3131,7 @@
       "private_settings": {}
     },
     {
-      "prev_ver": 536870916,
+      "prev_ver": 537001985,
       "name": "Music",
       "uuid": "b56b8e3b-e129-4709-8d8d-a284ebd0cb30",
       "id": "group",
@@ -3240,7 +3221,7 @@
       "private_settings": {}
     },
     {
-      "prev_ver": 536870916,
+      "prev_ver": 537001985,
       "name": "Retarded mates",
       "uuid": "bcbb3772-9fa5-4706-9bca-031bd71929e1",
       "id": "group",
@@ -3387,7 +3368,28 @@
       "private_settings": {}
     }
   ],
-  "quick_transitions": [],
+  "scene_order": [
+    {
+      "name": "DSLR"
+    },
+    {
+      "name": "Dota2"
+    },
+    {
+      "name": "METASCENE"
+    },
+    {
+      "name": "Game Start"
+    },
+    {
+      "name": "screen cap"
+    }
+  ],
+  "current_scene": "METASCENE",
+  "current_program_scene": "METASCENE",
+  "canvases": [],
+  "current_transition": "Cut",
+  "transition_duration": 300,
   "transitions": [
     {
       "name": "Move",
@@ -3406,13 +3408,11 @@
       }
     }
   ],
+  "quick_transitions": [],
   "saved_projectors": [],
-  "canvases": [],
-  "current_transition": "Cut",
-  "transition_duration": 300,
   "preview_locked": false,
   "scaling_enabled": false,
-  "scaling_level": -8,
+  "scaling_level": -7,
   "scaling_off_x": 0.0,
   "scaling_off_y": 0.0,
   "virtual-camera": {
@@ -3687,15 +3687,17 @@
         "docks": []
       },
       "alwaysShowTabs": false
-    }
+    },
+    "copyTransformHotkey": [],
+    "pasteTransformHotkey": []
   },
   "resolution": {
     "x": 1920,
     "y": 1080
   },
-  "version": 2,
   "migration_resolution": {
     "x": 1920,
     "y": 1080
-  }
+  },
+  "version": 2
 }

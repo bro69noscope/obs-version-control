@@ -1,6 +1,7 @@
 {
+  "name": "collection_aoe2",
   "DesktopAudioDevice1": {
-    "prev_ver": 536870916,
+    "prev_ver": 537001985,
     "name": "audio_desktop_mixer_channels_11_12",
     "uuid": "91a06434-f94f-49dc-b5e9-a056fd22e7b1",
     "id": "wasapi_output_capture",
@@ -33,7 +34,7 @@
     }
   },
   "AuxAudioDevice1": {
-    "prev_ver": 536870916,
+    "prev_ver": 537001985,
     "name": "audio_mixer_usb_out",
     "uuid": "ad4b20f9-8486-45a9-87d0-935f040ed5e1",
     "id": "wasapi_input_capture",
@@ -64,7 +65,7 @@
     "private_settings": {},
     "filters": [
       {
-        "prev_ver": 536870916,
+        "prev_ver": 537001985,
         "name": "mixer_usb_out_gain",
         "uuid": "4ae0efe9-a853-4337-8641-e7c9a3606808",
         "id": "gain_filter",
@@ -92,7 +93,7 @@
     ]
   },
   "AuxAudioDevice2": {
-    "prev_ver": 536870916,
+    "prev_ver": 537001985,
     "name": "audio_mic_mixer_aux_send_1",
     "uuid": "8daf6a6f-486f-42e2-958f-67ef6a9d3953",
     "id": "wasapi_input_capture",
@@ -122,50 +123,531 @@
     "monitoring_type": 0,
     "private_settings": {}
   },
-  "current_scene": "scene_screencap",
-  "current_program_scene": "scene_screencap",
-  "scene_order": [
-    {
-      "name": "scene_facecam"
-    },
-    {
-      "name": "scene_zoom"
-    },
-    {
-      "name": "scene_lounge"
-    },
-    {
-      "name": "scene_aoe2"
-    },
-    {
-      "name": "scene_capture_age"
-    },
-    {
-      "name": "scene_wezterm"
-    },
-    {
-      "name": "scene_aoe2_eyetracker"
-    },
-    {
-      "name": "scene_browser"
-    },
-    {
-      "name": "scene_screencap"
-    },
-    {
-      "name": "scene_osu"
-    },
-    {
-      "name": "scene_vlc"
-    },
-    {
-      "name": "scene_alerts"
-    }
-  ],
-  "name": "collection_aoe2",
   "sources": [
     {
-      "prev_ver": 536870916,
+      "prev_ver": 537001985,
+      "name": "capture_facecam",
+      "uuid": "f3a15382-06a1-4d80-931b-e72a2578c8ba",
+      "id": "dshow_input",
+      "versioned_id": "dshow_input",
+      "settings": {
+        "device_id": "{{MAIN_CAMERA_DEVICE}}",
+        "last_video_device_id": "OBS Virtual Camera:",
+        "video_device_id": "OBS Virtual Camera:",
+        "active": true
+      },
+      "mixers": 192,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {
+        "mixer_hidden": true
+      }
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "capture_aoe2",
+      "uuid": "63dbc18a-2772-446c-b27c-a7b14b3b33d1",
+      "id": "game_capture",
+      "versioned_id": "game_capture",
+      "settings": {
+        "window": "Age of Empires II#3A Definitive Edition:Age of Empires II#3A Definitive Edition:AoE2DE_s.exe",
+        "capture_mode": "window",
+        "anti_cheat_hook": true,
+        "hook_rate": 1
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "hotkey_start": [],
+        "hotkey_stop": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "capture_brave_browser",
+      "uuid": "c99b5368-3002-44a9-8459-c2074c96e6ce",
+      "id": "window_capture",
+      "versioned_id": "window_capture",
+      "settings": {
+        "window": "Grubby - Twitch - Brave:Chrome_WidgetWin_1:brave.exe",
+        "priority": 2
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "capture_eyetracker_tobii",
+      "uuid": "3f1ea140-7bcd-477b-b627-b22eb7cf9d5f",
+      "id": "game_capture",
+      "versioned_id": "game_capture",
+      "settings": {
+        "window": "SSOverlay:SSOverlay:SSOverlay.exe",
+        "capture_mode": "window",
+        "allow_transparency": true,
+        "anti_cheat_hook": true
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "hotkey_start": [],
+        "hotkey_stop": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "clone_scene_facecam",
+      "uuid": "40fa7aee-0133-4026-b224-66b8b6d3bb93",
+      "id": "source-clone",
+      "versioned_id": "source-clone",
+      "settings": {
+        "clone": "scene_facecam",
+        "audio": false
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "capture_wezterm",
+      "uuid": "0986abf3-2d3d-428a-aeb8-f6b2183405b3",
+      "id": "window_capture",
+      "versioned_id": "window_capture",
+      "settings": {
+        "window": "Wezterm:org.wezfurlong.wezterm:wezterm-gui.exe"
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "capture_display_center",
+      "uuid": "a222ee10-9763-47af-bedc-108b742b84f4",
+      "id": "monitor_capture",
+      "versioned_id": "monitor_capture",
+      "settings": {
+        "monitor_id": "{{CENTER_MONITOR_ID}}"
+      },
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "capture_vlc",
+      "uuid": "9c23e17a-0549-424c-85c9-106a41b80d84",
+      "id": "game_capture",
+      "versioned_id": "game_capture",
+      "settings": {
+        "window": "1783344230 - July 06 15h23.mp4 - VLC media player:Qt5QWindowIcon:vlc.exe",
+        "capture_mode": "window"
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "hotkey_start": [],
+        "hotkey_stop": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "capture_osu",
+      "uuid": "e25fa9f9-1d86-401f-8cae-6cc4fd965342",
+      "id": "game_capture",
+      "versioned_id": "game_capture",
+      "settings": {
+        "window": "osu!  - MindaRyn - Shiny Girl (TV Size) [Abyssgard's Expert]:WindowsForms10.Window.2b.app.0.24cbd2a_r7_ad1:osu!.exe",
+        "capture_mode": "window"
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "hotkey_start": [],
+        "hotkey_stop": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "clone_capture_vg248",
+      "uuid": "542a1264-c204-4149-8161-b1edf3d61d0d",
+      "id": "source-clone",
+      "versioned_id": "source-clone",
+      "settings": {
+        "clone": "capture_display_center"
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "CompositeBlur.Enable": [],
+        "CompositeBlur.Disable": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {},
+      "filters": [
+        {
+          "prev_ver": 537001985,
+          "name": "Composite Blur",
+          "uuid": "c2bde013-e0c2-4036-b79b-51314011a662",
+          "id": "obs_composite_blur",
+          "versioned_id": "obs_composite_blur",
+          "settings": {
+            "center_x": 1280.0,
+            "center_y": 720.0,
+            "blur_algorithm": 1,
+            "blur_type": 1,
+            "pixelate_origin_x": 1280.0,
+            "pixelate_origin_y": 720.0
+          },
+          "mixers": 0,
+          "sync": 0,
+          "flags": 0,
+          "volume": 1.0,
+          "balance": 0.5,
+          "enabled": true,
+          "muted": false,
+          "push-to-mute": false,
+          "push-to-mute-delay": 0,
+          "push-to-talk": false,
+          "push-to-talk-delay": 0,
+          "hotkeys": {},
+          "deinterlace_mode": 0,
+          "deinterlace_field_order": 0,
+          "monitoring_type": 0,
+          "private_settings": {}
+        }
+      ]
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "clone_capture_aoe2_find_match",
+      "uuid": "4bf4c315-534e-4703-9445-a2a0692f29d1",
+      "id": "source-clone",
+      "versioned_id": "source-clone",
+      "settings": {
+        "clone": "capture_aoe2"
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "capture_chat_streamerbot",
+      "uuid": "282b08e9-cb52-4f71-a9ff-5270b13ef19a",
+      "id": "window_capture",
+      "versioned_id": "window_capture",
+      "settings": {
+        "window": "Chat:HwndWrapper[Streamer.bot.exe;UI;77f18395-f1dc-4bad-bbac-741da1f23bdb]:Streamer.bot.exe",
+        "priority": 1,
+        "method": 2
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "brb",
+      "uuid": "1ff67ca3-1ce9-4018-87cf-35ce39cceaf8",
+      "id": "text_gdiplus",
+      "versioned_id": "text_gdiplus_v3",
+      "settings": {
+        "read_from_file": false,
+        "outline": true,
+        "text": "BRB in 1 min\nElapsed: 52:48",
+        "antialiasing": true
+      },
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "browser_streamelements_alert",
+      "uuid": "43ff833c-7810-41d8-8d90-b7ec650e92c4",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://streamelements.com/overlay/6a5b603ada1bee41ea927fa8/X_6bj5kgvXVacbbum9uES4YWMQVVSKhDgNYLfztrUhYEWUwY",
+        "width": 1920,
+        "height": 1080,
+        "reroute_audio": false
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "ObsBrowser.Refresh": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "capture_capture_age",
+      "uuid": "2e09fb23-2f9e-4ff3-931a-4ca60f9dfed6",
+      "id": "window_capture",
+      "versioned_id": "window_capture",
+      "settings": {
+        "window": "CaptureAge:Chrome_WidgetWin_1:CaptureAge.exe"
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001985,
       "name": "scene_facecam",
       "uuid": "0496eed9-07df-46f4-83bd-53a54a834ec5",
       "id": "scene",
@@ -254,43 +736,7 @@
       "private_settings": {}
     },
     {
-      "prev_ver": 536870916,
-      "name": "capture_facecam",
-      "uuid": "f3a15382-06a1-4d80-931b-e72a2578c8ba",
-      "id": "dshow_input",
-      "versioned_id": "dshow_input",
-      "settings": {
-        "device_id": "{{MAIN_CAMERA_DEVICE}}",
-        "video_device_id": "{{MAIN_CAMERA_DEVICE}}",
-        "last_video_device_id": "{{MAIN_CAMERA_DEVICE}}",
-        "active": true
-      },
-      "mixers": 192,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {
-        "libobs.mute": [],
-        "libobs.unmute": [],
-        "libobs.push-to-mute": [],
-        "libobs.push-to-talk": []
-      },
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {
-        "mixer_hidden": true
-      }
-    },
-    {
-      "prev_ver": 536870916,
+      "prev_ver": 537001985,
       "name": "scene_aoe2",
       "uuid": "f5b3853d-12fe-43bb-a0b0-d7e38085fad6",
       "id": "scene",
@@ -493,43 +939,7 @@
       "private_settings": {}
     },
     {
-      "prev_ver": 536870916,
-      "name": "capture_aoe2",
-      "uuid": "63dbc18a-2772-446c-b27c-a7b14b3b33d1",
-      "id": "game_capture",
-      "versioned_id": "game_capture",
-      "settings": {
-        "window": "Age of Empires II#3A Definitive Edition:Age of Empires II#3A Definitive Edition:AoE2DE_s.exe",
-        "capture_mode": "window",
-        "anti_cheat_hook": true,
-        "hook_rate": 1
-      },
-      "mixers": 255,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {
-        "libobs.mute": [],
-        "libobs.unmute": [],
-        "libobs.push-to-mute": [],
-        "libobs.push-to-talk": [],
-        "hotkey_start": [],
-        "hotkey_stop": []
-      },
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {}
-    },
-    {
-      "prev_ver": 536870916,
+      "prev_ver": 537001985,
       "name": "scene_browser",
       "uuid": "83967923-c168-4a5a-ae85-fdaf09d55b3b",
       "id": "scene",
@@ -732,39 +1142,7 @@
       "private_settings": {}
     },
     {
-      "prev_ver": 536870916,
-      "name": "capture_brave_browser",
-      "uuid": "c99b5368-3002-44a9-8459-c2074c96e6ce",
-      "id": "window_capture",
-      "versioned_id": "window_capture",
-      "settings": {
-        "window": "Grubby - Twitch - Brave:Chrome_WidgetWin_1:brave.exe",
-        "priority": 2
-      },
-      "mixers": 255,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {
-        "libobs.mute": [],
-        "libobs.unmute": [],
-        "libobs.push-to-mute": [],
-        "libobs.push-to-talk": []
-      },
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {}
-    },
-    {
-      "prev_ver": 536870916,
+      "prev_ver": 537001985,
       "name": "scene_zoom",
       "uuid": "03b5334e-1b5c-40b7-869b-50c6a31e1d2a",
       "id": "scene",
@@ -910,7 +1288,7 @@
       "private_settings": {}
     },
     {
-      "prev_ver": 536870916,
+      "prev_ver": 537001985,
       "name": "scene_aoe2_eyetracker",
       "uuid": "defdc75c-d917-4a07-9d81-7988f663b54a",
       "id": "scene",
@@ -1044,6 +1422,10 @@
       "push-to-talk-delay": 0,
       "hotkeys": {
         "OBSBasic.SelectScene": [],
+        "libobs.show_scene_item.1": [],
+        "libobs.hide_scene_item.1": [],
+        "libobs.show_scene_item.3": [],
+        "libobs.hide_scene_item.3": [],
         "source_record.enable": [
           {
             "shift": true,
@@ -1063,11 +1445,7 @@
         "source_record.PauseRecording": [],
         "source_record.UnpauseRecording": [],
         "source_record.SplitRecording": [],
-        "source_record.AddChapterMarker": [],
-        "libobs.show_scene_item.1": [],
-        "libobs.hide_scene_item.1": [],
-        "libobs.show_scene_item.3": [],
-        "libobs.hide_scene_item.3": []
+        "source_record.AddChapterMarker": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
@@ -1076,7 +1454,7 @@
       "private_settings": {},
       "filters": [
         {
-          "prev_ver": 536870916,
+          "prev_ver": 537001985,
           "name": "source_record_aoe2_eyetrack",
           "uuid": "07650dc4-e422-4647-8713-8f69a3643685",
           "id": "source_record_filter",
@@ -1112,43 +1490,7 @@
       ]
     },
     {
-      "prev_ver": 536870916,
-      "name": "capture_eyetracker_tobii",
-      "uuid": "3f1ea140-7bcd-477b-b627-b22eb7cf9d5f",
-      "id": "game_capture",
-      "versioned_id": "game_capture",
-      "settings": {
-        "window": "SSOverlay:SSOverlay:SSOverlay.exe",
-        "capture_mode": "window",
-        "allow_transparency": true,
-        "anti_cheat_hook": true
-      },
-      "mixers": 255,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {
-        "libobs.mute": [],
-        "libobs.unmute": [],
-        "libobs.push-to-mute": [],
-        "libobs.push-to-talk": [],
-        "hotkey_start": [],
-        "hotkey_stop": []
-      },
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {}
-    },
-    {
-      "prev_ver": 536870916,
+      "prev_ver": 537001985,
       "name": "scene_wezterm",
       "uuid": "99b79534-b3ee-4ede-be2b-408a0c573777",
       "id": "scene",
@@ -1351,70 +1693,7 @@
       "private_settings": {}
     },
     {
-      "prev_ver": 536870916,
-      "name": "clone_scene_facecam",
-      "uuid": "40fa7aee-0133-4026-b224-66b8b6d3bb93",
-      "id": "source-clone",
-      "versioned_id": "source-clone",
-      "settings": {
-        "clone": "scene_facecam",
-        "audio": false
-      },
-      "mixers": 255,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {
-        "libobs.mute": [],
-        "libobs.unmute": [],
-        "libobs.push-to-mute": [],
-        "libobs.push-to-talk": []
-      },
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {}
-    },
-    {
-      "prev_ver": 536870916,
-      "name": "capture_wezterm",
-      "uuid": "0986abf3-2d3d-428a-aeb8-f6b2183405b3",
-      "id": "window_capture",
-      "versioned_id": "window_capture",
-      "settings": {
-        "window": "Wezterm:org.wezfurlong.wezterm:wezterm-gui.exe"
-      },
-      "mixers": 255,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {
-        "libobs.mute": [],
-        "libobs.unmute": [],
-        "libobs.push-to-mute": [],
-        "libobs.push-to-talk": []
-      },
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {}
-    },
-    {
-      "prev_ver": 536870916,
+      "prev_ver": 537001985,
       "name": "scene_screencap",
       "uuid": "0603cea6-833b-4ecf-a512-ccccdda1af23",
       "id": "scene",
@@ -1617,33 +1896,7 @@
       "private_settings": {}
     },
     {
-      "prev_ver": 536870916,
-      "name": "capture_display_center",
-      "uuid": "a222ee10-9763-47af-bedc-108b742b84f4",
-      "id": "monitor_capture",
-      "versioned_id": "monitor_capture",
-      "settings": {
-        "monitor_id": "{{CENTER_MONITOR_ID}}"
-      },
-      "mixers": 0,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {},
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {}
-    },
-    {
-      "prev_ver": 536870916,
+      "prev_ver": 537001985,
       "name": "scene_vlc",
       "uuid": "77bd3c11-b622-4f6b-9a3d-f21baa3153fc",
       "id": "scene",
@@ -1846,41 +2099,7 @@
       "private_settings": {}
     },
     {
-      "prev_ver": 536870916,
-      "name": "capture_vlc",
-      "uuid": "9c23e17a-0549-424c-85c9-106a41b80d84",
-      "id": "game_capture",
-      "versioned_id": "game_capture",
-      "settings": {
-        "window": "1783344230 - July 06 15h23.mp4 - VLC media player:Qt5QWindowIcon:vlc.exe",
-        "capture_mode": "window"
-      },
-      "mixers": 255,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {
-        "libobs.mute": [],
-        "libobs.unmute": [],
-        "libobs.push-to-mute": [],
-        "libobs.push-to-talk": [],
-        "hotkey_start": [],
-        "hotkey_stop": []
-      },
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {}
-    },
-    {
-      "prev_ver": 536870916,
+      "prev_ver": 537001985,
       "name": "scene_osu",
       "uuid": "c691836c-4e42-4bbd-8deb-f5b70d83d943",
       "id": "scene",
@@ -2083,41 +2302,7 @@
       "private_settings": {}
     },
     {
-      "prev_ver": 536870916,
-      "name": "capture_osu",
-      "uuid": "e25fa9f9-1d86-401f-8cae-6cc4fd965342",
-      "id": "game_capture",
-      "versioned_id": "game_capture",
-      "settings": {
-        "window": "osu!  - MindaRyn - Shiny Girl (TV Size) [Abyssgard's Expert]:WindowsForms10.Window.2b.app.0.24cbd2a_r7_ad1:osu!.exe",
-        "capture_mode": "window"
-      },
-      "mixers": 255,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {
-        "libobs.mute": [],
-        "libobs.unmute": [],
-        "libobs.push-to-mute": [],
-        "libobs.push-to-talk": [],
-        "hotkey_start": [],
-        "hotkey_stop": []
-      },
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {}
-    },
-    {
-      "prev_ver": 536870916,
+      "prev_ver": 537001985,
       "name": "scene_lounge",
       "uuid": "aec6bc56-368e-406e-8a8b-bb144912adf0",
       "id": "scene",
@@ -2491,166 +2676,7 @@
       "private_settings": {}
     },
     {
-      "prev_ver": 536870916,
-      "name": "clone_capture_vg248",
-      "uuid": "542a1264-c204-4149-8161-b1edf3d61d0d",
-      "id": "source-clone",
-      "versioned_id": "source-clone",
-      "settings": {
-        "clone": "capture_display_center"
-      },
-      "mixers": 255,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {
-        "libobs.mute": [],
-        "libobs.unmute": [],
-        "libobs.push-to-mute": [],
-        "libobs.push-to-talk": [],
-        "CompositeBlur.Enable": [],
-        "CompositeBlur.Disable": []
-      },
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {},
-      "filters": [
-        {
-          "prev_ver": 536870916,
-          "name": "Composite Blur",
-          "uuid": "c2bde013-e0c2-4036-b79b-51314011a662",
-          "id": "obs_composite_blur",
-          "versioned_id": "obs_composite_blur",
-          "settings": {
-            "center_x": 1280.0,
-            "center_y": 720.0,
-            "blur_algorithm": 1,
-            "blur_type": 1,
-            "pixelate_origin_x": 1280.0,
-            "pixelate_origin_y": 720.0
-          },
-          "mixers": 0,
-          "sync": 0,
-          "flags": 0,
-          "volume": 1.0,
-          "balance": 0.5,
-          "enabled": true,
-          "muted": false,
-          "push-to-mute": false,
-          "push-to-mute-delay": 0,
-          "push-to-talk": false,
-          "push-to-talk-delay": 0,
-          "hotkeys": {},
-          "deinterlace_mode": 0,
-          "deinterlace_field_order": 0,
-          "monitoring_type": 0,
-          "private_settings": {}
-        }
-      ]
-    },
-    {
-      "prev_ver": 536870916,
-      "name": "clone_capture_aoe2_find_match",
-      "uuid": "4bf4c315-534e-4703-9445-a2a0692f29d1",
-      "id": "source-clone",
-      "versioned_id": "source-clone",
-      "settings": {
-        "clone": "capture_aoe2"
-      },
-      "mixers": 255,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {
-        "libobs.mute": [],
-        "libobs.unmute": [],
-        "libobs.push-to-mute": [],
-        "libobs.push-to-talk": []
-      },
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {}
-    },
-    {
-      "prev_ver": 536870916,
-      "name": "capture_chat_streamerbot",
-      "uuid": "282b08e9-cb52-4f71-a9ff-5270b13ef19a",
-      "id": "window_capture",
-      "versioned_id": "window_capture",
-      "settings": {
-        "window": "Chat:HwndWrapper[Streamer.bot.exe;UI;77f18395-f1dc-4bad-bbac-741da1f23bdb]:Streamer.bot.exe",
-        "priority": 1,
-        "method": 2
-      },
-      "mixers": 255,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {
-        "libobs.mute": [],
-        "libobs.unmute": [],
-        "libobs.push-to-mute": [],
-        "libobs.push-to-talk": []
-      },
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {}
-    },
-    {
-      "prev_ver": 536870916,
-      "name": "brb",
-      "uuid": "1ff67ca3-1ce9-4018-87cf-35ce39cceaf8",
-      "id": "text_gdiplus",
-      "versioned_id": "text_gdiplus_v3",
-      "settings": {
-        "read_from_file": false,
-        "outline": true,
-        "text": "BRB in 1 min\nElapsed: 58:12",
-        "antialiasing": true
-      },
-      "mixers": 0,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {},
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {}
-    },
-    {
-      "prev_ver": 536870916,
+      "prev_ver": 537001985,
       "name": "scene_alerts",
       "uuid": "1470a3a0-6e8c-4385-bb78-8acf62fb73a8",
       "id": "scene",
@@ -2739,42 +2765,7 @@
       "private_settings": {}
     },
     {
-      "prev_ver": 536870916,
-      "name": "browser_streamelements_alert",
-      "uuid": "43ff833c-7810-41d8-8d90-b7ec650e92c4",
-      "id": "browser_source",
-      "versioned_id": "browser_source",
-      "settings": {
-        "url": "https://streamelements.com/overlay/6a5b603ada1bee41ea927fa8/X_6bj5kgvXVacbbum9uES4YWMQVVSKhDgNYLfztrUhYEWUwY",
-        "width": 1920,
-        "height": 1080,
-        "reroute_audio": false
-      },
-      "mixers": 255,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {
-        "libobs.mute": [],
-        "libobs.unmute": [],
-        "libobs.push-to-mute": [],
-        "libobs.push-to-talk": [],
-        "ObsBrowser.Refresh": []
-      },
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {}
-    },
-    {
-      "prev_ver": 536870916,
+      "prev_ver": 537001985,
       "name": "scene_capture_age",
       "uuid": "ad96eed6-8a9f-4eda-8aaa-585afcf9740d",
       "id": "scene",
@@ -2975,40 +2966,53 @@
       "monitoring_type": 0,
       "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
       "private_settings": {}
-    },
-    {
-      "prev_ver": 536870916,
-      "name": "capture_capture_age",
-      "uuid": "2e09fb23-2f9e-4ff3-931a-4ca60f9dfed6",
-      "id": "window_capture",
-      "versioned_id": "window_capture",
-      "settings": {
-        "window": "CaptureAge:Chrome_WidgetWin_1:CaptureAge.exe"
-      },
-      "mixers": 255,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {
-        "libobs.mute": [],
-        "libobs.unmute": [],
-        "libobs.push-to-mute": [],
-        "libobs.push-to-talk": []
-      },
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {}
     }
   ],
   "groups": [],
+  "scene_order": [
+    {
+      "name": "scene_facecam"
+    },
+    {
+      "name": "scene_zoom"
+    },
+    {
+      "name": "scene_lounge"
+    },
+    {
+      "name": "scene_aoe2"
+    },
+    {
+      "name": "scene_capture_age"
+    },
+    {
+      "name": "scene_wezterm"
+    },
+    {
+      "name": "scene_aoe2_eyetracker"
+    },
+    {
+      "name": "scene_browser"
+    },
+    {
+      "name": "scene_screencap"
+    },
+    {
+      "name": "scene_osu"
+    },
+    {
+      "name": "scene_vlc"
+    },
+    {
+      "name": "scene_alerts"
+    }
+  ],
+  "current_scene": "scene_screencap",
+  "current_program_scene": "scene_screencap",
+  "canvases": [],
+  "current_transition": "Fade",
+  "transition_duration": 300,
+  "transitions": [],
   "quick_transitions": [
     {
       "name": "Cut",
@@ -3032,14 +3036,10 @@
       "fade_to_black": true
     }
   ],
-  "transitions": [],
   "saved_projectors": [],
-  "canvases": [],
-  "current_transition": "Fade",
-  "transition_duration": 300,
   "preview_locked": false,
   "scaling_enabled": false,
-  "scaling_level": -8,
+  "scaling_level": -7,
   "scaling_off_x": 0.0,
   "scaling_off_y": 0.0,
   "virtual-camera": {
@@ -3302,7 +3302,9 @@
         "docks": []
       },
       "alwaysShowTabs": false
-    }
+    },
+    "copyTransformHotkey": [],
+    "pasteTransformHotkey": []
   },
   "resolution": {
     "x": 1920,

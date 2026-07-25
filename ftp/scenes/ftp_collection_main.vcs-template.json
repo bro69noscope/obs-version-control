@@ -2,14 +2,47 @@
   "name": "ftp_collection_main",
   "DesktopAudioDevice1": {
     "prev_ver": 537001985,
-    "name": "Desktop Audio",
-    "uuid": "ba5071cf-1746-4878-8762-b227c86c372b",
+    "name": "audio_desktop_mixer_channels_11_12",
+    "uuid": "91a06434-f94f-49dc-b5e9-a056fd22e7b1",
     "id": "wasapi_output_capture",
     "versioned_id": "wasapi_output_capture",
     "settings": {
-      "device_id": "default"
+      "device_id": "{{DESKTOP_AUDIO_DEVICE}}"
     },
-    "mixers": 255,
+    "mixers": 198,
+    "sync": 0,
+    "flags": 0,
+    "volume": 0.5036259889602661,
+    "balance": 0.5,
+    "enabled": true,
+    "muted": false,
+    "push-to-mute": false,
+    "push-to-mute-delay": 0,
+    "push-to-talk": false,
+    "push-to-talk-delay": 0,
+    "hotkeys": {
+      "libobs.mute": [],
+      "libobs.unmute": [],
+      "libobs.push-to-mute": [],
+      "libobs.push-to-talk": []
+    },
+    "deinterlace_mode": 0,
+    "deinterlace_field_order": 0,
+    "monitoring_type": 0,
+    "private_settings": {
+      "mixer_hidden": false
+    }
+  },
+  "AuxAudioDevice1": {
+    "prev_ver": 537001985,
+    "name": "audio_mixer_usb_out",
+    "uuid": "ad4b20f9-8486-45a9-87d0-935f040ed5e1",
+    "id": "wasapi_input_capture",
+    "versioned_id": "wasapi_input_capture",
+    "settings": {
+      "device_id": "{{USB_MIXER_INPUT_DEVICE}}"
+    },
+    "mixers": 193,
     "sync": 0,
     "flags": 0,
     "volume": 1.0,
@@ -29,20 +62,48 @@
     "deinterlace_mode": 0,
     "deinterlace_field_order": 0,
     "monitoring_type": 0,
-    "private_settings": {}
+    "private_settings": {},
+    "filters": [
+      {
+        "prev_ver": 537001985,
+        "name": "mixer_usb_out_gain",
+        "uuid": "4ae0efe9-a853-4337-8641-e7c9a3606808",
+        "id": "gain_filter",
+        "versioned_id": "gain_filter",
+        "settings": {
+          "db": 15.0
+        },
+        "mixers": 255,
+        "sync": 0,
+        "flags": 0,
+        "volume": 1.0,
+        "balance": 0.5,
+        "enabled": true,
+        "muted": false,
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "hotkeys": {},
+        "deinterlace_mode": 0,
+        "deinterlace_field_order": 0,
+        "monitoring_type": 0,
+        "private_settings": {}
+      }
+    ]
   },
-  "AuxAudioDevice1": {
+  "AuxAudioDevice2": {
     "prev_ver": 537001985,
-    "name": "Mic/Aux",
-    "uuid": "c2106d7b-1a88-44ef-85b7-f34243b6776b",
+    "name": "audio_mic_mixer_aux_send_1",
+    "uuid": "8daf6a6f-486f-42e2-958f-67ef6a9d3953",
     "id": "wasapi_input_capture",
     "versioned_id": "wasapi_input_capture",
     "settings": {
-      "device_id": "default"
+      "device_id": "{{AUX_MIC_INPUT_DEVICE}}"
     },
-    "mixers": 255,
+    "mixers": 194,
     "sync": 0,
-    "flags": 0,
+    "flags": 2,
     "volume": 1.0,
     "balance": 0.5,
     "enabled": true,
@@ -70,7 +131,7 @@
       "id": "text_gdiplus",
       "versioned_id": "text_gdiplus_v3",
       "settings": {
-        "text": "BRB in 1 min\nElapsed: 41:03"
+        "text": "BRB in 3 mins\nElapsed: 20:13"
       },
       "mixers": 0,
       "sync": 0,
@@ -747,19 +808,19 @@
             "group_item_backup": false,
             "pos": {
               "x": 109.0,
-              "y": 843.0
+              "y": 821.0
             },
             "pos_rel": {
               "x": -1.5759259462356567,
-              "y": 0.5611110925674438
+              "y": 0.520370364189148
             },
             "scale": {
-              "x": 0.29371166229248047,
-              "y": 0.29345089197158813
+              "x": 0.3352864682674408,
+              "y": 0.33522728085517883
             },
             "scale_rel": {
-              "x": 0.29371166229248047,
-              "y": 0.29345089197158813
+              "x": 0.3352864682674408,
+              "y": 0.33522728085517883
             },
             "bounds": {
               "x": 0.0,
@@ -1088,8 +1149,8 @@
       "name": "scene_facecam"
     }
   ],
-  "current_scene": "scene_facecam",
-  "current_program_scene": "scene_facecam",
+  "current_scene": "scene_screencap",
+  "current_program_scene": "scene_screencap",
   "canvases": [],
   "current_transition": "Fade",
   "transition_duration": 300,
@@ -1119,10 +1180,10 @@
   ],
   "saved_projectors": [],
   "preview_locked": false,
-  "scaling_enabled": true,
-  "scaling_level": -9,
+  "scaling_enabled": false,
+  "scaling_level": -12,
   "scaling_off_x": 0.0,
-  "scaling_off_y": 4.0,
+  "scaling_off_y": 0.0,
   "virtual-camera": {
     "type2": 3
   },

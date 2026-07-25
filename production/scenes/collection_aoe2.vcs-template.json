@@ -133,8 +133,8 @@
       "settings": {
         "device_id": "{{MAIN_CAMERA_DEVICE}}",
         "last_video_device_id": "OBS Virtual Camera:",
-        "video_device_id": "OBS Virtual Camera:",
-        "active": true
+        "active": true,
+        "video_device_id": "OBS Virtual Camera:"
       },
       "mixers": 192,
       "sync": 0,
@@ -560,8 +560,8 @@
       "settings": {
         "read_from_file": false,
         "outline": true,
-        "text": "BRB in 1 min\nElapsed: 52:48",
-        "antialiasing": true
+        "antialiasing": true,
+        "text": "BRB in 7 mins\nElapsed: 00:02"
       },
       "mixers": 0,
       "sync": 0,
@@ -1294,7 +1294,7 @@
       "id": "scene",
       "versioned_id": "scene",
       "settings": {
-        "id_counter": 4,
+        "id_counter": 5,
         "custom_size": false,
         "items": [
           {
@@ -1353,8 +1353,8 @@
             "private_settings": {}
           },
           {
-            "name": "capture_eyetracker_tobii",
-            "source_uuid": "3f1ea140-7bcd-477b-b627-b22eb7cf9d5f",
+            "name": "scene_tobii",
+            "source_uuid": "0deac58a-96bf-4295-8bec-01c60bdf1281",
             "visible": true,
             "locked": false,
             "rot": 0.0,
@@ -1363,14 +1363,14 @@
               "y": 1080.0
             },
             "align": 5,
-            "bounds_type": 2,
+            "bounds_type": 0,
             "bounds_align": 0,
             "bounds_crop": false,
             "crop_left": 0,
             "crop_top": 0,
             "crop_right": 0,
             "crop_bottom": 0,
-            "id": 3,
+            "id": 5,
             "group_item_backup": false,
             "pos": {
               "x": 0.0,
@@ -1389,21 +1389,21 @@
               "y": 1.0
             },
             "bounds": {
-              "x": 1920.0,
-              "y": 1080.0
+              "x": 0.0,
+              "y": 0.0
             },
             "bounds_rel": {
-              "x": 3.555555582046509,
-              "y": 2.0
+              "x": 0.0,
+              "y": 0.0
             },
             "scale_filter": "disable",
             "blend_method": "default",
             "blend_type": "normal",
             "show_transition": {
-              "duration": 0
+              "duration": 300
             },
             "hide_transition": {
-              "duration": 0
+              "duration": 300
             },
             "private_settings": {}
           }
@@ -1424,8 +1424,6 @@
         "OBSBasic.SelectScene": [],
         "libobs.show_scene_item.1": [],
         "libobs.hide_scene_item.1": [],
-        "libobs.show_scene_item.3": [],
-        "libobs.hide_scene_item.3": [],
         "source_record.enable": [
           {
             "shift": true,
@@ -1445,7 +1443,9 @@
         "source_record.PauseRecording": [],
         "source_record.UnpauseRecording": [],
         "source_record.SplitRecording": [],
-        "source_record.AddChapterMarker": []
+        "source_record.AddChapterMarker": [],
+        "libobs.show_scene_item.5": [],
+        "libobs.hide_scene_item.5": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
@@ -2688,7 +2688,7 @@
           {
             "name": "browser_streamelements_alert",
             "source_uuid": "43ff833c-7810-41d8-8d90-b7ec650e92c4",
-            "visible": true,
+            "visible": false,
             "locked": false,
             "rot": 0.0,
             "scale_ref": {
@@ -2966,6 +2966,95 @@
       "monitoring_type": 0,
       "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
       "private_settings": {}
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "scene_tobii",
+      "uuid": "0deac58a-96bf-4295-8bec-01c60bdf1281",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "id_counter": 1,
+        "custom_size": false,
+        "items": [
+          {
+            "name": "capture_eyetracker_tobii",
+            "source_uuid": "3f1ea140-7bcd-477b-b627-b22eb7cf9d5f",
+            "visible": false,
+            "locked": false,
+            "rot": 0.0,
+            "scale_ref": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "align": 5,
+            "bounds_type": 2,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 1,
+            "group_item_backup": false,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "pos_rel": {
+              "x": -1.7777777910232544,
+              "y": -1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "scale_rel": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "bounds": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "bounds_rel": {
+              "x": 3.555555582046509,
+              "y": 2.0
+            },
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          }
+        ]
+      },
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": [],
+        "libobs.show_scene_item.1": [],
+        "libobs.hide_scene_item.1": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+      "private_settings": {}
     }
   ],
   "groups": [],
@@ -2992,6 +3081,9 @@
       "name": "scene_aoe2_eyetracker"
     },
     {
+      "name": "scene_tobii"
+    },
+    {
       "name": "scene_browser"
     },
     {
@@ -3007,8 +3099,8 @@
       "name": "scene_alerts"
     }
   ],
-  "current_scene": "scene_screencap",
-  "current_program_scene": "scene_screencap",
+  "current_scene": "scene_tobii",
+  "current_program_scene": "scene_tobii",
   "canvases": [],
   "current_transition": "Fade",
   "transition_duration": 300,
@@ -3039,7 +3131,7 @@
   "saved_projectors": [],
   "preview_locked": false,
   "scaling_enabled": false,
-  "scaling_level": -7,
+  "scaling_level": -6,
   "scaling_off_x": 0.0,
   "scaling_off_y": 0.0,
   "virtual-camera": {

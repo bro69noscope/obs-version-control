@@ -131,7 +131,7 @@
       "id": "text_gdiplus",
       "versioned_id": "text_gdiplus_v3",
       "settings": {
-        "text": "BRB in 3 mins\nElapsed: 58:41"
+        "text": "BRB in 1 min\nElapsed: 14:50"
       },
       "mixers": 0,
       "sync": 0,
@@ -319,41 +319,6 @@
     },
     {
       "prev_ver": 537001985,
-      "name": "browser_streamelements_alert",
-      "uuid": "43ff833c-7810-41d8-8d90-b7ec650e92c4",
-      "id": "browser_source",
-      "versioned_id": "browser_source",
-      "settings": {
-        "url": "https://streamelements.com/overlay/6a5b603ada1bee41ea927fa8/X_6bj5kgvXVacbbum9uES4YWMQVVSKhDgNYLfztrUhYEWUwY",
-        "width": 1920,
-        "height": 1080,
-        "reroute_audio": false
-      },
-      "mixers": 255,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {
-        "libobs.mute": [],
-        "libobs.unmute": [],
-        "libobs.push-to-mute": [],
-        "libobs.push-to-talk": [],
-        "ObsBrowser.Refresh": []
-      },
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {}
-    },
-    {
-      "prev_ver": 537001985,
       "name": "capture_display_center",
       "uuid": "a222ee10-9763-47af-bedc-108b742b84f4",
       "id": "monitor_capture",
@@ -385,8 +350,8 @@
       "id": "game_capture",
       "versioned_id": "game_capture",
       "settings": {
-        "capture_mode": "window",
         "window": "SSOverlay:SSOverlay:SSOverlay.exe",
+        "capture_mode": "window",
         "allow_transparency": true
       },
       "mixers": 255,
@@ -407,6 +372,46 @@
         "libobs.push-to-talk": [],
         "hotkey_start": [],
         "hotkey_stop": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001985,
+      "name": "browser_streamerbot_alerts",
+      "uuid": "55956981-99c5-4621-a27a-ead0025b287e",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "is_local_file": true,
+        "local_file": "{{STREAMING_REPO_PATH}}external/common/browser-overlays/ftp/alerts-overlay.ftp.html",
+        "width": 1920,
+        "height": 1080,
+        "fps_custom": false,
+        "restart_when_active": true,
+        "css": "",
+        "reroute_audio": false,
+        "shutdown": true
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "ObsBrowser.Refresh": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
@@ -509,13 +514,13 @@
       "id": "scene",
       "versioned_id": "scene",
       "settings": {
-        "id_counter": 3,
+        "id_counter": 4,
         "custom_size": false,
         "items": [
           {
-            "name": "browser_streamelements_alert",
-            "source_uuid": "43ff833c-7810-41d8-8d90-b7ec650e92c4",
-            "visible": true,
+            "name": "browser_streamerbot_alerts",
+            "source_uuid": "55956981-99c5-4621-a27a-ead0025b287e",
+            "visible": false,
             "locked": false,
             "rot": 0.0,
             "scale_ref": {
@@ -530,15 +535,15 @@
             "crop_top": 0,
             "crop_right": 0,
             "crop_bottom": 0,
-            "id": 3,
+            "id": 4,
             "group_item_backup": false,
             "pos": {
               "x": 0.0,
-              "y": -169.0
+              "y": 0.0
             },
             "pos_rel": {
               "x": -1.7777777910232544,
-              "y": -1.3129630088806152
+              "y": -1.0
             },
             "scale": {
               "x": 1.0,
@@ -560,10 +565,10 @@
             "blend_method": "default",
             "blend_type": "normal",
             "show_transition": {
-              "duration": 0
+              "duration": 300
             },
             "hide_transition": {
-              "duration": 0
+              "duration": 300
             },
             "private_settings": {}
           }
@@ -582,8 +587,8 @@
       "push-to-talk-delay": 0,
       "hotkeys": {
         "OBSBasic.SelectScene": [],
-        "libobs.show_scene_item.3": [],
-        "libobs.hide_scene_item.3": []
+        "libobs.show_scene_item.4": [],
+        "libobs.hide_scene_item.4": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
@@ -1333,8 +1338,8 @@
       "name": "scene_facecam"
     }
   ],
-  "current_scene": "scene_screencap",
-  "current_program_scene": "scene_screencap",
+  "current_scene": "scene_alerts",
+  "current_program_scene": "scene_alerts",
   "canvases": [],
   "current_transition": "Fade",
   "transition_duration": 300,
@@ -1365,7 +1370,7 @@
   "saved_projectors": [],
   "preview_locked": false,
   "scaling_enabled": false,
-  "scaling_level": -8,
+  "scaling_level": -12,
   "scaling_off_x": 0.0,
   "scaling_off_y": 0.0,
   "virtual-camera": {

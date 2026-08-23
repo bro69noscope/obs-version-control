@@ -620,7 +620,7 @@
       "settings": {
         "is_local_file": false,
         "local_file": "{{STREAMING_REPO_PATH}}external/html/alerts-overlays/production/alerts-overlay.production.html",
-        "url": "http://localhost:50001/production/alerts-overlay.production.html?env=production",
+        "url": "{{ALERTS_OVERLAYS_STATIC_BASE_URL}}/production/alerts-overlay.production.html?env=production",
         "width": 1920,
         "height": 1080,
         "shutdown": false,

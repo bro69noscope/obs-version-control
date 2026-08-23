@@ -356,7 +356,7 @@
       "settings": {
         "is_local_file": false,
         "local_file": "{{STREAMING_REPO_PATH}}external/common/browser-overlays/ftp/alerts-overlay.ftp.html",
-        "url": "http://localhost:50001/ftp/alerts-overlay.ftp.html?env=ftp",
+        "url": "{{ALERTS_OVERLAYS_STATIC_BASE_URL}}/ftp/alerts-overlay.ftp.html?env=ftp",
         "width": 1920,
         "height": 1080,
         "fps_custom": false,

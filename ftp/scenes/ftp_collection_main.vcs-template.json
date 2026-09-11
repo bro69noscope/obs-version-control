@@ -9,7 +9,7 @@
     "settings": {
       "device_id": "{{DESKTOP_AUDIO_DEVICE}}"
     },
-    "mixers": 193,
+    "mixers": 195,
     "sync": 0,
     "flags": 0,
     "volume": 0.5036259889602661,
@@ -101,7 +101,7 @@
     "settings": {
       "device_id": "{{AUX_MIC_INPUT_DEVICE}}"
     },
-    "mixers": 193,
+    "mixers": 195,
     "sync": 0,
     "flags": 2,
     "volume": 1.0,
@@ -131,6 +131,56 @@
         "versioned_id": "gain_filter",
         "settings": {
           "db": 5.0
+        },
+        "mixers": 255,
+        "sync": 0,
+        "flags": 0,
+        "volume": 1.0,
+        "balance": 0.5,
+        "enabled": true,
+        "muted": false,
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "hotkeys": {},
+        "deinterlace_mode": 0,
+        "deinterlace_field_order": 0,
+        "monitoring_type": 0,
+        "private_settings": {}
+      },
+      {
+        "prev_ver": 537001986,
+        "name": "Noise Gate",
+        "uuid": "c9e027a7-7837-45fe-8a5c-070073f95c9f",
+        "id": "noise_gate_filter",
+        "versioned_id": "noise_gate_filter",
+        "settings": {},
+        "mixers": 255,
+        "sync": 0,
+        "flags": 0,
+        "volume": 1.0,
+        "balance": 0.5,
+        "enabled": true,
+        "muted": false,
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "hotkeys": {},
+        "deinterlace_mode": 0,
+        "deinterlace_field_order": 0,
+        "monitoring_type": 0,
+        "private_settings": {}
+      },
+      {
+        "prev_ver": 537001986,
+        "name": "Noise Suppression",
+        "uuid": "258b8b4c-58b1-4b98-9050-9979abaa1438",
+        "id": "noise_suppress_filter",
+        "versioned_id": "noise_suppress_filter_v2",
+        "settings": {
+          "method": "rnnoise"
         },
         "mixers": 255,
         "sync": 0,
@@ -425,7 +475,7 @@
       "settings": {
         "device_id": "{0.0.0.00000000}.{93a248e3-632f-4a55-afa7-1b80835167ee}"
       },
-      "mixers": 255,
+      "mixers": 193,
       "sync": 0,
       "flags": 0,
       "volume": 1.0,
@@ -456,13 +506,13 @@
       "settings": {
         "device_id": "{0.0.0.00000000}.{cfc8f27d-0aec-4bc8-ac58-d1f2fe0fb42e}"
       },
-      "mixers": 255,
+      "mixers": 195,
       "sync": 0,
       "flags": 0,
       "volume": 1.0,
       "balance": 0.5,
       "enabled": true,
-      "muted": false,
+      "muted": true,
       "push-to-mute": false,
       "push-to-mute-delay": 0,
       "push-to-talk": false,
@@ -1775,8 +1825,8 @@
       "name": "scene_facecam"
     }
   ],
-  "current_scene": "scene_audio_sources",
-  "current_program_scene": "scene_audio_sources",
+  "current_scene": "scene_screencap",
+  "current_program_scene": "scene_screencap",
   "canvases": [],
   "current_transition": "Fade",
   "transition_duration": 300,
@@ -1807,7 +1857,7 @@
   "saved_projectors": [],
   "preview_locked": false,
   "scaling_enabled": false,
-  "scaling_level": -12,
+  "scaling_level": -13,
   "scaling_off_x": 0.0,
   "scaling_off_y": 0.0,
   "virtual-camera": {

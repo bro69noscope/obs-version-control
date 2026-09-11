@@ -2,14 +2,14 @@
   "name": "ftp_collection_main",
   "DesktopAudioDevice1": {
     "prev_ver": 537001986,
-    "name": "audio_desktop_mixer_channels_11_12",
+    "name": "audio_mixer_11/12",
     "uuid": "91a06434-f94f-49dc-b5e9-a056fd22e7b1",
     "id": "wasapi_output_capture",
     "versioned_id": "wasapi_output_capture",
     "settings": {
       "device_id": "{{DESKTOP_AUDIO_DEVICE}}"
     },
-    "mixers": 198,
+    "mixers": 193,
     "sync": 0,
     "flags": 0,
     "volume": 0.5036259889602661,
@@ -48,7 +48,7 @@
     "volume": 1.0,
     "balance": 0.5,
     "enabled": true,
-    "muted": false,
+    "muted": true,
     "push-to-mute": false,
     "push-to-mute-delay": 0,
     "push-to-talk": false,
@@ -101,7 +101,7 @@
     "settings": {
       "device_id": "{{AUX_MIC_INPUT_DEVICE}}"
     },
-    "mixers": 194,
+    "mixers": 193,
     "sync": 0,
     "flags": 2,
     "volume": 1.0,
@@ -121,7 +121,35 @@
     "deinterlace_mode": 0,
     "deinterlace_field_order": 0,
     "monitoring_type": 0,
-    "private_settings": {}
+    "private_settings": {},
+    "filters": [
+      {
+        "prev_ver": 537001986,
+        "name": "Gain",
+        "uuid": "7c09bf30-8a58-4fb2-998b-02ec719a000c",
+        "id": "gain_filter",
+        "versioned_id": "gain_filter",
+        "settings": {
+          "db": 5.0
+        },
+        "mixers": 255,
+        "sync": 0,
+        "flags": 0,
+        "volume": 1.0,
+        "balance": 0.5,
+        "enabled": true,
+        "muted": false,
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "hotkeys": {},
+        "deinterlace_mode": 0,
+        "deinterlace_field_order": 0,
+        "monitoring_type": 0,
+        "private_settings": {}
+      }
+    ]
   },
   "sources": [
     {
@@ -390,12 +418,74 @@
     },
     {
       "prev_ver": 537001986,
+      "name": "audio_mixer_5/6",
+      "uuid": "879bbda3-c2a5-433a-84bb-fcaa65340dc0",
+      "id": "wasapi_output_capture",
+      "versioned_id": "wasapi_output_capture",
+      "settings": {
+        "device_id": "{0.0.0.00000000}.{93a248e3-632f-4a55-afa7-1b80835167ee}"
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": true,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001986,
+      "name": "audio_mixer_7/8",
+      "uuid": "81c0c9e3-a1d8-42fb-a71d-4deca465ef1a",
+      "id": "wasapi_output_capture",
+      "versioned_id": "wasapi_output_capture",
+      "settings": {
+        "device_id": "{0.0.0.00000000}.{cfc8f27d-0aec-4bc8-ac58-d1f2fe0fb42e}"
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001986,
       "name": "scene_facecam",
       "uuid": "0496eed9-07df-46f4-83bd-53a54a834ec5",
       "id": "scene",
       "versioned_id": "scene",
       "settings": {
-        "id_counter": 5,
+        "id_counter": 6,
         "custom_size": false,
         "items": [
           {
@@ -452,6 +542,61 @@
               "duration": 0
             },
             "private_settings": {}
+          },
+          {
+            "name": "scene_audio_sources",
+            "source_uuid": "455b6262-8e81-4796-9e03-5c61727063f8",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "scale_ref": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 6,
+            "group_item_backup": false,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "pos_rel": {
+              "x": -1.7777777910232544,
+              "y": -1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "scale_rel": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "bounds": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "bounds_rel": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 300
+            },
+            "hide_transition": {
+              "duration": 300
+            },
+            "private_settings": {}
           }
         ]
       },
@@ -469,7 +614,9 @@
       "hotkeys": {
         "OBSBasic.SelectScene": [],
         "libobs.show_scene_item.1": [],
-        "libobs.hide_scene_item.1": []
+        "libobs.hide_scene_item.1": [],
+        "libobs.show_scene_item.6": [],
+        "libobs.hide_scene_item.6": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
@@ -484,7 +631,7 @@
       "id": "scene",
       "versioned_id": "scene",
       "settings": {
-        "id_counter": 4,
+        "id_counter": 5,
         "custom_size": false,
         "items": [
           {
@@ -541,6 +688,61 @@
               "duration": 300
             },
             "private_settings": {}
+          },
+          {
+            "name": "scene_audio_sources",
+            "source_uuid": "455b6262-8e81-4796-9e03-5c61727063f8",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "scale_ref": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 5,
+            "group_item_backup": false,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "pos_rel": {
+              "x": -1.7777777910232544,
+              "y": -1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "scale_rel": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "bounds": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "bounds_rel": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 300
+            },
+            "hide_transition": {
+              "duration": 300
+            },
+            "private_settings": {}
           }
         ]
       },
@@ -558,7 +760,9 @@
       "hotkeys": {
         "OBSBasic.SelectScene": [],
         "libobs.show_scene_item.4": [],
-        "libobs.hide_scene_item.4": []
+        "libobs.hide_scene_item.4": [],
+        "libobs.show_scene_item.5": [],
+        "libobs.hide_scene_item.5": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
@@ -573,7 +777,7 @@
       "id": "scene",
       "versioned_id": "scene",
       "settings": {
-        "id_counter": 11,
+        "id_counter": 12,
         "custom_size": false,
         "items": [
           {
@@ -850,6 +1054,61 @@
               "duration": 0
             },
             "private_settings": {}
+          },
+          {
+            "name": "scene_audio_sources",
+            "source_uuid": "455b6262-8e81-4796-9e03-5c61727063f8",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "scale_ref": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 12,
+            "group_item_backup": false,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "pos_rel": {
+              "x": -1.7777777910232544,
+              "y": -1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "scale_rel": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "bounds": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "bounds_rel": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 300
+            },
+            "hide_transition": {
+              "duration": 300
+            },
+            "private_settings": {}
           }
         ]
       },
@@ -875,7 +1134,9 @@
         "libobs.show_scene_item.9": [],
         "libobs.hide_scene_item.9": [],
         "libobs.show_scene_item.10": [],
-        "libobs.hide_scene_item.10": []
+        "libobs.hide_scene_item.10": [],
+        "libobs.show_scene_item.12": [],
+        "libobs.hide_scene_item.12": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
@@ -890,7 +1151,7 @@
       "id": "scene",
       "versioned_id": "scene",
       "settings": {
-        "id_counter": 6,
+        "id_counter": 9,
         "custom_size": false,
         "items": [
           {
@@ -1112,6 +1373,61 @@
               "duration": 300
             },
             "private_settings": {}
+          },
+          {
+            "name": "scene_audio_sources",
+            "source_uuid": "455b6262-8e81-4796-9e03-5c61727063f8",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "scale_ref": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 9,
+            "group_item_backup": false,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "pos_rel": {
+              "x": -1.7777777910232544,
+              "y": -1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "scale_rel": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "bounds": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "bounds_rel": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 300
+            },
+            "hide_transition": {
+              "duration": 300
+            },
+            "private_settings": {}
           }
         ]
       },
@@ -1135,7 +1451,9 @@
         "libobs.show_scene_item.4": [],
         "libobs.hide_scene_item.4": [],
         "libobs.show_scene_item.6": [],
-        "libobs.hide_scene_item.6": []
+        "libobs.hide_scene_item.6": [],
+        "libobs.show_scene_item.9": [],
+        "libobs.hide_scene_item.9": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
@@ -1150,7 +1468,7 @@
       "id": "scene",
       "versioned_id": "scene",
       "settings": {
-        "id_counter": 1,
+        "id_counter": 2,
         "custom_size": false,
         "items": [
           {
@@ -1207,6 +1525,61 @@
               "duration": 300
             },
             "private_settings": {}
+          },
+          {
+            "name": "scene_audio_sources",
+            "source_uuid": "455b6262-8e81-4796-9e03-5c61727063f8",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "scale_ref": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 2,
+            "group_item_backup": false,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "pos_rel": {
+              "x": -1.7777777910232544,
+              "y": -1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "scale_rel": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "bounds": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "bounds_rel": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 300
+            },
+            "hide_transition": {
+              "duration": 300
+            },
+            "private_settings": {}
           }
         ]
       },
@@ -1224,7 +1597,155 @@
       "hotkeys": {
         "OBSBasic.SelectScene": [],
         "libobs.show_scene_item.1": [],
-        "libobs.hide_scene_item.1": []
+        "libobs.hide_scene_item.1": [],
+        "libobs.show_scene_item.2": [],
+        "libobs.hide_scene_item.2": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001986,
+      "name": "scene_audio_sources",
+      "uuid": "455b6262-8e81-4796-9e03-5c61727063f8",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "id_counter": 2,
+        "custom_size": false,
+        "items": [
+          {
+            "name": "audio_mixer_5/6",
+            "source_uuid": "879bbda3-c2a5-433a-84bb-fcaa65340dc0",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "scale_ref": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 1,
+            "group_item_backup": false,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "pos_rel": {
+              "x": -1.7777777910232544,
+              "y": -1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "scale_rel": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "bounds": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "bounds_rel": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 300
+            },
+            "hide_transition": {
+              "duration": 300
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "audio_mixer_7/8",
+            "source_uuid": "81c0c9e3-a1d8-42fb-a71d-4deca465ef1a",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "scale_ref": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 2,
+            "group_item_backup": false,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "pos_rel": {
+              "x": -1.7777777910232544,
+              "y": -1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "scale_rel": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "bounds": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "bounds_rel": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 300
+            },
+            "hide_transition": {
+              "duration": 300
+            },
+            "private_settings": {}
+          }
+        ]
+      },
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": [],
+        "libobs.show_scene_item.1": [],
+        "libobs.hide_scene_item.1": [],
+        "libobs.show_scene_item.2": [],
+        "libobs.hide_scene_item.2": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
@@ -1239,6 +1760,9 @@
       "name": "scene_lounge"
     },
     {
+      "name": "scene_audio_sources"
+    },
+    {
       "name": "scene_screencap"
     },
     {
@@ -1251,8 +1775,8 @@
       "name": "scene_facecam"
     }
   ],
-  "current_scene": "scene_alerts",
-  "current_program_scene": "scene_alerts",
+  "current_scene": "scene_audio_sources",
+  "current_program_scene": "scene_audio_sources",
   "canvases": [],
   "current_transition": "Fade",
   "transition_duration": 300,
@@ -1283,7 +1807,7 @@
   "saved_projectors": [],
   "preview_locked": false,
   "scaling_enabled": false,
-  "scaling_level": -9,
+  "scaling_level": -12,
   "scaling_off_x": 0.0,
   "scaling_off_y": 0.0,
   "virtual-camera": {

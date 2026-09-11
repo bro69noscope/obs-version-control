@@ -94,7 +94,7 @@
   },
   "AuxAudioDevice2": {
     "prev_ver": 537001986,
-    "name": "audio_mic_mixer_aux_send_1",
+    "name": "audio_mixer_aux_send_1",
     "uuid": "8daf6a6f-486f-42e2-958f-67ef6a9d3953",
     "id": "wasapi_input_capture",
     "versioned_id": "wasapi_input_capture",

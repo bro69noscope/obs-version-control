@@ -132,7 +132,7 @@
       "versioned_id": "dshow_input",
       "settings": {
         "device_id": "{{MAIN_CAMERA_DEVICE}}",
-        "video_device_id": "{{MAIN_CAMERA_DEVICE}}",
+        "video_device_id": "OBS Virtual Camera:",
         "last_video_device_id": "{{MAIN_CAMERA_DEVICE}}",
         "active": true
       },

@@ -12,7 +12,7 @@
     "mixers": 198,
     "sync": 0,
     "flags": 0,
-    "volume": 0.5036259889602661,
+    "volume": 0.5623413324356079,
     "balance": 0.5,
     "enabled": true,
     "muted": false,
@@ -89,6 +89,32 @@
         "deinterlace_field_order": 0,
         "monitoring_type": 0,
         "private_settings": {}
+      },
+      {
+        "prev_ver": 537001986,
+        "name": "Limiter",
+        "uuid": "0ba7b2a6-b74c-404e-b9ec-e923db5d8bdd",
+        "id": "limiter_filter",
+        "versioned_id": "limiter_filter",
+        "settings": {
+          "threshold": -0.5
+        },
+        "mixers": 255,
+        "sync": 0,
+        "flags": 0,
+        "volume": 1.0,
+        "balance": 0.5,
+        "enabled": true,
+        "muted": false,
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "hotkeys": {},
+        "deinterlace_mode": 0,
+        "deinterlace_field_order": 0,
+        "monitoring_type": 0,
+        "private_settings": {}
       }
     ]
   },
@@ -132,8 +158,8 @@
       "versioned_id": "dshow_input",
       "settings": {
         "device_id": "{{MAIN_CAMERA_DEVICE}}",
-        "video_device_id": "OBS Virtual Camera:",
         "last_video_device_id": "{{MAIN_CAMERA_DEVICE}}",
+        "video_device_id": "{{MAIN_CAMERA_DEVICE}}",
         "active": true
       },
       "mixers": 192,
@@ -2833,8 +2859,8 @@
       "name": "scene_alerts"
     }
   ],
-  "current_scene": "scene_center_monitor",
-  "current_program_scene": "scene_center_monitor",
+  "current_scene": "scene_lounge",
+  "current_program_scene": "scene_lounge",
   "canvases": [],
   "current_transition": "Fade",
   "transition_duration": 300,

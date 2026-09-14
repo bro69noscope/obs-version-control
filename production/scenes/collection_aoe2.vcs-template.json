@@ -292,7 +292,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "capture_display_center",
+      "name": "capture_center_monitor",
       "uuid": "a222ee10-9763-47af-bedc-108b742b84f4",
       "id": "monitor_capture",
       "versioned_id": "monitor_capture",
@@ -386,12 +386,12 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "clone_capture_vg248",
+      "name": "clone_capture_center_monitor",
       "uuid": "542a1264-c204-4149-8161-b1edf3d61d0d",
       "id": "source-clone",
       "versioned_id": "source-clone",
       "settings": {
-        "clone": "capture_display_center"
+        "clone": "capture_center_monitor"
       },
       "mixers": 255,
       "sync": 0,
@@ -1872,7 +1872,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "clone_capture_vg248",
+            "name": "clone_capture_center_monitor",
             "source_uuid": "542a1264-c204-4149-8161-b1edf3d61d0d",
             "visible": true,
             "locked": false,
@@ -2627,7 +2627,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "capture_display_center",
+            "name": "capture_center_monitor",
             "source_uuid": "a222ee10-9763-47af-bedc-108b742b84f4",
             "visible": true,
             "locked": false,
@@ -2916,8 +2916,8 @@
       "name": "scene_alerts"
     }
   ],
-  "current_scene": "scene_tobii",
-  "current_program_scene": "scene_tobii",
+  "current_scene": "scene_center_monitor",
+  "current_program_scene": "scene_center_monitor",
   "canvases": [],
   "current_transition": "Fade",
   "transition_duration": 300,

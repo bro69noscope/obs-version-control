@@ -158,9 +158,9 @@
       "versioned_id": "dshow_input",
       "settings": {
         "device_id": "{{MAIN_CAMERA_DEVICE}}",
-        "last_video_device_id": "{{MAIN_CAMERA_DEVICE}}",
-        "video_device_id": "OBS Virtual Camera:",
-        "active": true
+        "last_video_device_id": "OBS Virtual Camera:",
+        "active": true,
+        "video_device_id": "OBS Virtual Camera:"
       },
       "mixers": 192,
       "sync": 0,
@@ -483,39 +483,6 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "capture_chat_streamerbot",
-      "uuid": "282b08e9-cb52-4f71-a9ff-5270b13ef19a",
-      "id": "window_capture",
-      "versioned_id": "window_capture",
-      "settings": {
-        "window": "Chat:HwndWrapper[Streamer.bot.exe;UI;77f18395-f1dc-4bad-bbac-741da1f23bdb]:Streamer.bot.exe",
-        "priority": 1,
-        "method": 2
-      },
-      "mixers": 255,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {
-        "libobs.mute": [],
-        "libobs.unmute": [],
-        "libobs.push-to-mute": [],
-        "libobs.push-to-talk": []
-      },
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "private_settings": {}
-    },
-    {
-      "prev_ver": 537001986,
       "name": "brb",
       "uuid": "1ff67ca3-1ce9-4018-87cf-35ce39cceaf8",
       "id": "text_gdiplus",
@@ -588,6 +555,39 @@
         "height": 1080,
         "shutdown": false,
         "restart_when_active": true
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "ObsBrowser.Refresh": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001986,
+      "name": "browser_obs_chat",
+      "uuid": "bc7c4e88-38d7-4f4f-9d75-617f91b2096b",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://www.twitch.tv/popout/bro69noscope/chat",
+        "width": 430
       },
       "mixers": 255,
       "sync": 0,
@@ -1868,7 +1868,7 @@
       "id": "scene",
       "versioned_id": "scene",
       "settings": {
-        "id_counter": 10,
+        "id_counter": 11,
         "custom_size": false,
         "items": [
           {
@@ -2037,8 +2037,8 @@
             "private_settings": {}
           },
           {
-            "name": "capture_chat_streamerbot",
-            "source_uuid": "282b08e9-cb52-4f71-a9ff-5270b13ef19a",
+            "name": "browser_obs_chat",
+            "source_uuid": "bc7c4e88-38d7-4f4f-9d75-617f91b2096b",
             "visible": true,
             "locked": false,
             "rot": 0.0,
@@ -2047,47 +2047,47 @@
               "y": 1080.0
             },
             "align": 5,
-            "bounds_type": 2,
+            "bounds_type": 0,
             "bounds_align": 0,
             "bounds_crop": false,
             "crop_left": 0,
             "crop_top": 0,
             "crop_right": 0,
             "crop_bottom": 0,
-            "id": 7,
+            "id": 11,
             "group_item_backup": false,
             "pos": {
-              "x": 650.0,
-              "y": 36.0
+              "x": 1118.0,
+              "y": 46.0
             },
             "pos_rel": {
-              "x": -0.5740740895271301,
-              "y": -0.9333333373069763
+              "x": 0.2925925850868225,
+              "y": -0.914814829826355
             },
             "scale": {
-              "x": 1.0,
-              "y": 1.0
+              "x": 1.6325581073760986,
+              "y": 1.631666660308838
             },
             "scale_rel": {
-              "x": 1.0,
-              "y": 1.0
+              "x": 1.6325581073760986,
+              "y": 1.631666660308838
             },
             "bounds": {
-              "x": 1532.0,
-              "y": 996.0
+              "x": 0.0,
+              "y": 0.0
             },
             "bounds_rel": {
-              "x": 2.8370370864868164,
-              "y": 1.8444443941116333
+              "x": 0.0,
+              "y": 0.0
             },
             "scale_filter": "disable",
             "blend_method": "default",
             "blend_type": "normal",
             "show_transition": {
-              "duration": 0
+              "duration": 300
             },
             "hide_transition": {
-              "duration": 0
+              "duration": 300
             },
             "private_settings": {}
           },
@@ -2222,12 +2222,12 @@
         "libobs.hide_scene_item.1": [],
         "libobs.show_scene_item.6": [],
         "libobs.hide_scene_item.6": [],
-        "libobs.show_scene_item.7": [],
-        "libobs.hide_scene_item.7": [],
         "libobs.show_scene_item.9": [],
         "libobs.hide_scene_item.9": [],
         "libobs.show_scene_item.10": [],
-        "libobs.hide_scene_item.10": []
+        "libobs.hide_scene_item.10": [],
+        "libobs.show_scene_item.11": [],
+        "libobs.hide_scene_item.11": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
@@ -2890,8 +2890,8 @@
   ],
   "saved_projectors": [],
   "preview_locked": false,
-  "scaling_enabled": true,
-  "scaling_level": -8,
+  "scaling_enabled": false,
+  "scaling_level": -12,
   "scaling_off_x": 0.0,
   "scaling_off_y": 0.0,
   "virtual-camera": {

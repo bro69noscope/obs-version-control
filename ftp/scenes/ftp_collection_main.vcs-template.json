@@ -359,7 +359,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "capture_tobii",
+      "name": "capture_eyetracker",
       "uuid": "de3c4a69-629d-4fbd-9842-9f1b245faaaf",
       "id": "game_capture",
       "versioned_id": "game_capture",
@@ -1404,13 +1404,13 @@
       "id": "scene",
       "versioned_id": "scene",
       "settings": {
-        "id_counter": 2,
+        "id_counter": 3,
         "custom_size": false,
         "items": [
           {
-            "name": "capture_tobii",
+            "name": "capture_eyetracker",
             "source_uuid": "de3c4a69-629d-4fbd-9842-9f1b245faaaf",
-            "visible": true,
+            "visible": false,
             "locked": false,
             "rot": 0.0,
             "scale_ref": {
@@ -1654,8 +1654,8 @@
       "name": "scene_facecam"
     }
   ],
-  "current_scene": "scene_facecam",
-  "current_program_scene": "scene_facecam",
+  "current_scene": "scene_tobii",
+  "current_program_scene": "scene_tobii",
   "canvases": [],
   "current_transition": "Fade",
   "transition_duration": 300,

@@ -159,7 +159,7 @@
       "settings": {
         "device_id": "{{MAIN_CAMERA_DEVICE}}",
         "last_video_device_id": "{{MAIN_CAMERA_DEVICE}}",
-        "video_device_id": "{{MAIN_CAMERA_DEVICE}}",
+        "video_device_id": "OBS Virtual Camera:",
         "active": true
       },
       "mixers": 192,
@@ -2890,8 +2890,8 @@
   ],
   "saved_projectors": [],
   "preview_locked": false,
-  "scaling_enabled": false,
-  "scaling_level": -7,
+  "scaling_enabled": true,
+  "scaling_level": -8,
   "scaling_off_x": 0.0,
   "scaling_off_y": 0.0,
   "virtual-camera": {

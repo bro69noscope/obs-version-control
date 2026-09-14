@@ -159,8 +159,8 @@
       "settings": {
         "device_id": "{{MAIN_CAMERA_DEVICE}}",
         "last_video_device_id": "OBS Virtual Camera:",
-        "video_device_id": "OBS Virtual Camera:",
-        "active": true
+        "active": true,
+        "video_device_id": "{{MAIN_CAMERA_DEVICE}}"
       },
       "mixers": 192,
       "sync": 0,

@@ -159,8 +159,8 @@
       "settings": {
         "device_id": "{{MAIN_CAMERA_DEVICE}}",
         "last_video_device_id": "OBS Virtual Camera:",
-        "active": true,
-        "video_device_id": "OBS Virtual Camera:"
+        "video_device_id": "OBS Virtual Camera:",
+        "active": true
       },
       "mixers": 192,
       "sync": 0,
@@ -490,8 +490,8 @@
       "settings": {
         "read_from_file": false,
         "outline": true,
-        "text": "BRB in 1 min\nElapsed: 00:00",
-        "antialiasing": true
+        "antialiasing": true,
+        "text": "BRB in 2 mins\nElapsed: 00:02"
       },
       "mixers": 0,
       "sync": 0,
@@ -2222,12 +2222,12 @@
         "libobs.hide_scene_item.1": [],
         "libobs.show_scene_item.6": [],
         "libobs.hide_scene_item.6": [],
+        "libobs.show_scene_item.11": [],
+        "libobs.hide_scene_item.11": [],
         "libobs.show_scene_item.9": [],
         "libobs.hide_scene_item.9": [],
         "libobs.show_scene_item.10": [],
-        "libobs.hide_scene_item.10": [],
-        "libobs.show_scene_item.11": [],
-        "libobs.hide_scene_item.11": []
+        "libobs.hide_scene_item.10": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
@@ -2540,7 +2540,7 @@
           {
             "name": "capture_eyetracker_tobii",
             "source_uuid": "3f1ea140-7bcd-477b-b627-b22eb7cf9d5f",
-            "visible": false,
+            "visible": true,
             "locked": false,
             "rot": 0.0,
             "scale_ref": {
@@ -2623,7 +2623,7 @@
       "id": "scene",
       "versioned_id": "scene",
       "settings": {
-        "id_counter": 4,
+        "id_counter": 5,
         "custom_size": false,
         "items": [
           {
@@ -2790,6 +2790,61 @@
               "duration": 0
             },
             "private_settings": {}
+          },
+          {
+            "name": "scene_tobii",
+            "source_uuid": "0deac58a-96bf-4295-8bec-01c60bdf1281",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "scale_ref": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 5,
+            "group_item_backup": false,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "pos_rel": {
+              "x": -1.7777777910232544,
+              "y": -1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "scale_rel": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "bounds": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "bounds_rel": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 300
+            },
+            "hide_transition": {
+              "duration": 300
+            },
+            "private_settings": {}
           }
         ]
       },
@@ -2811,7 +2866,9 @@
         "libobs.show_scene_item.3": [],
         "libobs.hide_scene_item.3": [],
         "libobs.show_scene_item.4": [],
-        "libobs.hide_scene_item.4": []
+        "libobs.hide_scene_item.4": [],
+        "libobs.show_scene_item.5": [],
+        "libobs.hide_scene_item.5": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
@@ -2859,8 +2916,8 @@
       "name": "scene_alerts"
     }
   ],
-  "current_scene": "scene_lounge",
-  "current_program_scene": "scene_lounge",
+  "current_scene": "scene_center_monitor",
+  "current_program_scene": "scene_center_monitor",
   "canvases": [],
   "current_transition": "Fade",
   "transition_duration": 300,
@@ -2891,7 +2948,7 @@
   "saved_projectors": [],
   "preview_locked": false,
   "scaling_enabled": false,
-  "scaling_level": -12,
+  "scaling_level": -7,
   "scaling_off_x": 0.0,
   "scaling_off_y": 0.0,
   "virtual-camera": {

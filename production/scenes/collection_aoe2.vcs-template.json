@@ -2,7 +2,7 @@
   "name": "collection_aoe2",
   "DesktopAudioDevice1": {
     "prev_ver": 537001986,
-    "name": "audio_desktop_mixer_channels_11_12",
+    "name": "audio_mixer_11/12",
     "uuid": "91a06434-f94f-49dc-b5e9-a056fd22e7b1",
     "id": "wasapi_output_capture",
     "versioned_id": "wasapi_output_capture",

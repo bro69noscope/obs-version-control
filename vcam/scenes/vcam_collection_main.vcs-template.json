@@ -65,7 +65,7 @@
   "sources": [
     {
       "prev_ver": 537001986,
-      "name": "vcam_capture_facecam",
+      "name": "device_capture__vcam_facecam",
       "uuid": "043c95da-274a-49e3-a38c-4dfed7b445bd",
       "id": "dshow_input",
       "versioned_id": "dshow_input",
@@ -98,7 +98,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "vcam_scene_facecam",
+      "name": "scene__vcam_facecam",
       "uuid": "eacd2f1b-58a5-4dca-9e03-c434302da4ee",
       "id": "scene",
       "versioned_id": "scene",
@@ -107,7 +107,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "vcam_capture_facecam",
+            "name": "device_capture__vcam_facecam",
             "source_uuid": "043c95da-274a-49e3-a38c-4dfed7b445bd",
             "visible": true,
             "locked": false,
@@ -189,7 +189,7 @@
   "groups": [],
   "scene_order": [
     {
-      "name": "vcam_scene_facecam"
+      "name": "scene__vcam_facecam"
     }
   ],
   "current_scene": "vcam_scene_facecam",

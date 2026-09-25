@@ -159,8 +159,8 @@
       "settings": {
         "device_id": "{{MAIN_CAMERA_DEVICE}}",
         "last_video_device_id": "OBS Virtual Camera:",
-        "active": true,
-        "video_device_id": "{{MAIN_CAMERA_DEVICE}}"
+        "video_device_id": "{{MAIN_CAMERA_DEVICE}}",
+        "active": true
       },
       "mixers": 192,
       "sync": 0,
@@ -490,8 +490,8 @@
       "settings": {
         "read_from_file": false,
         "outline": true,
-        "antialiasing": true,
-        "text": "BRB in 2 mins\nElapsed: 00:02"
+        "text": "BRB in 2 mins\nElapsed: 00:02",
+        "antialiasing": true
       },
       "mixers": 0,
       "sync": 0,
@@ -625,7 +625,7 @@
           {
             "name": "capture_facecam",
             "source_uuid": "f3a15382-06a1-4d80-931b-e72a2578c8ba",
-            "visible": true,
+            "visible": false,
             "locked": false,
             "rot": 0.0,
             "scale_ref": {
@@ -2540,7 +2540,7 @@
           {
             "name": "capture_eyetracker",
             "source_uuid": "3f1ea140-7bcd-477b-b627-b22eb7cf9d5f",
-            "visible": false,
+            "visible": true,
             "locked": false,
             "rot": 0.0,
             "scale_ref": {
@@ -2916,8 +2916,8 @@
       "name": "scene_alerts"
     }
   ],
-  "current_scene": "scene_center_monitor",
-  "current_program_scene": "scene_center_monitor",
+  "current_scene": "scene_aoe2_eyetracker",
+  "current_program_scene": "scene_aoe2_eyetracker",
   "canvases": [],
   "current_transition": "Fade",
   "transition_duration": 300,
@@ -2948,7 +2948,7 @@
   "saved_projectors": [],
   "preview_locked": false,
   "scaling_enabled": false,
-  "scaling_level": -13,
+  "scaling_level": -8,
   "scaling_off_x": 0.0,
   "scaling_off_y": 0.0,
   "virtual-camera": {

@@ -1256,7 +1256,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene_tobii",
+            "name": "scene_eyetracker",
             "source_uuid": "91e24e49-c19f-46c8-b71e-198012183a5a",
             "visible": true,
             "locked": false,
@@ -1399,7 +1399,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "scene_tobii",
+      "name": "scene_eyetracker",
       "uuid": "91e24e49-c19f-46c8-b71e-198012183a5a",
       "id": "scene",
       "versioned_id": "scene",
@@ -1645,7 +1645,7 @@
       "name": "scene_screencap"
     },
     {
-      "name": "scene_tobii"
+      "name": "scene_eyetracker"
     },
     {
       "name": "scene_alerts"
@@ -1654,8 +1654,8 @@
       "name": "scene_facecam"
     }
   ],
-  "current_scene": "scene_tobii",
-  "current_program_scene": "scene_tobii",
+  "current_scene": "scene_eyetracker",
+  "current_program_scene": "scene_eyetracker",
   "canvases": [],
   "current_transition": "Fade",
   "transition_duration": 300,

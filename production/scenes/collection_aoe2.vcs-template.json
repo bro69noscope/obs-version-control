@@ -1319,7 +1319,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene_tobii",
+            "name": "scene_eyetracker",
             "source_uuid": "0deac58a-96bf-4295-8bec-01c60bdf1281",
             "visible": true,
             "locked": false,
@@ -2529,7 +2529,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "scene_tobii",
+      "name": "scene_eyetracker",
       "uuid": "0deac58a-96bf-4295-8bec-01c60bdf1281",
       "id": "scene",
       "versioned_id": "scene",
@@ -2792,7 +2792,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene_tobii",
+            "name": "scene_eyetracker",
             "source_uuid": "0deac58a-96bf-4295-8bec-01c60bdf1281",
             "visible": true,
             "locked": false,
@@ -2898,7 +2898,7 @@
       "name": "scene_aoe2_eyetracker"
     },
     {
-      "name": "scene_tobii"
+      "name": "scene_eyetracker"
     },
     {
       "name": "scene_browser"

@@ -2,7 +2,7 @@
   "name": "ftp_collection_main",
   "DesktopAudioDevice1": {
     "prev_ver": 537001986,
-    "name": "audio_mixer_11/12",
+    "name": "audio__mixer_11/12",
     "uuid": "91a06434-f94f-49dc-b5e9-a056fd22e7b1",
     "id": "wasapi_output_capture",
     "versioned_id": "wasapi_output_capture",
@@ -35,7 +35,7 @@
   },
   "AuxAudioDevice1": {
     "prev_ver": 537001986,
-    "name": "audio_mixer_usb_out",
+    "name": "audio__mixer_usb_out",
     "uuid": "ad4b20f9-8486-45a9-87d0-935f040ed5e1",
     "id": "wasapi_input_capture",
     "versioned_id": "wasapi_input_capture",
@@ -94,7 +94,7 @@
   },
   "AuxAudioDevice2": {
     "prev_ver": 537001986,
-    "name": "audio_mixer_aux_send_1",
+    "name": "audio__mixer_aux_send_1",
     "uuid": "8daf6a6f-486f-42e2-958f-67ef6a9d3953",
     "id": "wasapi_input_capture",
     "versioned_id": "wasapi_input_capture",
@@ -435,7 +435,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "audio_mixer_5/6",
+      "name": "audio__mixer_5/6",
       "uuid": "879bbda3-c2a5-433a-84bb-fcaa65340dc0",
       "id": "wasapi_output_capture",
       "versioned_id": "wasapi_output_capture",
@@ -466,7 +466,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "audio_mixer_7/8",
+      "name": "audio__mixer_7/8",
       "uuid": "81c0c9e3-a1d8-42fb-a71d-4deca465ef1a",
       "id": "wasapi_output_capture",
       "versioned_id": "wasapi_output_capture",
@@ -1497,7 +1497,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "audio_mixer_5/6",
+            "name": "audio__mixer_5/6",
             "source_uuid": "879bbda3-c2a5-433a-84bb-fcaa65340dc0",
             "visible": true,
             "locked": false,
@@ -1552,7 +1552,7 @@
             "private_settings": {}
           },
           {
-            "name": "audio_mixer_7/8",
+            "name": "audio__mixer_7/8",
             "source_uuid": "81c0c9e3-a1d8-42fb-a71d-4deca465ef1a",
             "visible": true,
             "locked": false,

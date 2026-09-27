@@ -1635,15 +1635,27 @@
   ],
   "groups": [],
   "scene_order": [
-    { "name": "scene__alerts" },
-    { "name": "scene__audio_sources" },
-    { "name": "scene__eyetracker" },
-    { "name": "scene__facecam" },
-    { "name": "scene__lounge" },
-    { "name": "scene__screencap" }
+    {
+      "name": "scene__alerts"
+    },
+    {
+      "name": "scene__audio_sources"
+    },
+    {
+      "name": "scene__eyetracker"
+    },
+    {
+      "name": "scene__facecam"
+    },
+    {
+      "name": "scene__lounge"
+    },
+    {
+      "name": "scene__screencap"
+    }
   ],
-  "current_scene": "scene_eyetracker",
-  "current_program_scene": "scene_eyetracker",
+  "current_scene": "scene__screencap",
+  "current_program_scene": "scene__screencap",
   "canvases": [],
   "current_transition": "Fade",
   "transition_duration": 300,

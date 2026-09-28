@@ -66,7 +66,7 @@
     "filters": [
       {
         "prev_ver": 537001986,
-        "name": "mixer_usb_out_gain",
+        "name": "filter__gain__increase_main_mix",
         "uuid": "4ae0efe9-a853-4337-8641-e7c9a3606808",
         "id": "gain_filter",
         "versioned_id": "gain_filter",
@@ -92,7 +92,7 @@
       },
       {
         "prev_ver": 537001986,
-        "name": "Limiter",
+        "name": "filter__limiter__close_to_max_volume",
         "uuid": "0ba7b2a6-b74c-404e-b9ec-e923db5d8bdd",
         "id": "limiter_filter",
         "versioned_id": "limiter_filter",
@@ -419,7 +419,7 @@
       "filters": [
         {
           "prev_ver": 537001986,
-          "name": "Composite Blur",
+          "name": "filter__composite_blur__background",
           "uuid": "c2bde013-e0c2-4036-b79b-51314011a662",
           "id": "obs_composite_blur",
           "versioned_id": "obs_composite_blur",
@@ -756,7 +756,7 @@
       "filters": [
         {
           "prev_ver": 537001986,
-          "name": "Audio Monitor",
+          "name": "filter__audio_monitor__private_output",
           "uuid": "daf7376f-fabb-48df-98c7-4cf84dc08a4d",
           "id": "audio_monitor",
           "versioned_id": "audio_monitor",
@@ -1548,7 +1548,7 @@
       "filters": [
         {
           "prev_ver": 537001986,
-          "name": "source_record_dota2_eyetrack",
+          "name": "filter__source_record__dota2_eyetrack",
           "uuid": "07650dc4-e422-4647-8713-8f69a3643685",
           "id": "source_record_filter",
           "versioned_id": "source_record_filter",
@@ -4963,7 +4963,7 @@
       "filters": [
         {
           "prev_ver": 537001986,
-          "name": "Apply LUT - GrayScale",
+          "name": "filter__lut__grayscale",
           "uuid": "5bfd0c53-e222-4de9-94ba-2ad3ebdf80ae",
           "id": "clut_filter",
           "versioned_id": "clut_filter",
@@ -4989,7 +4989,7 @@
         },
         {
           "prev_ver": 537001986,
-          "name": "Apply LUT - Golden Warm",
+          "name": "filter__lut__warm_goldish",
           "uuid": "bee0d8bd-5862-4713-a153-d3ce02675d5e",
           "id": "clut_filter",
           "versioned_id": "clut_filter",

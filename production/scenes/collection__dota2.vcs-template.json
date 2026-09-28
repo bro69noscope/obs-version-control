@@ -2830,21 +2830,15 @@
             "crop_bottom": 0,
             "id": 9,
             "group_item_backup": true,
-            "pos": {
-              "x": 0.0,
-              "y": 0.0
-            },
-            "pos_rel": {
-              "x": -1.7777777910232544,
-              "y": -1.0
-            },
+            "pos": {},
+            "pos_rel": {},
             "scale": {
               "x": 1.0,
               "y": 1.0
             },
             "scale_rel": {
-              "x": 1.0,
-              "y": 1.0
+              "x": 0.0,
+              "y": 0.0
             },
             "bounds": {
               "x": 1920.0,
@@ -2885,21 +2879,15 @@
             "crop_bottom": 0,
             "id": 23,
             "group_item_backup": true,
-            "pos": {
-              "x": 0.0,
-              "y": 0.0
-            },
-            "pos_rel": {
-              "x": -1.7777777910232544,
-              "y": -1.0
-            },
+            "pos": {},
+            "pos_rel": {},
             "scale": {
               "x": 1.0,
               "y": 1.0
             },
             "scale_rel": {
-              "x": 1.0,
-              "y": 1.0
+              "x": 0.0,
+              "y": 0.0
             },
             "bounds": {
               "x": 1920.0,
@@ -2948,21 +2936,15 @@
             "crop_bottom": 0,
             "id": 30,
             "group_item_backup": true,
-            "pos": {
-              "x": 0.0,
-              "y": 0.0
-            },
-            "pos_rel": {
-              "x": -1.7777777910232544,
-              "y": -1.0
-            },
+            "pos": {},
+            "pos_rel": {},
             "scale": {
               "x": 1.0,
               "y": 1.0
             },
             "scale_rel": {
-              "x": 1.0,
-              "y": 1.0
+              "x": 0.0,
+              "y": 0.0
             },
             "bounds": {
               "x": 1920.0,
@@ -5078,8 +5060,8 @@
       "name": "scene__zoom"
     }
   ],
-  "current_scene": "scene__metascene",
-  "current_program_scene": "scene__metascene",
+  "current_scene": "scene__center_monitor",
+  "current_program_scene": "scene__center_monitor",
   "canvases": [],
   "current_transition": "Fade",
   "transition_duration": 300,
@@ -5110,7 +5092,7 @@
   "saved_projectors": [],
   "preview_locked": false,
   "scaling_enabled": false,
-  "scaling_level": -13,
+  "scaling_level": -8,
   "scaling_off_x": 0.0,
   "scaling_off_y": 0.0,
   "virtual-camera": {

@@ -386,12 +386,12 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "clone__blurred_mainscreen___display_capture__center_monitor",
+      "name": "clone__blurred_mainscreen___capture__display__center_monitor",
       "uuid": "542a1264-c204-4149-8161-b1edf3d61d0d",
       "id": "source-clone",
       "versioned_id": "source-clone",
       "settings": {
-        "clone": "display_capture__center_monitor"
+        "clone": "capture__display__center_monitor"
       },
       "mixers": 255,
       "sync": 0,
@@ -590,8 +590,8 @@
       "settings": {
         "clone_type": 0,
         "active_clone": false,
-        "clone": "game_capture__dota2",
-        "audio": false
+        "audio": false,
+        "clone": "capture__game__dota2"
       },
       "mixers": 192,
       "sync": 0,
@@ -617,7 +617,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "~fade__clone__gameplay_facecam___scene__facecam_ingame",
+      "name": "~fade__clone__facecam_gameplay___scene__facecam_ingame",
       "uuid": "43fe1f49-0124-4f3c-94e2-758fc29ae7c6",
       "id": "source-clone",
       "versioned_id": "source-clone",
@@ -649,7 +649,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "~cut__clone__gameplay_facecam___scene__facecam_ingame",
+      "name": "~cut__clone__facecam_gameplay___scene__facecam_ingame",
       "uuid": "af988ae1-d0b9-457e-8edb-a91862d2e2a0",
       "id": "source-clone",
       "versioned_id": "source-clone",
@@ -681,7 +681,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "media_music__cyberbird",
+      "name": "media__music__cyberbird",
       "uuid": "6d89927d-6ebe-4758-9b2a-6e4a30fbd554",
       "id": "ffmpeg_source",
       "versioned_id": "ffmpeg_source",
@@ -717,7 +717,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "media_audio__narrator_test",
+      "name": "media__audio__narrator_test",
       "uuid": "86b0feea-5926-4fc2-8e7e-9f10352f3403",
       "id": "ffmpeg_source",
       "versioned_id": "ffmpeg_source",
@@ -909,7 +909,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "media_video__ladies_gents_might_be_back",
+      "name": "media__video__ladies_gents_might_be_back",
       "uuid": "8cb4a555-bd0c-46bf-80ad-d192da84c5c8",
       "id": "ffmpeg_source",
       "versioned_id": "ffmpeg_source",
@@ -1515,6 +1515,10 @@
       "push-to-talk-delay": 0,
       "hotkeys": {
         "OBSBasic.SelectScene": [],
+        "libobs.show_scene_item.1": [],
+        "libobs.hide_scene_item.1": [],
+        "libobs.show_scene_item.5": [],
+        "libobs.hide_scene_item.5": [],
         "source_record.enable": [
           {
             "shift": true,
@@ -1534,11 +1538,7 @@
         "source_record.PauseRecording": [],
         "source_record.UnpauseRecording": [],
         "source_record.SplitRecording": [],
-        "source_record.AddChapterMarker": [],
-        "libobs.show_scene_item.1": [],
-        "libobs.hide_scene_item.1": [],
-        "libobs.show_scene_item.5": [],
-        "libobs.hide_scene_item.5": []
+        "source_record.AddChapterMarker": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
@@ -1557,11 +1557,11 @@
             "record_mode": 4,
             "different_audio": true,
             "audio_track": 3,
+            "audio_source": "capture__game__dota2",
             "path": "{{DOTA2_EYETRACK_VIDEOS_OUTPATH}}",
             "bitrate": 7000,
             "rate_control": "CBR",
-            "preset": "p7",
-            "audio_source": "capture__game__dota2"
+            "preset": "p7"
           },
           "mixers": 0,
           "sync": 0,
@@ -1999,7 +1999,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "clone__blurred_mainscreen___display_capture__center_monitor",
+            "name": "clone__blurred_mainscreen___capture__display__center_monitor",
             "source_uuid": "542a1264-c204-4149-8161-b1edf3d61d0d",
             "visible": true,
             "locked": false,
@@ -2830,15 +2830,21 @@
             "crop_bottom": 0,
             "id": 9,
             "group_item_backup": true,
-            "pos": {},
-            "pos_rel": {},
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "pos_rel": {
+              "x": -1.7777777910232544,
+              "y": -1.0
+            },
             "scale": {
               "x": 1.0,
               "y": 1.0
             },
             "scale_rel": {
-              "x": 0.0,
-              "y": 0.0
+              "x": 1.0,
+              "y": 1.0
             },
             "bounds": {
               "x": 1920.0,
@@ -2860,7 +2866,7 @@
             "private_settings": {}
           },
           {
-            "name": "~fade__clone__gameplay_facecam___scene__facecam_ingame",
+            "name": "~fade__clone__facecam_gameplay___scene__facecam_ingame",
             "source_uuid": "43fe1f49-0124-4f3c-94e2-758fc29ae7c6",
             "visible": false,
             "locked": false,
@@ -2879,15 +2885,21 @@
             "crop_bottom": 0,
             "id": 23,
             "group_item_backup": true,
-            "pos": {},
-            "pos_rel": {},
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "pos_rel": {
+              "x": -1.7777777910232544,
+              "y": -1.0
+            },
             "scale": {
               "x": 1.0,
               "y": 1.0
             },
             "scale_rel": {
-              "x": 0.0,
-              "y": 0.0
+              "x": 1.0,
+              "y": 1.0
             },
             "bounds": {
               "x": 1920.0,
@@ -2917,7 +2929,7 @@
             "private_settings": {}
           },
           {
-            "name": "~cut__clone__gameplay_facecam___scene__facecam_ingame",
+            "name": "~cut__clone__facecam_gameplay___scene__facecam_ingame",
             "source_uuid": "af988ae1-d0b9-457e-8edb-a91862d2e2a0",
             "visible": false,
             "locked": false,
@@ -2936,15 +2948,21 @@
             "crop_bottom": 0,
             "id": 30,
             "group_item_backup": true,
-            "pos": {},
-            "pos_rel": {},
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "pos_rel": {
+              "x": -1.7777777910232544,
+              "y": -1.0
+            },
             "scale": {
               "x": 1.0,
               "y": 1.0
             },
             "scale_rel": {
-              "x": 0.0,
-              "y": 0.0
+              "x": 1.0,
+              "y": 1.0
             },
             "bounds": {
               "x": 1920.0,
@@ -3031,7 +3049,7 @@
             }
           },
           {
-            "name": "media_music__cyberbird",
+            "name": "media__music__cyberbird",
             "source_uuid": "6d89927d-6ebe-4758-9b2a-6e4a30fbd554",
             "visible": false,
             "locked": false,
@@ -3143,7 +3161,7 @@
             }
           },
           {
-            "name": "media_audio__narrator_test",
+            "name": "media__audio__narrator_test",
             "source_uuid": "86b0feea-5926-4fc2-8e7e-9f10352f3403",
             "visible": false,
             "locked": false,
@@ -3589,7 +3607,7 @@
             }
           },
           {
-            "name": "media_video__ladies_gents_might_be_back",
+            "name": "media__video__ladies_gents_might_be_back",
             "source_uuid": "8cb4a555-bd0c-46bf-80ad-d192da84c5c8",
             "visible": false,
             "locked": false,
@@ -3715,7 +3733,6 @@
       "push-to-talk-delay": 0,
       "hotkeys": {
         "OBSBasic.SelectScene": [],
-        "Move Source": [],
         "libobs.show_scene_item.2": [],
         "libobs.hide_scene_item.2": [],
         "libobs.show_scene_item.4": [],
@@ -3727,7 +3744,8 @@
         "libobs.show_scene_item.25": [],
         "libobs.hide_scene_item.25": [],
         "libobs.show_scene_item.5": [],
-        "libobs.hide_scene_item.5": []
+        "libobs.hide_scene_item.5": [],
+        "Move Source": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
@@ -3772,8 +3790,8 @@
               "bottom": 0.0,
               "bottom_sign": " "
             },
-            "source": "group_basic_scene_clones",
-            "transform_text": "pos: x 0.0 y 0.0 rot: 0.0 scale: x 1.000 y 1.000 bounds: x 1920.000 y 1080.000 crop: l 0 t 0 r 0 b 0"
+            "transform_text": "pos: x 0.0 y 0.0 rot: 0.0 bounds: x 1920.000 y 1080.000 crop: l 0 t 0 r 0 b 0",
+            "source": "group__basic_scene_clones"
           },
           "mixers": 0,
           "sync": 0,
@@ -4190,7 +4208,7 @@
         "cy": 0,
         "items": [
           {
-            "name": "media_video__ladies_gents_might_be_back",
+            "name": "media__video__ladies_gents_might_be_back",
             "source_uuid": "8cb4a555-bd0c-46bf-80ad-d192da84c5c8",
             "visible": false,
             "locked": false,
@@ -4574,7 +4592,7 @@
         "id_counter": 0,
         "items": [
           {
-            "name": "media_audio__narrator_test",
+            "name": "media__audio__narrator_test",
             "source_uuid": "86b0feea-5926-4fc2-8e7e-9f10352f3403",
             "visible": false,
             "locked": false,
@@ -4664,7 +4682,7 @@
         "cy": 0,
         "items": [
           {
-            "name": "media_music__cyberbird",
+            "name": "media__music__cyberbird",
             "source_uuid": "6d89927d-6ebe-4758-9b2a-6e4a30fbd554",
             "visible": false,
             "locked": false,
@@ -4809,7 +4827,7 @@
             "private_settings": {}
           },
           {
-            "name": "~fade__clone__gameplay_facecam___scene__facecam_ingame",
+            "name": "~fade__clone__facecam_gameplay___scene__facecam_ingame",
             "source_uuid": "43fe1f49-0124-4f3c-94e2-758fc29ae7c6",
             "visible": false,
             "locked": false,
@@ -4872,7 +4890,7 @@
             "private_settings": {}
           },
           {
-            "name": "~cut__clone__gameplay_facecam___scene__facecam_ingame",
+            "name": "~cut__clone__facecam_gameplay___scene__facecam_ingame",
             "source_uuid": "af988ae1-d0b9-457e-8edb-a91862d2e2a0",
             "visible": false,
             "locked": false,
@@ -5060,8 +5078,8 @@
       "name": "scene__zoom"
     }
   ],
-  "current_scene": "scene__dota2_eyetracker",
-  "current_program_scene": "scene__dota2_eyetracker",
+  "current_scene": "scene__metascene",
+  "current_program_scene": "scene__metascene",
   "canvases": [],
   "current_transition": "Fade",
   "transition_duration": 300,

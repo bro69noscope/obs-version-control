@@ -386,12 +386,12 @@
     },
     {
       "prev_ver": 537001986,
-      "name": " clone__blurred_mainscreen___display_capture__center_monitor",
+      "name": " clone__blurred_mainscreen___capture__display__center_monitor",
       "uuid": "542a1264-c204-4149-8161-b1edf3d61d0d",
       "id": "source-clone",
       "versioned_id": "source-clone",
       "settings": {
-        "clone": "display_capture__center_monitor"
+        "clone": "capture__display__center_monitor"
       },
       "mixers": 255,
       "sync": 0,
@@ -1430,11 +1430,11 @@
             "record_mode": 4,
             "different_audio": true,
             "audio_track": 3,
+            "audio_source": "capture__game__aoe2",
             "path": "{{AOE2_EYETRACK_VIDEOS_OUTPATH}}",
             "bitrate": 7000,
             "rate_control": "CBR",
-            "preset": "p7",
-            "audio_source": "capture__game__aoe2"
+            "preset": "p7"
           },
           "mixers": 0,
           "sync": 0,
@@ -1872,7 +1872,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": " clone__blurred_mainscreen___display_capture__center_monitor",
+            "name": " clone__blurred_mainscreen___capture__display__center_monitor",
             "source_uuid": "542a1264-c204-4149-8161-b1edf3d61d0d",
             "visible": true,
             "locked": false,

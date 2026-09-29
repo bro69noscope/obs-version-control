@@ -230,7 +230,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "clone__blurred_mainscreen___display_capture__center_monitor",
+      "name": "clone__blurred_mainscreen___capture__display__center_monitor",
 
       "uuid": "542a1264-c204-4149-8161-b1edf3d61d0d",
       "id": "source-clone",
@@ -718,7 +718,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "clone__blurred_mainscreen___display_capture__center_monitor",
+            "name": "clone__blurred_mainscreen___capture__display__center_monitor",
             "source_uuid": "542a1264-c204-4149-8161-b1edf3d61d0d",
             "visible": true,
             "locked": false,
@@ -1083,7 +1083,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "scene__screencap",
+      "name": "scene__center_monitor",
       "uuid": "0603cea6-833b-4ecf-a512-ccccdda1af23",
       "id": "scene",
       "versioned_id": "scene",
@@ -1652,11 +1652,11 @@
       "name": "scene__lounge"
     },
     {
-      "name": "scene__screencap"
+      "name": "scene__center_monitor"
     }
   ],
-  "current_scene": "scene__screencap",
-  "current_program_scene": "scene__screencap",
+  "current_scene": "scene__center_monitor",
+  "current_program_scene": "scene__center_monitor",
   "canvases": [],
   "current_transition": "Fade",
   "transition_duration": 300,

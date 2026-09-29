@@ -65,7 +65,7 @@
   "sources": [
     {
       "prev_ver": 537001986,
-      "name": "vcam_capture_facecam",
+      "name": "capture__vcam__facecam",
       "uuid": "043c95da-274a-49e3-a38c-4dfed7b445bd",
       "id": "dshow_input",
       "versioned_id": "dshow_input",
@@ -107,7 +107,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "vcam_capture_facecam",
+            "name": "capture__vcam__facecam",
             "source_uuid": "043c95da-274a-49e3-a38c-4dfed7b445bd",
             "visible": true,
             "locked": false,

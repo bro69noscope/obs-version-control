@@ -230,7 +230,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "display_capture__clone_center_monitor",
+      "name": "capture__display__clone_center_monitor",
       "uuid": "542a1264-c204-4149-8161-b1edf3d61d0d",
       "id": "source-clone",
       "versioned_id": "source-clone",
@@ -297,7 +297,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "device_capture__facecam",
+      "name": "capture__device__facecam",
       "uuid": "f3a15382-06a1-4d80-931b-e72a2578c8ba",
       "id": "dshow_input",
       "versioned_id": "dshow_input",
@@ -333,7 +333,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "display_capture__center_monitor",
+      "name": "capture__display__center_monitor",
       "uuid": "a222ee10-9763-47af-bedc-108b742b84f4",
       "id": "monitor_capture",
       "versioned_id": "monitor_capture",
@@ -359,7 +359,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "game_capture__eyetracker",
+      "name": "capture__game__eyetracker",
       "uuid": "de3c4a69-629d-4fbd-9842-9f1b245faaaf",
       "id": "game_capture",
       "versioned_id": "game_capture",
@@ -539,7 +539,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "device_capture__facecam",
+            "name": "capture__device__facecam",
             "source_uuid": "f3a15382-06a1-4d80-931b-e72a2578c8ba",
             "visible": true,
             "locked": false,
@@ -717,7 +717,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "display_capture__clone_center_monitor",
+            "name": "capture__display__clone_center_monitor",
             "source_uuid": "542a1264-c204-4149-8161-b1edf3d61d0d",
             "visible": true,
             "locked": false,
@@ -1091,7 +1091,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "display_capture__center_monitor",
+            "name": "capture__display__center_monitor",
             "source_uuid": "a222ee10-9763-47af-bedc-108b742b84f4",
             "visible": true,
             "locked": false,
@@ -1408,7 +1408,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "game_capture__eyetracker",
+            "name": "capture__game__eyetracker",
             "source_uuid": "de3c4a69-629d-4fbd-9842-9f1b245faaaf",
             "visible": false,
             "locked": false,

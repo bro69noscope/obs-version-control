@@ -152,7 +152,7 @@
   "sources": [
     {
       "prev_ver": 537001986,
-      "name": "device_capture__facecam",
+      "name": "capture__device__facecam",
       "uuid": "f3a15382-06a1-4d80-931b-e72a2578c8ba",
       "id": "dshow_input",
       "versioned_id": "dshow_input",
@@ -188,7 +188,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "game_capture__dota2",
+      "name": "capture__game__dota2",
       "uuid": "63dbc18a-2772-446c-b27c-a7b14b3b33d1",
       "id": "game_capture",
       "versioned_id": "game_capture",
@@ -224,7 +224,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "window_capture__brave_browser",
+      "name": "capture__window__brave_browser",
       "uuid": "c99b5368-3002-44a9-8459-c2074c96e6ce",
       "id": "window_capture",
       "versioned_id": "window_capture",
@@ -256,7 +256,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "game_capture__eyetracker",
+      "name": "capture__game__eyetracker",
       "uuid": "3f1ea140-7bcd-477b-b627-b22eb7cf9d5f",
       "id": "game_capture",
       "versioned_id": "game_capture",
@@ -292,7 +292,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "display_capture__center_monitor",
+      "name": "capture__display__center_monitor",
       "uuid": "a222ee10-9763-47af-bedc-108b742b84f4",
       "id": "monitor_capture",
       "versioned_id": "monitor_capture",
@@ -318,7 +318,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "game_capture__vlc",
+      "name": "capture__game__vlc",
       "uuid": "9c23e17a-0549-424c-85c9-106a41b80d84",
       "id": "game_capture",
       "versioned_id": "game_capture",
@@ -352,7 +352,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "game_capture__osu",
+      "name": "capture__game__osu",
       "uuid": "e25fa9f9-1d86-401f-8cae-6cc4fd965342",
       "id": "game_capture",
       "versioned_id": "game_capture",
@@ -953,7 +953,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "device_capture__facecam",
+            "name": "capture__device__facecam",
             "source_uuid": "f3a15382-06a1-4d80-931b-e72a2578c8ba",
             "visible": true,
             "locked": false,
@@ -1042,7 +1042,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "window_capture__brave_browser",
+            "name": "capture__window__brave_browser",
             "source_uuid": "c99b5368-3002-44a9-8459-c2074c96e6ce",
             "visible": true,
             "locked": false,
@@ -1391,7 +1391,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "game_capture__dota2",
+            "name": "capture__game__dota2",
             "source_uuid": "63dbc18a-2772-446c-b27c-a7b14b3b33d1",
             "visible": true,
             "locked": false,
@@ -1593,7 +1593,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "game_capture__vlc",
+            "name": "capture__game__vlc",
             "source_uuid": "9c23e17a-0549-424c-85c9-106a41b80d84",
             "visible": true,
             "locked": false,
@@ -1796,7 +1796,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "game_capture__osu",
+            "name": "capture__game__osu",
             "source_uuid": "e25fa9f9-1d86-401f-8cae-6cc4fd965342",
             "visible": true,
             "locked": false,
@@ -2462,7 +2462,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "game_capture__eyetracker",
+            "name": "capture__game__eyetracker",
             "source_uuid": "3f1ea140-7bcd-477b-b627-b22eb7cf9d5f",
             "visible": true,
             "locked": false,
@@ -2551,7 +2551,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "display_capture__center_monitor",
+            "name": "capture__display__center_monitor",
             "source_uuid": "a222ee10-9763-47af-bedc-108b742b84f4",
             "visible": true,
             "locked": false,
@@ -3805,7 +3805,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "game_capture__dota2",
+            "name": "capture__game__dota2",
             "source_uuid": "63dbc18a-2772-446c-b27c-a7b14b3b33d1",
             "visible": true,
             "locked": false,
@@ -4008,7 +4008,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "game_capture__dota2",
+            "name": "capture__game__dota2",
             "source_uuid": "63dbc18a-2772-446c-b27c-a7b14b3b33d1",
             "visible": true,
             "locked": false,

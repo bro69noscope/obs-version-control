@@ -98,7 +98,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "vcam_scene_facecam",
+      "name": "scene__vcam_facecam",
       "uuid": "eacd2f1b-58a5-4dca-9e03-c434302da4ee",
       "id": "scene",
       "versioned_id": "scene",
@@ -189,11 +189,11 @@
   "groups": [],
   "scene_order": [
     {
-      "name": "vcam_scene_facecam"
+      "name": "scene__vcam_facecam"
     }
   ],
-  "current_scene": "vcam_scene_facecam",
-  "current_program_scene": "vcam_scene_facecam",
+  "current_scene": "scene__vcam_facecam",
+  "current_program_scene": "scene__vcam_facecam",
   "canvases": [],
   "current_transition": "Fade",
   "transition_duration": 300,

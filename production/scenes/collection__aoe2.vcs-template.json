@@ -158,8 +158,8 @@
       "versioned_id": "dshow_input",
       "settings": {
         "device_id": "{{MAIN_CAMERA_DEVICE}}",
-        "last_video_device_id": "OBS Virtual Camera:",
         "video_device_id": "{{MAIN_CAMERA_DEVICE}}",
+        "last_video_device_id": "OBS Virtual Camera:",
         "active": true
       },
       "mixers": 192,
@@ -1430,11 +1430,11 @@
             "record_mode": 4,
             "different_audio": true,
             "audio_track": 3,
-            "audio_source": "capture_aoe2",
             "path": "{{AOE2_EYETRACK_VIDEOS_OUTPATH}}",
             "bitrate": 7000,
             "rate_control": "CBR",
-            "preset": "p7"
+            "preset": "p7",
+            "audio_source": "capture__game__aoe2"
           },
           "mixers": 0,
           "sync": 0,
@@ -2916,8 +2916,8 @@
       "name": "scene__alerts"
     }
   ],
-  "current_scene": "scene__facecam",
-  "current_program_scene": "scene__facecam",
+  "current_scene": "scene__aoe2_eyetracker",
+  "current_program_scene": "scene__aoe2_eyetracker",
   "canvases": [],
   "current_transition": "Fade",
   "transition_duration": 300,

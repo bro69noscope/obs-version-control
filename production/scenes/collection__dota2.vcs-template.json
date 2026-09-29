@@ -1515,10 +1515,6 @@
       "push-to-talk-delay": 0,
       "hotkeys": {
         "OBSBasic.SelectScene": [],
-        "libobs.show_scene_item.1": [],
-        "libobs.hide_scene_item.1": [],
-        "libobs.show_scene_item.5": [],
-        "libobs.hide_scene_item.5": [],
         "source_record.enable": [
           {
             "shift": true,
@@ -1538,7 +1534,11 @@
         "source_record.PauseRecording": [],
         "source_record.UnpauseRecording": [],
         "source_record.SplitRecording": [],
-        "source_record.AddChapterMarker": []
+        "source_record.AddChapterMarker": [],
+        "libobs.show_scene_item.1": [],
+        "libobs.hide_scene_item.1": [],
+        "libobs.show_scene_item.5": [],
+        "libobs.hide_scene_item.5": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
@@ -1557,11 +1557,11 @@
             "record_mode": 4,
             "different_audio": true,
             "audio_track": 3,
-            "audio_source": "capture_dota2",
             "path": "{{DOTA2_EYETRACK_VIDEOS_OUTPATH}}",
             "bitrate": 7000,
             "rate_control": "CBR",
-            "preset": "p7"
+            "preset": "p7",
+            "audio_source": "capture__game__dota2"
           },
           "mixers": 0,
           "sync": 0,
@@ -3715,6 +3715,7 @@
       "push-to-talk-delay": 0,
       "hotkeys": {
         "OBSBasic.SelectScene": [],
+        "Move Source": [],
         "libobs.show_scene_item.2": [],
         "libobs.hide_scene_item.2": [],
         "libobs.show_scene_item.4": [],
@@ -3726,8 +3727,7 @@
         "libobs.show_scene_item.25": [],
         "libobs.hide_scene_item.25": [],
         "libobs.show_scene_item.5": [],
-        "libobs.hide_scene_item.5": [],
-        "Move Source": []
+        "libobs.hide_scene_item.5": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
@@ -5060,8 +5060,8 @@
       "name": "scene__zoom"
     }
   ],
-  "current_scene": "scene__center_monitor",
-  "current_program_scene": "scene__center_monitor",
+  "current_scene": "scene__dota2_eyetracker",
+  "current_program_scene": "scene__dota2_eyetracker",
   "canvases": [],
   "current_transition": "Fade",
   "transition_duration": 300,

@@ -3306,7 +3306,6 @@
       "push-to-talk-delay": 0,
       "hotkeys": {
         "OBSBasic.SelectScene": [],
-        "Move Source": [],
         "libobs.show_scene_item.61": [],
         "libobs.hide_scene_item.61": [],
         "libobs.show_scene_item.62": [],
@@ -3324,66 +3323,7 @@
       "deinterlace_field_order": 0,
       "monitoring_type": 0,
       "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
-      "private_settings": {},
-      "filters": [
-        {
-          "prev_ver": 537001986,
-          "name": "Move Source",
-          "uuid": "ead7a305-51d6-4376-a572-51853020d2e5",
-          "id": "move_source_filter",
-          "versioned_id": "move_source_filter",
-          "settings": {
-            "rot": 0.0,
-            "rot_sign": " ",
-            "pos": {
-              "x": 0.0,
-              "x_sign": " ",
-              "y": 0.0,
-              "y_sign": " "
-            },
-            "scale": {
-              "x": 1.0,
-              "x_sign": " ",
-              "y": 1.0,
-              "y_sign": " "
-            },
-            "bounds": {
-              "x": 1920.0,
-              "x_sign": " ",
-              "y": 1080.0,
-              "y_sign": " "
-            },
-            "crop": {
-              "left": 0.0,
-              "left_sign": " ",
-              "top": 0.0,
-              "top_sign": " ",
-              "right": 0.0,
-              "right_sign": " ",
-              "bottom": 0.0,
-              "bottom_sign": " "
-            },
-            "transform_text": "pos: x 0.0 y 0.0 rot: 0.0 bounds: x 1920.000 y 1080.000 crop: l 0 t 0 r 0 b 0",
-            "source": "group__basic_scene_clones"
-          },
-          "mixers": 0,
-          "sync": 0,
-          "flags": 0,
-          "volume": 1.0,
-          "balance": 0.5,
-          "enabled": false,
-          "muted": false,
-          "push-to-mute": false,
-          "push-to-mute-delay": 0,
-          "push-to-talk": false,
-          "push-to-talk-delay": 0,
-          "hotkeys": {},
-          "deinterlace_mode": 0,
-          "deinterlace_field_order": 0,
-          "monitoring_type": 0,
-          "private_settings": {}
-        }
-      ]
+      "private_settings": {}
     },
     {
       "prev_ver": 537001986,

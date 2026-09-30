@@ -590,8 +590,8 @@
       "settings": {
         "clone_type": 0,
         "active_clone": false,
-        "audio": false,
-        "clone": "capture__game__dota2"
+        "clone": "capture__game__dota2",
+        "audio": false
       },
       "mixers": 192,
       "sync": 0,
@@ -936,6 +936,37 @@
         "MediaSource.Play": [],
         "MediaSource.Pause": [],
         "MediaSource.Stop": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001986,
+      "name": "clone__always_hide___scene__metascene",
+      "uuid": "68a601a8-ee5f-4316-872d-5ea8babd715b",
+      "id": "source-clone",
+      "versioned_id": "source-clone",
+      "settings": {
+        "clone": "scene__metascene"
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
@@ -2458,7 +2489,7 @@
       "id": "scene",
       "versioned_id": "scene",
       "settings": {
-        "id_counter": 1,
+        "id_counter": 2,
         "custom_size": false,
         "items": [
           {
@@ -2807,7 +2838,7 @@
       "id": "scene",
       "versioned_id": "scene",
       "settings": {
-        "id_counter": 60,
+        "id_counter": 61,
         "custom_size": false,
         "items": [
           {
@@ -3157,7 +3188,7 @@
               "duration": 0
             },
             "private_settings": {
-              "collapsed": false
+              "collapsed": true
             }
           },
           {
@@ -3269,7 +3300,7 @@
               "duration": 0
             },
             "private_settings": {
-              "collapsed": false
+              "collapsed": true
             }
           },
           {
@@ -3436,174 +3467,7 @@
               "duration": 0
             },
             "private_settings": {
-              "collapsed": false
-            }
-          },
-          {
-            "name": "text__brb_buying_milk",
-            "source_uuid": "c0400c88-4d96-4b86-8185-7faf1164088a",
-            "visible": false,
-            "locked": false,
-            "rot": 0.0,
-            "scale_ref": {
-              "x": 1920.0,
-              "y": 1080.0
-            },
-            "align": 5,
-            "bounds_type": 0,
-            "bounds_align": 0,
-            "bounds_crop": false,
-            "crop_left": 0,
-            "crop_top": 0,
-            "crop_right": 0,
-            "crop_bottom": 0,
-            "id": 26,
-            "group_item_backup": true,
-            "pos": {
-              "x": 1543.978759765625,
-              "y": 778.033935546875
-            },
-            "pos_rel": {
-              "x": 1.08144211769104,
-              "y": 0.44080352783203125
-            },
-            "scale": {
-              "x": 1.3689757585525513,
-              "y": 1.3648648262023926
-            },
-            "scale_rel": {
-              "x": 0.6550859212875366,
-              "y": 0.655443549156189
-            },
-            "bounds": {
-              "x": 1.0,
-              "y": 1.0
-            },
-            "bounds_rel": {
-              "x": 0.0018518518190830946,
-              "y": 0.0018518518190830946
-            },
-            "scale_filter": "disable",
-            "blend_method": "default",
-            "blend_type": "normal",
-            "show_transition": {
-              "duration": 0
-            },
-            "hide_transition": {
-              "duration": 1000
-            },
-            "private_settings": {}
-          },
-          {
-            "name": "text__youve_been_in_shop_for_x_seconds",
-            "source_uuid": "8e87941c-e068-424e-9ba1-7b79ad5321fb",
-            "visible": false,
-            "locked": false,
-            "rot": 0.0,
-            "scale_ref": {
-              "x": 1920.0,
-              "y": 1080.0
-            },
-            "align": 5,
-            "bounds_type": 0,
-            "bounds_align": 0,
-            "bounds_crop": false,
-            "crop_left": 0,
-            "crop_top": 0,
-            "crop_right": 0,
-            "crop_bottom": 0,
-            "id": 27,
-            "group_item_backup": true,
-            "pos": {
-              "x": 716.134765625,
-              "y": 779.4971923828125
-            },
-            "pos_rel": {
-              "x": -0.4516022801399231,
-              "y": 0.44351327419281006
-            },
-            "scale": {
-              "x": 1.3422224521636963,
-              "y": 1.337836503982544
-            },
-            "scale_rel": {
-              "x": 0.6422838568687439,
-              "y": 0.6424638628959656
-            },
-            "bounds": {
-              "x": 1.0,
-              "y": 1.0
-            },
-            "bounds_rel": {
-              "x": 0.0018518518190830946,
-              "y": 0.0018518518190830946
-            },
-            "scale_filter": "disable",
-            "blend_method": "default",
-            "blend_type": "normal",
-            "show_transition": {
-              "duration": 0
-            },
-            "hide_transition": {
-              "duration": 0
-            },
-            "private_settings": {}
-          },
-          {
-            "name": "group__text_messages",
-            "source_uuid": "efabae7a-e485-4b1f-be0d-ec80ebce8376",
-            "visible": true,
-            "locked": false,
-            "rot": 0.0,
-            "scale_ref": {
-              "x": 1920.0,
-              "y": 1080.0
-            },
-            "align": 5,
-            "bounds_type": 0,
-            "bounds_align": 0,
-            "bounds_crop": false,
-            "crop_left": 0,
-            "crop_top": 0,
-            "crop_right": 0,
-            "crop_bottom": 0,
-            "id": 25,
-            "group_item_backup": false,
-            "pos": {
-              "x": 716.134765625,
-              "y": 778.033935546875
-            },
-            "pos_rel": {
-              "x": -0.4516022801399231,
-              "y": 0.44080352783203125
-            },
-            "scale": {
-              "x": 0.4785226881504059,
-              "y": 0.48022598028182983
-            },
-            "scale_rel": {
-              "x": 0.4785226881504059,
-              "y": 0.48022598028182983
-            },
-            "bounds": {
-              "x": 0.0,
-              "y": 0.0
-            },
-            "bounds_rel": {
-              "x": 0.0,
-              "y": 0.0
-            },
-            "scale_filter": "disable",
-            "blend_method": "default",
-            "blend_type": "normal",
-            "show_transition": {
-              "duration": 0
-            },
-            "hide_transition": {
-              "duration": 0
-            },
-            "private_settings": {
-              "collapsed": false
+              "collapsed": true
             }
           },
           {
@@ -3715,8 +3579,63 @@
               "duration": 0
             },
             "private_settings": {
-              "collapsed": false
+              "collapsed": true
             }
+          },
+          {
+            "name": "scene__gameplay__script__shopwatcher",
+            "source_uuid": "97e14c91-3dc3-4928-93e2-028e12126261",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "scale_ref": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 61,
+            "group_item_backup": false,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "pos_rel": {
+              "x": -1.7777777910232544,
+              "y": -1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "scale_rel": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "bounds": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "bounds_rel": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 300
+            },
+            "hide_transition": {
+              "duration": 300
+            },
+            "private_settings": {}
           }
         ]
       },
@@ -3741,11 +3660,11 @@
         "libobs.hide_scene_item.3": [],
         "libobs.show_scene_item.53": [],
         "libobs.hide_scene_item.53": [],
-        "libobs.show_scene_item.25": [],
-        "libobs.hide_scene_item.25": [],
         "libobs.show_scene_item.5": [],
         "libobs.hide_scene_item.5": [],
-        "Move Source": []
+        "Move Source": [],
+        "libobs.show_scene_item.61": [],
+        "libobs.hide_scene_item.61": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
@@ -4192,6 +4111,209 @@
       "monitoring_type": 0,
       "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
       "private_settings": {}
+    },
+    {
+      "prev_ver": 537001986,
+      "name": "scene__gameplay__script__shopwatcher",
+      "uuid": "97e14c91-3dc3-4928-93e2-028e12126261",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "id_counter": 3,
+        "custom_size": false,
+        "items": [
+          {
+            "name": "clone__always_hide___scene__metascene",
+            "source_uuid": "68a601a8-ee5f-4316-872d-5ea8babd715b",
+            "visible": false,
+            "locked": false,
+            "rot": 0.0,
+            "scale_ref": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 2,
+            "group_item_backup": false,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "pos_rel": {
+              "x": -1.7777777910232544,
+              "y": -1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "scale_rel": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "bounds": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "bounds_rel": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 300
+            },
+            "hide_transition": {
+              "duration": 300
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "text__brb_buying_milk",
+            "source_uuid": "c0400c88-4d96-4b86-8185-7faf1164088a",
+            "visible": false,
+            "locked": false,
+            "rot": 0.0,
+            "scale_ref": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 26,
+            "group_item_backup": false,
+            "pos": {
+              "x": 1544.0,
+              "y": 778.0
+            },
+            "pos_rel": {
+              "x": 1.08144211769104,
+              "y": 0.44080352783203125
+            },
+            "scale": {
+              "x": 0.6550859212875366,
+              "y": 0.655443549156189
+            },
+            "scale_rel": {
+              "x": 0.6550859212875366,
+              "y": 0.655443549156189
+            },
+            "bounds": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "bounds_rel": {
+              "x": 0.0018518518190830946,
+              "y": 0.0018518518190830946
+            },
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 1000
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "text__youve_been_in_shop_for_x_seconds",
+            "source_uuid": "8e87941c-e068-424e-9ba1-7b79ad5321fb",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "scale_ref": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 27,
+            "group_item_backup": false,
+            "pos": {
+              "x": 716.0,
+              "y": 779.5
+            },
+            "pos_rel": {
+              "x": -0.4516022801399231,
+              "y": 0.44351327419281006
+            },
+            "scale": {
+              "x": 0.6422838568687439,
+              "y": 0.6424638628959656
+            },
+            "scale_rel": {
+              "x": 0.6422838568687439,
+              "y": 0.6424638628959656
+            },
+            "bounds": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "bounds_rel": {
+              "x": 0.0018518518190830946,
+              "y": 0.0018518518190830946
+            },
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "private_settings": {}
+          }
+        ]
+      },
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": [],
+        "libobs.show_scene_item.2": [],
+        "libobs.hide_scene_item.2": [],
+        "libobs.show_scene_item.27": [],
+        "libobs.hide_scene_item.27": [],
+        "libobs.show_scene_item.26": [],
+        "libobs.hide_scene_item.26": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+      "private_settings": {}
     }
   ],
   "groups": [
@@ -4278,153 +4400,6 @@
       "hotkeys": {
         "libobs.show_scene_item.4": [],
         "libobs.hide_scene_item.4": []
-      },
-      "deinterlace_mode": 0,
-      "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
-      "private_settings": {}
-    },
-    {
-      "prev_ver": 537001986,
-      "name": "group__text_messages",
-      "uuid": "efabae7a-e485-4b1f-be0d-ec80ebce8376",
-      "id": "group",
-      "versioned_id": "group",
-      "settings": {
-        "id_counter": 0,
-        "custom_size": true,
-        "cx": 2486,
-        "cy": 103,
-        "items": [
-          {
-            "name": "text__brb_buying_milk",
-            "source_uuid": "c0400c88-4d96-4b86-8185-7faf1164088a",
-            "visible": false,
-            "locked": false,
-            "rot": 0.0,
-            "scale_ref": {
-              "x": 1920.0,
-              "y": 1080.0
-            },
-            "align": 5,
-            "bounds_type": 0,
-            "bounds_align": 0,
-            "bounds_crop": false,
-            "crop_left": 0,
-            "crop_top": 0,
-            "crop_right": 0,
-            "crop_bottom": 0,
-            "id": 26,
-            "group_item_backup": false,
-            "pos": {
-              "x": 1729.99951171875,
-              "y": 0.0
-            },
-            "pos_rel": {
-              "x": 1.4259250164031982,
-              "y": -1.0
-            },
-            "scale": {
-              "x": 1.3689757585525513,
-              "y": 1.3648648262023926
-            },
-            "scale_rel": {
-              "x": 1.3689757585525513,
-              "y": 1.3648648262023926
-            },
-            "bounds": {
-              "x": 1.0,
-              "y": 1.0
-            },
-            "bounds_rel": {
-              "x": 0.0018518518190830946,
-              "y": 0.0018518518190830946
-            },
-            "scale_filter": "disable",
-            "blend_method": "default",
-            "blend_type": "normal",
-            "show_transition": {
-              "duration": 0
-            },
-            "hide_transition": {
-              "duration": 1000
-            },
-            "private_settings": {}
-          },
-          {
-            "name": "text__youve_been_in_shop_for_x_seconds",
-            "source_uuid": "8e87941c-e068-424e-9ba1-7b79ad5321fb",
-            "visible": false,
-            "locked": false,
-            "rot": 0.0,
-            "scale_ref": {
-              "x": 1920.0,
-              "y": 1080.0
-            },
-            "align": 5,
-            "bounds_type": 0,
-            "bounds_align": 0,
-            "bounds_crop": false,
-            "crop_left": 0,
-            "crop_top": 0,
-            "crop_right": 0,
-            "crop_bottom": 0,
-            "id": 27,
-            "group_item_backup": false,
-            "pos": {
-              "x": 0.0,
-              "y": 3.0469970703125
-            },
-            "pos_rel": {
-              "x": -1.7777777910232544,
-              "y": -0.9943574070930481
-            },
-            "scale": {
-              "x": 1.3422224521636963,
-              "y": 1.337836503982544
-            },
-            "scale_rel": {
-              "x": 1.3422224521636963,
-              "y": 1.337836503982544
-            },
-            "bounds": {
-              "x": 1.0,
-              "y": 1.0
-            },
-            "bounds_rel": {
-              "x": 0.0018518518190830946,
-              "y": 0.0018518518190830946
-            },
-            "scale_filter": "disable",
-            "blend_method": "default",
-            "blend_type": "normal",
-            "show_transition": {
-              "duration": 0
-            },
-            "hide_transition": {
-              "duration": 0
-            },
-            "private_settings": {}
-          }
-        ]
-      },
-      "mixers": 0,
-      "sync": 0,
-      "flags": 0,
-      "volume": 1.0,
-      "balance": 0.5,
-      "enabled": true,
-      "muted": false,
-      "push-to-mute": false,
-      "push-to-mute-delay": 0,
-      "push-to-talk": false,
-      "push-to-talk-delay": 0,
-      "hotkeys": {
-        "libobs.show_scene_item.26": [],
-        "libobs.hide_scene_item.26": [],
-        "libobs.show_scene_item.27": [],
-        "libobs.hide_scene_item.27": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
@@ -5069,6 +5044,9 @@
       "name": "scene__metascene"
     },
     {
+      "name": "scene__gameplay__script__shopwatcher"
+    },
+    {
       "name": "scene__osu"
     },
     {
@@ -5078,8 +5056,8 @@
       "name": "scene__zoom"
     }
   ],
-  "current_scene": "scene__metascene",
-  "current_program_scene": "scene__metascene",
+  "current_scene": "scene__gameplay__script__shopwatcher",
+  "current_program_scene": "scene__gameplay__script__shopwatcher",
   "canvases": [],
   "current_transition": "Fade",
   "transition_duration": 300,

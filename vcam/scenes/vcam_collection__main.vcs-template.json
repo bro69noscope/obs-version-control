@@ -65,13 +65,13 @@
   "sources": [
     {
       "prev_ver": 537001986,
-      "name": "capture__vcam__facecam",
+      "name": "capture__device__vcam_facecam",
       "uuid": "043c95da-274a-49e3-a38c-4dfed7b445bd",
       "id": "dshow_input",
       "versioned_id": "dshow_input",
       "settings": {
-        "last_video_device_id": "OBS Virtual Camera:",
         "video_device_id": "{{MAIN_CAMERA_DEVICE}}",
+        "last_video_device_id": "{{MAIN_CAMERA_DEVICE}}",
         "active": true
       },
       "mixers": 255,
@@ -107,7 +107,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "capture__vcam__facecam",
+            "name": "capture__device__vcam_facecam",
             "source_uuid": "043c95da-274a-49e3-a38c-4dfed7b445bd",
             "visible": true,
             "locked": false,

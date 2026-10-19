@@ -386,7 +386,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "clone__blurred_mainscreen___capture__display__center_monitor",
+      "name": "clone__blurred_mainscreen",
       "uuid": "542a1264-c204-4149-8161-b1edf3d61d0d",
       "id": "source-clone",
       "versioned_id": "source-clone",
@@ -452,7 +452,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "clone__match_queue___scene__dota2_normalized",
+      "name": "clone__match_queue",
       "uuid": "4bf4c315-534e-4703-9445-a2a0692f29d1",
       "id": "source-clone",
       "versioned_id": "source-clone",
@@ -583,7 +583,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "clone__dota2_gameplay___game_capture__dota2",
+      "name": "clone__dota2_gameplay",
       "uuid": "e3862d21-3bc3-4676-8d68-7b1d829b0c7c",
       "id": "source-clone",
       "versioned_id": "source-clone",
@@ -617,7 +617,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "~fade__clone__facecam_gameplay___scene__facecam_ingame",
+      "name": "~fade__clone__facecam_gameplay",
       "uuid": "43fe1f49-0124-4f3c-94e2-758fc29ae7c6",
       "id": "source-clone",
       "versioned_id": "source-clone",
@@ -649,7 +649,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "~cut__clone__facecam_gameplay___scene__facecam_ingame",
+      "name": "~cut__clone__facecam_gameplay",
       "uuid": "af988ae1-d0b9-457e-8edb-a91862d2e2a0",
       "id": "source-clone",
       "versioned_id": "source-clone",
@@ -785,7 +785,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "clone__zoomed_top_bar___scene__dota2_normalized",
+      "name": "clone__zoomed_top_bar",
       "uuid": "f8c02a54-baa6-48fe-b2a1-ea374989124d",
       "id": "source-clone",
       "versioned_id": "source-clone",
@@ -944,7 +944,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "clone__always_hide___scene__metascene",
+      "name": "clone__always_hide",
       "uuid": "68a601a8-ee5f-4316-872d-5ea8babd715b",
       "id": "source-clone",
       "versioned_id": "source-clone",
@@ -2030,7 +2030,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "clone__blurred_mainscreen___capture__display__center_monitor",
+            "name": "clone__blurred_mainscreen",
             "source_uuid": "542a1264-c204-4149-8161-b1edf3d61d0d",
             "visible": true,
             "locked": false,
@@ -2140,7 +2140,7 @@
             "private_settings": {}
           },
           {
-            "name": "clone__match_queue___scene__dota2_normalized",
+            "name": "clone__match_queue",
             "source_uuid": "4bf4c315-534e-4703-9445-a2a0692f29d1",
             "visible": true,
             "locked": false,
@@ -3597,7 +3597,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "clone__always_hide___scene__metascene",
+            "name": "clone__always_hide",
             "source_uuid": "68a601a8-ee5f-4316-872d-5ea8babd715b",
             "visible": false,
             "locked": false,
@@ -3800,7 +3800,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "clone__always_hide___scene__metascene",
+            "name": "clone__always_hide",
             "source_uuid": "68a601a8-ee5f-4316-872d-5ea8babd715b",
             "visible": false,
             "locked": false,
@@ -3855,7 +3855,7 @@
             "private_settings": {}
           },
           {
-            "name": "clone__zoomed_top_bar___scene__dota2_normalized",
+            "name": "clone__zoomed_top_bar",
             "source_uuid": "f8c02a54-baa6-48fe-b2a1-ea374989124d",
             "visible": false,
             "locked": false,
@@ -4003,7 +4003,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "clone__always_hide___scene__metascene",
+            "name": "clone__always_hide",
             "source_uuid": "68a601a8-ee5f-4316-872d-5ea8babd715b",
             "visible": false,
             "locked": false,
@@ -4327,7 +4327,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "clone__dota2_gameplay___game_capture__dota2",
+            "name": "clone__dota2_gameplay",
             "source_uuid": "e3862d21-3bc3-4676-8d68-7b1d829b0c7c",
             "visible": true,
             "locked": false,
@@ -4382,7 +4382,7 @@
             "private_settings": {}
           },
           {
-            "name": "~cut__clone__facecam_gameplay___scene__facecam_ingame",
+            "name": "~cut__clone__facecam_gameplay",
             "source_uuid": "af988ae1-d0b9-457e-8edb-a91862d2e2a0",
             "visible": true,
             "locked": false,
@@ -4445,7 +4445,7 @@
             "private_settings": {}
           },
           {
-            "name": "~fade__clone__facecam_gameplay___scene__facecam_ingame",
+            "name": "~fade__clone__facecam_gameplay",
             "source_uuid": "43fe1f49-0124-4f3c-94e2-758fc29ae7c6",
             "visible": false,
             "locked": false,

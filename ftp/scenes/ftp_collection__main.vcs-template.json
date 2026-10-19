@@ -230,7 +230,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "clone__blurred_mainscreen___capture__display__center_monitor",
+      "name": "clone__blurred_mainscreen",
       "uuid": "542a1264-c204-4149-8161-b1edf3d61d0d",
       "id": "source-clone",
       "versioned_id": "source-clone",
@@ -717,7 +717,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "clone__blurred_mainscreen___capture__display__center_monitor",
+            "name": "clone__blurred_mainscreen",
             "source_uuid": "542a1264-c204-4149-8161-b1edf3d61d0d",
             "visible": true,
             "locked": false,

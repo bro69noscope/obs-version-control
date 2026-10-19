@@ -386,7 +386,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": " clone__blurred_mainscreen___capture__display__center_monitor",
+      "name": " clone__blurred_mainscreen",
       "uuid": "542a1264-c204-4149-8161-b1edf3d61d0d",
       "id": "source-clone",
       "versioned_id": "source-clone",
@@ -452,7 +452,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "clone__match_queue___game_capture__aoe2",
+      "name": "clone__match_queue",
       "uuid": "4bf4c315-534e-4703-9445-a2a0692f29d1",
       "id": "source-clone",
       "versioned_id": "source-clone",
@@ -1872,7 +1872,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": " clone__blurred_mainscreen___capture__display__center_monitor",
+            "name": " clone__blurred_mainscreen",
             "source_uuid": "542a1264-c204-4149-8161-b1edf3d61d0d",
             "visible": true,
             "locked": false,
@@ -1982,7 +1982,7 @@
             "private_settings": {}
           },
           {
-            "name": "clone__match_queue___game_capture__aoe2",
+            "name": "clone__match_queue",
             "source_uuid": "4bf4c315-534e-4703-9445-a2a0692f29d1",
             "visible": true,
             "locked": false,

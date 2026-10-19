@@ -209,7 +209,7 @@
       "id": "text_gdiplus",
       "versioned_id": "text_gdiplus_v3",
       "settings": {
-        "text": "BRB in 1 min\nElapsed: 00:04"
+        "text": "BRB in 5 mins\nElapsed: 36:51"
       },
       "mixers": 0,
       "sync": 0,
@@ -231,7 +231,6 @@
     {
       "prev_ver": 537001986,
       "name": "clone__blurred_mainscreen___capture__display__center_monitor",
-
       "uuid": "542a1264-c204-4149-8161-b1edf3d61d0d",
       "id": "source-clone",
       "versioned_id": "source-clone",

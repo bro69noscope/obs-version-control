@@ -70,9 +70,9 @@
       "id": "dshow_input",
       "versioned_id": "dshow_input",
       "settings": {
-        "video_device_id": "{{MAIN_CAMERA_DEVICE}}",
         "last_video_device_id": "{{MAIN_CAMERA_DEVICE}}",
-        "active": true
+        "active": true,
+        "video_device_id": "OBS Virtual Camera:"
       },
       "mixers": 255,
       "sync": 0,
@@ -224,7 +224,7 @@
   "saved_projectors": [],
   "preview_locked": false,
   "scaling_enabled": false,
-  "scaling_level": -16,
+  "scaling_level": -14,
   "scaling_off_x": 0.0,
   "scaling_off_y": 0.0,
   "virtual-camera": {

@@ -151,7 +151,7 @@
       },
       {
         "prev_ver": 537001986,
-        "name": "Noise Gate",
+        "name": "filter__noise_gate__ftp_mic",
         "uuid": "c9e027a7-7837-45fe-8a5c-070073f95c9f",
         "id": "noise_gate_filter",
         "versioned_id": "noise_gate_filter",
@@ -175,7 +175,7 @@
       },
       {
         "prev_ver": 537001986,
-        "name": "Noise Suppression",
+        "name": "filter__noise_suppress__ftp_mic",
         "uuid": "258b8b4c-58b1-4b98-9050-9979abaa1438",
         "id": "noise_suppress_filter",
         "versioned_id": "noise_suppress_filter_v2",

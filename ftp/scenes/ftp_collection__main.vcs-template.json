@@ -1,7 +1,7 @@
 {
   "name": "ftp_collection__main",
   "DesktopAudioDevice1": {
-    "prev_ver": 537001986,
+    "prev_ver": 553648128,
     "name": "audio__mixer_11/12",
     "uuid": "91a06434-f94f-49dc-b5e9-a056fd22e7b1",
     "id": "wasapi_output_capture",
@@ -23,18 +23,21 @@
     "hotkeys": {
       "libobs.mute": [],
       "libobs.unmute": [],
+      "libobs.monitor-on": [],
+      "libobs.monitor-off": [],
       "libobs.push-to-mute": [],
       "libobs.push-to-talk": []
     },
     "deinterlace_mode": 0,
     "deinterlace_field_order": 0,
     "monitoring_type": 0,
+    "monitoring_enabled": false,
     "private_settings": {
       "mixer_hidden": false
     }
   },
   "AuxAudioDevice1": {
-    "prev_ver": 537001986,
+    "prev_ver": 553648128,
     "name": "audio__mixer_usb_out",
     "uuid": "ad4b20f9-8486-45a9-87d0-935f040ed5e1",
     "id": "wasapi_input_capture",
@@ -56,16 +59,19 @@
     "hotkeys": {
       "libobs.mute": [],
       "libobs.unmute": [],
+      "libobs.monitor-on": [],
+      "libobs.monitor-off": [],
       "libobs.push-to-mute": [],
       "libobs.push-to-talk": []
     },
     "deinterlace_mode": 0,
     "deinterlace_field_order": 0,
     "monitoring_type": 0,
+    "monitoring_enabled": false,
     "private_settings": {},
     "filters": [
       {
-        "prev_ver": 537001986,
+        "prev_ver": 553648128,
         "name": "filter__gain__increase_main_mix",
         "uuid": "4ae0efe9-a853-4337-8641-e7c9a3606808",
         "id": "gain_filter",
@@ -88,12 +94,13 @@
         "deinterlace_mode": 0,
         "deinterlace_field_order": 0,
         "monitoring_type": 0,
+        "monitoring_enabled": false,
         "private_settings": {}
       }
     ]
   },
   "AuxAudioDevice2": {
-    "prev_ver": 537001986,
+    "prev_ver": 553648128,
     "name": "audio__mixer_aux_send_1",
     "uuid": "8daf6a6f-486f-42e2-958f-67ef6a9d3953",
     "id": "wasapi_input_capture",
@@ -115,16 +122,19 @@
     "hotkeys": {
       "libobs.mute": [],
       "libobs.unmute": [],
+      "libobs.monitor-on": [],
+      "libobs.monitor-off": [],
       "libobs.push-to-mute": [],
       "libobs.push-to-talk": []
     },
     "deinterlace_mode": 0,
     "deinterlace_field_order": 0,
     "monitoring_type": 0,
+    "monitoring_enabled": false,
     "private_settings": {},
     "filters": [
       {
-        "prev_ver": 537001986,
+        "prev_ver": 553648128,
         "name": "filter__gain__increase_ftp_mic",
         "uuid": "7c09bf30-8a58-4fb2-998b-02ec719a000c",
         "id": "gain_filter",
@@ -147,10 +157,11 @@
         "deinterlace_mode": 0,
         "deinterlace_field_order": 0,
         "monitoring_type": 0,
+        "monitoring_enabled": false,
         "private_settings": {}
       },
       {
-        "prev_ver": 537001986,
+        "prev_ver": 553648128,
         "name": "filter__noise_gate__ftp_mic",
         "uuid": "c9e027a7-7837-45fe-8a5c-070073f95c9f",
         "id": "noise_gate_filter",
@@ -171,10 +182,11 @@
         "deinterlace_mode": 0,
         "deinterlace_field_order": 0,
         "monitoring_type": 0,
+        "monitoring_enabled": false,
         "private_settings": {}
       },
       {
-        "prev_ver": 537001986,
+        "prev_ver": 553648128,
         "name": "filter__noise_suppress__ftp_mic",
         "uuid": "258b8b4c-58b1-4b98-9050-9979abaa1438",
         "id": "noise_suppress_filter",
@@ -197,13 +209,14 @@
         "deinterlace_mode": 0,
         "deinterlace_field_order": 0,
         "monitoring_type": 0,
+        "monitoring_enabled": false,
         "private_settings": {}
       }
     ]
   },
   "sources": [
     {
-      "prev_ver": 537001986,
+      "prev_ver": 553648128,
       "name": "text__brb_in_x_mins",
       "uuid": "78c5d30f-ba31-4584-8c39-200aa9665113",
       "id": "text_gdiplus",
@@ -226,10 +239,11 @@
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
       "monitoring_type": 0,
+      "monitoring_enabled": false,
       "private_settings": {}
     },
     {
-      "prev_ver": 537001986,
+      "prev_ver": 553648128,
       "name": "clone__blurred_mainscreen",
       "uuid": "542a1264-c204-4149-8161-b1edf3d61d0d",
       "id": "source-clone",
@@ -252,18 +266,19 @@
       "hotkeys": {
         "libobs.mute": [],
         "libobs.unmute": [],
+        "libobs.monitor-on": [],
+        "libobs.monitor-off": [],
         "libobs.push-to-mute": [],
-        "libobs.push-to-talk": [],
-        "CompositeBlur.Enable": [],
-        "CompositeBlur.Disable": []
+        "libobs.push-to-talk": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
       "monitoring_type": 0,
+      "monitoring_enabled": false,
       "private_settings": {},
       "filters": [
         {
-          "prev_ver": 537001986,
+          "prev_ver": 553648128,
           "name": "filter__composite_blur__background",
           "uuid": "c2bde013-e0c2-4036-b79b-51314011a662",
           "id": "obs_composite_blur",
@@ -291,12 +306,13 @@
           "deinterlace_mode": 0,
           "deinterlace_field_order": 0,
           "monitoring_type": 0,
+          "monitoring_enabled": false,
           "private_settings": {}
         }
       ]
     },
     {
-      "prev_ver": 537001986,
+      "prev_ver": 553648128,
       "name": "capture__device__facecam",
       "uuid": "f3a15382-06a1-4d80-931b-e72a2578c8ba",
       "id": "dshow_input",
@@ -321,18 +337,21 @@
       "hotkeys": {
         "libobs.mute": [],
         "libobs.unmute": [],
+        "libobs.monitor-on": [],
+        "libobs.monitor-off": [],
         "libobs.push-to-mute": [],
         "libobs.push-to-talk": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
       "monitoring_type": 0,
+      "monitoring_enabled": false,
       "private_settings": {
         "mixer_hidden": true
       }
     },
     {
-      "prev_ver": 537001986,
+      "prev_ver": 553648128,
       "name": "capture__display__center_monitor",
       "uuid": "a222ee10-9763-47af-bedc-108b742b84f4",
       "id": "monitor_capture",
@@ -355,10 +374,11 @@
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
       "monitoring_type": 0,
+      "monitoring_enabled": false,
       "private_settings": {}
     },
     {
-      "prev_ver": 537001986,
+      "prev_ver": 553648128,
       "name": "capture__game__eyetracker",
       "uuid": "de3c4a69-629d-4fbd-9842-9f1b245faaaf",
       "id": "game_capture",
@@ -382,6 +402,8 @@
       "hotkeys": {
         "libobs.mute": [],
         "libobs.unmute": [],
+        "libobs.monitor-on": [],
+        "libobs.monitor-off": [],
         "libobs.push-to-mute": [],
         "libobs.push-to-talk": [],
         "hotkey_start": [],
@@ -390,10 +412,11 @@
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
       "monitoring_type": 0,
+      "monitoring_enabled": false,
       "private_settings": {}
     },
     {
-      "prev_ver": 537001986,
+      "prev_ver": 553648128,
       "name": "browser__streamerbot_alerts",
       "uuid": "55956981-99c5-4621-a27a-ead0025b287e",
       "id": "browser_source",
@@ -424,6 +447,8 @@
       "hotkeys": {
         "libobs.mute": [],
         "libobs.unmute": [],
+        "libobs.monitor-on": [],
+        "libobs.monitor-off": [],
         "libobs.push-to-mute": [],
         "libobs.push-to-talk": [],
         "ObsBrowser.Refresh": []
@@ -431,10 +456,11 @@
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
       "monitoring_type": 0,
+      "monitoring_enabled": false,
       "private_settings": {}
     },
     {
-      "prev_ver": 537001986,
+      "prev_ver": 553648128,
       "name": "audio__mixer_5/6",
       "uuid": "879bbda3-c2a5-433a-84bb-fcaa65340dc0",
       "id": "wasapi_output_capture",
@@ -456,16 +482,19 @@
       "hotkeys": {
         "libobs.mute": [],
         "libobs.unmute": [],
+        "libobs.monitor-on": [],
+        "libobs.monitor-off": [],
         "libobs.push-to-mute": [],
         "libobs.push-to-talk": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
       "monitoring_type": 0,
+      "monitoring_enabled": false,
       "private_settings": {}
     },
     {
-      "prev_ver": 537001986,
+      "prev_ver": 553648128,
       "name": "audio__mixer_7/8",
       "uuid": "81c0c9e3-a1d8-42fb-a71d-4deca465ef1a",
       "id": "wasapi_output_capture",
@@ -487,16 +516,19 @@
       "hotkeys": {
         "libobs.mute": [],
         "libobs.unmute": [],
+        "libobs.monitor-on": [],
+        "libobs.monitor-off": [],
         "libobs.push-to-mute": [],
         "libobs.push-to-talk": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
       "monitoring_type": 0,
+      "monitoring_enabled": false,
       "private_settings": {}
     },
     {
-      "prev_ver": 537001986,
+      "prev_ver": 553648128,
       "name": "browser__obs_chat",
       "uuid": "bc7c4e88-38d7-4f4f-9d75-617f91b2096b",
       "id": "browser_source",
@@ -519,6 +551,8 @@
       "hotkeys": {
         "libobs.mute": [],
         "libobs.unmute": [],
+        "libobs.monitor-on": [],
+        "libobs.monitor-off": [],
         "libobs.push-to-mute": [],
         "libobs.push-to-talk": [],
         "ObsBrowser.Refresh": []
@@ -526,10 +560,11 @@
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
       "monitoring_type": 0,
+      "monitoring_enabled": false,
       "private_settings": {}
     },
     {
-      "prev_ver": 537001986,
+      "prev_ver": 553648128,
       "name": "capture__window__obs_production",
       "uuid": "8e18af8f-18e8-45c6-8ab4-a06872e2b7db",
       "id": "window_capture",
@@ -552,24 +587,27 @@
       "hotkeys": {
         "libobs.mute": [],
         "libobs.unmute": [],
+        "libobs.monitor-on": [],
+        "libobs.monitor-off": [],
         "libobs.push-to-mute": [],
         "libobs.push-to-talk": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
       "monitoring_type": 0,
+      "monitoring_enabled": false,
       "private_settings": {}
     },
     {
-      "prev_ver": 537001986,
+      "prev_ver": 553648128,
       "name": "capture__window__dynamic_hwnd",
       "uuid": "2bfb0ed4-3aa2-4643-9ac1-b07c0b861cbd",
       "id": "window_capture",
       "versioned_id": "window_capture",
       "settings": {
-        "method": 2,
         "priority": 0,
-        "window": "MY SERVER:CASCADIA_HOSTING_WINDOW_CLASS:WindowsTerminal.exe"
+        "window": "MY SERVER:CASCADIA_HOSTING_WINDOW_CLASS:WindowsTerminal.exe",
+        "method": 2
       },
       "mixers": 255,
       "sync": 0,
@@ -585,16 +623,19 @@
       "hotkeys": {
         "libobs.mute": [],
         "libobs.unmute": [],
+        "libobs.monitor-on": [],
+        "libobs.monitor-off": [],
         "libobs.push-to-mute": [],
         "libobs.push-to-talk": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
       "monitoring_type": 0,
+      "monitoring_enabled": false,
       "private_settings": {}
     },
     {
-      "prev_ver": 537001986,
+      "prev_ver": 553648128,
       "name": "scene__facecam",
       "uuid": "0496eed9-07df-46f4-83bd-53a54a834ec5",
       "id": "scene",
@@ -679,11 +720,12 @@
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
       "monitoring_type": 0,
+      "monitoring_enabled": false,
       "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
       "private_settings": {}
     },
     {
-      "prev_ver": 537001986,
+      "prev_ver": 553648128,
       "name": "scene__alerts",
       "uuid": "1470a3a0-6e8c-4385-bb78-8acf62fb73a8",
       "id": "scene",
@@ -768,11 +810,12 @@
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
       "monitoring_type": 0,
+      "monitoring_enabled": false,
       "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
       "private_settings": {}
     },
     {
-      "prev_ver": 537001986,
+      "prev_ver": 553648128,
       "name": "scene__lounge",
       "uuid": "aec6bc56-368e-406e-8a8b-bb144912adf0",
       "id": "scene",
@@ -1142,11 +1185,12 @@
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
       "monitoring_type": 0,
+      "monitoring_enabled": false,
       "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
       "private_settings": {}
     },
     {
-      "prev_ver": 537001986,
+      "prev_ver": 553648128,
       "name": "scene__center_monitor",
       "uuid": "0603cea6-833b-4ecf-a512-ccccdda1af23",
       "id": "scene",
@@ -1459,11 +1503,12 @@
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
       "monitoring_type": 0,
+      "monitoring_enabled": false,
       "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
       "private_settings": {}
     },
     {
-      "prev_ver": 537001986,
+      "prev_ver": 553648128,
       "name": "scene__eyetracker",
       "uuid": "91e24e49-c19f-46c8-b71e-198012183a5a",
       "id": "scene",
@@ -1548,11 +1593,12 @@
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
       "monitoring_type": 0,
+      "monitoring_enabled": false,
       "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
       "private_settings": {}
     },
     {
-      "prev_ver": 537001986,
+      "prev_ver": 553648128,
       "name": "scene__audio_sources",
       "uuid": "455b6262-8e81-4796-9e03-5c61727063f8",
       "id": "scene",
@@ -1694,11 +1740,12 @@
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
       "monitoring_type": 0,
+      "monitoring_enabled": false,
       "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
       "private_settings": {}
     },
     {
-      "prev_ver": 537001986,
+      "prev_ver": 553648128,
       "name": "scene__obs_prod_showoff",
       "uuid": "d1261139-1817-470b-aa61-2577f28b01b8",
       "id": "scene",
@@ -1887,16 +1934,17 @@
       "push-to-talk-delay": 0,
       "hotkeys": {
         "OBSBasic.SelectScene": [],
-        "libobs.show_scene_item.2": [],
-        "libobs.hide_scene_item.2": [],
         "libobs.show_scene_item.4": [],
         "libobs.hide_scene_item.4": [],
+        "libobs.show_scene_item.2": [],
+        "libobs.hide_scene_item.2": [],
         "libobs.show_scene_item.5": [],
         "libobs.hide_scene_item.5": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
       "monitoring_type": 0,
+      "monitoring_enabled": false,
       "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
       "private_settings": {}
     }

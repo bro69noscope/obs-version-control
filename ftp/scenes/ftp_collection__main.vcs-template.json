@@ -269,7 +269,9 @@
         "libobs.monitor-on": [],
         "libobs.monitor-off": [],
         "libobs.push-to-mute": [],
-        "libobs.push-to-talk": []
+        "libobs.push-to-talk": [],
+        "CompositeBlur.Enable": [],
+        "CompositeBlur.Disable": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,

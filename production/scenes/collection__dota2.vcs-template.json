@@ -705,8 +705,8 @@
       "versioned_id": "source-clone",
       "settings": {
         "clone": "scene__facecam_ingame",
-        "audio": false,
-        "same_clones": "~fade__clone__facecam_gameplay"
+        "same_clones": "~fade__clone__facecam_gameplay",
+        "audio": false
       },
       "mixers": 192,
       "sync": 0,
@@ -948,7 +948,7 @@
       "id": "text_gdiplus",
       "versioned_id": "text_gdiplus_v2",
       "settings": {
-        "text": "Bro you've been in the shop for 9 seconds, just buy something...",
+        "text": "Bro you've been in the shop for 95 seconds, just buy something...",
         "font": {
           "face": "Arial",
           "style": "Regular",
@@ -1622,16 +1622,16 @@
       "push-to-talk-delay": 0,
       "hotkeys": {
         "OBSBasic.SelectScene": [],
-        "libobs.show_scene_item.1": [],
-        "libobs.hide_scene_item.1": [],
-        "libobs.show_scene_item.5": [],
-        "libobs.hide_scene_item.5": [],
         "source_record.enable": [],
         "source_record.disable": [],
         "source_record.PauseRecording": [],
         "source_record.UnpauseRecording": [],
         "source_record.SplitRecording": [],
-        "source_record.AddChapterMarker": []
+        "source_record.AddChapterMarker": [],
+        "libobs.show_scene_item.1": [],
+        "libobs.hide_scene_item.1": [],
+        "libobs.show_scene_item.5": [],
+        "libobs.hide_scene_item.5": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
@@ -4706,7 +4706,7 @@
           "id": "clut_filter",
           "versioned_id": "clut_filter",
           "settings": {
-            "image_path": "C:/Program Files/obs-studio/data/obs-plugins/obs-filters/LUTs/grayscale.png"
+            "image_path": "C:/Program Files/obs-studio/core/obs-filters/data/LUTs/grayscale.cube"
           },
           "mixers": 0,
           "sync": 0,
@@ -4792,8 +4792,8 @@
       "name": "scene__zoom"
     }
   ],
-  "current_scene": "scene__gameplay__fundamental_sources",
-  "current_program_scene": "scene__gameplay__fundamental_sources",
+  "current_scene": "scene__metascene",
+  "current_program_scene": "scene__metascene",
   "canvases": [],
   "current_transition": "Cut",
   "transition_duration": 300,

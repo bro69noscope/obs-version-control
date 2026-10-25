@@ -573,8 +573,8 @@
       "versioned_id": "window_capture",
       "settings": {
         "priority": 0,
-        "method": 2,
-        "window": "twm_shopwatcher_main:Qt6120QWindowIcon:python.exe"
+        "window": "twm_shopwatcher_main:Qt6120QWindowIcon:python.exe",
+        "method": 2
       },
       "mixers": 255,
       "sync": 0,
@@ -609,10 +609,10 @@
       "versioned_id": "text_gdiplus_v3",
       "settings": {
         "outline": false,
+        "text": "obs preview with effects:",
         "bk_opacity": 0,
         "outline_size": 5,
-        "outline_color": 4278190080,
-        "text": "obs preview with effects:"
+        "outline_color": 4278190080
       },
       "mixers": 0,
       "sync": 0,
@@ -640,10 +640,10 @@
       "versioned_id": "text_gdiplus_v3",
       "settings": {
         "outline": false,
+        "text": "my current main screen:",
         "bk_opacity": 0,
         "outline_size": 5,
-        "outline_color": 4278190080,
-        "text": "my current main screen:"
+        "outline_color": 4278190080
       },
       "mixers": 0,
       "sync": 0,
@@ -1870,7 +1870,7 @@
       "id": "scene",
       "versioned_id": "scene",
       "settings": {
-        "id_counter": 18,
+        "id_counter": 20,
         "custom_size": false,
         "items": [
           {
@@ -2118,7 +2118,7 @@
               "y": 11.0
             },
             "pos_rel": {
-              "x": -1.3348056077957153,
+              "x": -1.335185170173645,
               "y": -0.979629635810852
             },
             "scale": {
@@ -2173,7 +2173,7 @@
               "y": 556.0
             },
             "pos_rel": {
-              "x": 0.5087644457817078,
+              "x": 0.5083333253860474,
               "y": 0.02962958812713623
             },
             "scale": {
@@ -2228,7 +2228,7 @@
               "y": 11.0
             },
             "pos_rel": {
-              "x": 0.44892239570617676,
+              "x": 0.44907405972480774,
               "y": -0.979629635810852
             },
             "scale": {
@@ -2283,7 +2283,7 @@
               "y": 684.0
             },
             "pos_rel": {
-              "x": -1.048537015914917,
+              "x": -1.0481481552124023,
               "y": 0.2666666507720947
             },
             "scale": {
@@ -2301,6 +2301,116 @@
             "bounds_rel": {
               "x": 0.0018518518190830946,
               "y": 0.0018518518190830946
+            },
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 300
+            },
+            "hide_transition": {
+              "duration": 300
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "scene__alerts",
+            "source_uuid": "1470a3a0-6e8c-4385-bb78-8acf62fb73a8",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "scale_ref": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 19,
+            "group_item_backup": false,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "pos_rel": {
+              "x": -1.7777777910232544,
+              "y": -1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "scale_rel": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "bounds": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "bounds_rel": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 300
+            },
+            "hide_transition": {
+              "duration": 300
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "scene__audio_sources",
+            "source_uuid": "455b6262-8e81-4796-9e03-5c61727063f8",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "scale_ref": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 20,
+            "group_item_backup": false,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "pos_rel": {
+              "x": -1.7777777910232544,
+              "y": -1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "scale_rel": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "bounds": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "bounds_rel": {
+              "x": 0.0,
+              "y": 0.0
             },
             "scale_filter": "disable",
             "blend_method": "default",
@@ -2332,6 +2442,8 @@
         "libobs.hide_scene_item.2": [],
         "libobs.show_scene_item.5": [],
         "libobs.hide_scene_item.5": [],
+        "libobs.show_scene_item.18": [],
+        "libobs.hide_scene_item.18": [],
         "libobs.show_scene_item.7": [],
         "libobs.hide_scene_item.7": [],
         "libobs.show_scene_item.8": [],
@@ -2342,8 +2454,10 @@
         "libobs.hide_scene_item.13": [],
         "libobs.show_scene_item.14": [],
         "libobs.hide_scene_item.14": [],
-        "libobs.show_scene_item.18": [],
-        "libobs.hide_scene_item.18": []
+        "libobs.show_scene_item.19": [],
+        "libobs.hide_scene_item.19": [],
+        "libobs.show_scene_item.20": [],
+        "libobs.hide_scene_item.20": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,

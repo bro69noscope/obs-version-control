@@ -222,7 +222,7 @@
       "id": "text_gdiplus",
       "versioned_id": "text_gdiplus_v3",
       "settings": {
-        "text": "BRB in 1 min\nElapsed: 07:31"
+        "text": "BRB in 5 mins\nElapsed: 18:10"
       },
       "mixers": 0,
       "sync": 0,
@@ -435,7 +435,7 @@
         "css": "",
         "reroute_audio": false
       },
-      "mixers": 255,
+      "mixers": 195,
       "sync": 0,
       "flags": 0,
       "volume": 1.0,
@@ -457,8 +457,8 @@
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
-      "monitoring_type": 0,
-      "monitoring_enabled": false,
+      "monitoring_type": 2,
+      "monitoring_enabled": true,
       "private_settings": {}
     },
     {
@@ -856,7 +856,7 @@
           {
             "name": "browser__streamerbot_alerts",
             "source_uuid": "55956981-99c5-4621-a27a-ead0025b287e",
-            "visible": false,
+            "visible": true,
             "locked": false,
             "rot": 0.0,
             "scale_ref": {
@@ -1111,7 +1111,7 @@
           {
             "name": "text__brb_in_x_mins",
             "source_uuid": "78c5d30f-ba31-4584-8c39-200aa9665113",
-            "visible": false,
+            "visible": true,
             "locked": false,
             "rot": 0.0,
             "scale_ref": {
@@ -1387,27 +1387,27 @@
             "bounds_type": 0,
             "bounds_align": 0,
             "bounds_crop": false,
-            "crop_left": 0,
+            "crop_left": 80,
             "crop_top": 0,
-            "crop_right": 0,
+            "crop_right": 80,
             "crop_bottom": 0,
             "id": 3,
             "group_item_backup": false,
             "pos": {
-              "x": 1490.0,
-              "y": 802.0
+              "x": 1424.5,
+              "y": 726.0
             },
             "pos_rel": {
-              "x": 0.9814814925193787,
-              "y": 0.4851851463317871
+              "x": 0.8599403500556946,
+              "y": 0.3444443941116333
             },
             "scale": {
-              "x": 0.2239583283662796,
-              "y": 0.2240740805864334
+              "x": 0.2816092073917389,
+              "y": 0.28148147463798523
             },
             "scale_rel": {
-              "x": 0.2239583283662796,
-              "y": 0.2240740805864334
+              "x": 0.2816092073917389,
+              "y": 0.28148147463798523
             },
             "bounds": {
               "x": 0.0,
@@ -2491,8 +2491,8 @@
       "name": "scene__obs_prod_showoff"
     }
   ],
-  "current_scene": "scene__obs_prod_showoff",
-  "current_program_scene": "scene__obs_prod_showoff",
+  "current_scene": "scene__alerts",
+  "current_program_scene": "scene__alerts",
   "canvases": [],
   "current_transition": "Fade",
   "transition_duration": 300,

@@ -170,8 +170,8 @@
       "settings": {
         "device_id": "{{MAIN_CAMERA_DEVICE}}",
         "last_video_device_id": "{{MAIN_CAMERA_DEVICE}}",
-        "active": true,
-        "video_device_id": "OBS Virtual Camera:"
+        "video_device_id": "OBS Virtual Camera:",
+        "active": true
       },
       "mixers": 192,
       "sync": 0,
@@ -527,7 +527,7 @@
       "settings": {
         "read_from_file": false,
         "outline": true,
-        "text": "BRB in 1 min\nElapsed: 00:09",
+        "text": "BRB in 1 min\nElapsed: 47:54",
         "antialiasing": true
       },
       "mixers": 0,
@@ -560,9 +560,9 @@
         "url": "{{ALERTS_OVERLAYS_STATIC_BASE_URL}}/production/alerts-overlay.production.html?env=production",
         "width": 1920,
         "height": 1080,
+        "fps_custom": false,
         "shutdown": false,
-        "restart_when_active": true,
-        "fps_custom": false
+        "restart_when_active": false
       },
       "mixers": 255,
       "sync": 0,
@@ -4607,7 +4607,7 @@
           {
             "name": "~cut__clone__facecam_gameplay",
             "source_uuid": "af988ae1-d0b9-457e-8edb-a91862d2e2a0",
-            "visible": false,
+            "visible": true,
             "locked": false,
             "rot": 0.0,
             "scale_ref": {
@@ -4670,7 +4670,7 @@
           {
             "name": "~fade__clone__facecam_gameplay",
             "source_uuid": "43fe1f49-0124-4f3c-94e2-758fc29ae7c6",
-            "visible": true,
+            "visible": false,
             "locked": false,
             "rot": 0.0,
             "scale_ref": {
@@ -4879,8 +4879,8 @@
       "name": "scene__zoom"
     }
   ],
-  "current_scene": "scene__alerts",
-  "current_program_scene": "scene__alerts",
+  "current_scene": "scene__lounge",
+  "current_program_scene": "scene__lounge",
   "canvases": [],
   "current_transition": "Cut",
   "transition_duration": 300,

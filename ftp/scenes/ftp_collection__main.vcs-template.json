@@ -222,7 +222,7 @@
       "id": "text_gdiplus",
       "versioned_id": "text_gdiplus_v3",
       "settings": {
-        "text": "BRB in 8 mins\nElapsed: 00:28"
+        "text": "BRB in 1 min\nElapsed: 15:58"
       },
       "mixers": 0,
       "sync": 0,
@@ -2523,7 +2523,7 @@
   "saved_projectors": [],
   "preview_locked": false,
   "scaling_enabled": false,
-  "scaling_level": -13,
+  "scaling_level": -15,
   "scaling_off_x": 0.0,
   "scaling_off_y": 0.0,
   "virtual-camera": {

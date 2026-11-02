@@ -527,8 +527,8 @@
       "settings": {
         "read_from_file": false,
         "outline": true,
-        "text": "BRB in 1 min\nElapsed: 47:54",
-        "antialiasing": true
+        "antialiasing": true,
+        "text": "BRB in tay mins\nElapsed: 00:01"
       },
       "mixers": 0,
       "sync": 0,
@@ -1623,16 +1623,16 @@
       "push-to-talk-delay": 0,
       "hotkeys": {
         "OBSBasic.SelectScene": [],
+        "libobs.show_scene_item.1": [],
+        "libobs.hide_scene_item.1": [],
+        "libobs.show_scene_item.5": [],
+        "libobs.hide_scene_item.5": [],
         "source_record.enable": [],
         "source_record.disable": [],
         "source_record.PauseRecording": [],
         "source_record.UnpauseRecording": [],
         "source_record.SplitRecording": [],
-        "source_record.AddChapterMarker": [],
-        "libobs.show_scene_item.1": [],
-        "libobs.hide_scene_item.1": [],
-        "libobs.show_scene_item.5": [],
-        "libobs.hide_scene_item.5": []
+        "source_record.AddChapterMarker": []
       },
       "deinterlace_mode": 0,
       "deinterlace_field_order": 0,
@@ -4911,7 +4911,7 @@
   "saved_projectors": [],
   "preview_locked": false,
   "scaling_enabled": false,
-  "scaling_level": -11,
+  "scaling_level": -8,
   "scaling_off_x": 0.0,
   "scaling_off_y": 0.0,
   "virtual-camera": {

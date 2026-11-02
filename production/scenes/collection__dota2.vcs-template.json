@@ -2720,27 +2720,27 @@
             "bounds_type": 0,
             "bounds_align": 0,
             "bounds_crop": false,
-            "crop_left": 0,
+            "crop_left": 80,
             "crop_top": 0,
-            "crop_right": 0,
+            "crop_right": 80,
             "crop_bottom": 0,
             "id": 3,
             "group_item_backup": false,
             "pos": {
-              "x": 1490.0,
-              "y": 802.0
+              "x": 1424.5,
+              "y": 726.0
             },
             "pos_rel": {
-              "x": 0.9814814925193787,
-              "y": 0.4851851463317871
+              "x": 0.8601852059364319,
+              "y": 0.3444443941116333
             },
             "scale": {
-              "x": 0.2239583283662796,
-              "y": 0.2240740805864334
+              "x": 0.2816092073917389,
+              "y": 0.28148147463798523
             },
             "scale_rel": {
-              "x": 0.2239583283662796,
-              "y": 0.2240740805864334
+              "x": 0.2816092073917389,
+              "y": 0.28148147463798523
             },
             "bounds": {
               "x": 0.0,
@@ -4879,8 +4879,8 @@
       "name": "scene__zoom"
     }
   ],
-  "current_scene": "scene__lounge",
-  "current_program_scene": "scene__lounge",
+  "current_scene": "scene__center_monitor",
+  "current_program_scene": "scene__center_monitor",
   "canvases": [],
   "current_transition": "Cut",
   "transition_duration": 300,
@@ -4911,7 +4911,7 @@
   "saved_projectors": [],
   "preview_locked": false,
   "scaling_enabled": false,
-  "scaling_level": -8,
+  "scaling_level": -13,
   "scaling_off_x": 0.0,
   "scaling_off_y": 0.0,
   "virtual-camera": {

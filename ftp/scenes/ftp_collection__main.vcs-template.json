@@ -431,7 +431,7 @@
         "height": 1080,
         "fps_custom": false,
         "shutdown": false,
-        "restart_when_active": true,
+        "restart_when_active": false,
         "css": "",
         "reroute_audio": false
       },

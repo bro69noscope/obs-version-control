@@ -614,7 +614,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "scene__facecam",
+      "name": "scene__layer__facecam",
       "uuid": "0496eed9-07df-46f4-83bd-53a54a834ec5",
       "id": "scene",
       "versioned_id": "scene",
@@ -767,7 +767,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__facecam",
+            "name": "scene__layer__facecam",
             "source_uuid": "0496eed9-07df-46f4-83bd-53a54a834ec5",
             "visible": true,
             "locked": false,
@@ -822,7 +822,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__alerts",
+            "name": "scene__layer__alerts",
             "source_uuid": "1470a3a0-6e8c-4385-bb78-8acf62fb73a8",
             "visible": true,
             "locked": false,
@@ -970,7 +970,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__facecam",
+            "name": "scene__layer__facecam",
             "source_uuid": "0496eed9-07df-46f4-83bd-53a54a834ec5",
             "visible": true,
             "locked": false,
@@ -1025,7 +1025,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__alerts",
+            "name": "scene__layer__alerts",
             "source_uuid": "1470a3a0-6e8c-4385-bb78-8acf62fb73a8",
             "visible": true,
             "locked": false,
@@ -1118,7 +1118,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "scene__facecam",
+            "name": "scene__layer__facecam",
             "source_uuid": "0496eed9-07df-46f4-83bd-53a54a834ec5",
             "visible": true,
             "locked": false,
@@ -1173,7 +1173,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__alerts",
+            "name": "scene__layer__alerts",
             "source_uuid": "1470a3a0-6e8c-4385-bb78-8acf62fb73a8",
             "visible": true,
             "locked": false,
@@ -1319,7 +1319,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__eyetracker",
+            "name": "scene__layer__eyetracker",
             "source_uuid": "0deac58a-96bf-4295-8bec-01c60bdf1281",
             "visible": true,
             "locked": false,
@@ -1521,7 +1521,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__facecam",
+            "name": "scene__layer__facecam",
             "source_uuid": "0496eed9-07df-46f4-83bd-53a54a834ec5",
             "visible": true,
             "locked": false,
@@ -1576,7 +1576,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__alerts",
+            "name": "scene__layer__alerts",
             "source_uuid": "1470a3a0-6e8c-4385-bb78-8acf62fb73a8",
             "visible": true,
             "locked": false,
@@ -1724,7 +1724,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__facecam",
+            "name": "scene__layer__facecam",
             "source_uuid": "0496eed9-07df-46f4-83bd-53a54a834ec5",
             "visible": true,
             "locked": false,
@@ -1779,7 +1779,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__alerts",
+            "name": "scene__layer__alerts",
             "source_uuid": "1470a3a0-6e8c-4385-bb78-8acf62fb73a8",
             "visible": true,
             "locked": false,
@@ -1927,7 +1927,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__facecam",
+            "name": "scene__layer__facecam",
             "source_uuid": "0496eed9-07df-46f4-83bd-53a54a834ec5",
             "visible": true,
             "locked": false,
@@ -2147,7 +2147,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__alerts",
+            "name": "scene__layer__alerts",
             "source_uuid": "1470a3a0-6e8c-4385-bb78-8acf62fb73a8",
             "visible": true,
             "locked": false,
@@ -2237,7 +2237,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "scene__alerts",
+      "name": "scene__layer__alerts",
       "uuid": "1470a3a0-6e8c-4385-bb78-8acf62fb73a8",
       "id": "scene",
       "versioned_id": "scene",
@@ -2326,7 +2326,7 @@
     },
     {
       "prev_ver": 537001986,
-      "name": "scene__eyetracker",
+      "name": "scene__layer__eyetracker",
       "uuid": "0deac58a-96bf-4295-8bec-01c60bdf1281",
       "id": "scene",
       "versioned_id": "scene",
@@ -2479,7 +2479,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__facecam",
+            "name": "scene__layer__facecam",
             "source_uuid": "0496eed9-07df-46f4-83bd-53a54a834ec5",
             "visible": true,
             "locked": false,
@@ -2534,7 +2534,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__alerts",
+            "name": "scene__layer__alerts",
             "source_uuid": "1470a3a0-6e8c-4385-bb78-8acf62fb73a8",
             "visible": true,
             "locked": false,
@@ -2589,7 +2589,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__eyetracker",
+            "name": "scene__layer__eyetracker",
             "source_uuid": "0deac58a-96bf-4295-8bec-01c60bdf1281",
             "visible": true,
             "locked": false,
@@ -2739,7 +2739,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__facecam",
+            "name": "scene__layer__facecam",
             "source_uuid": "0496eed9-07df-46f4-83bd-53a54a834ec5",
             "visible": true,
             "locked": false,
@@ -2794,7 +2794,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__alerts",
+            "name": "scene__layer__alerts",
             "source_uuid": "1470a3a0-6e8c-4385-bb78-8acf62fb73a8",
             "visible": true,
             "locked": false,
@@ -2880,7 +2880,7 @@
   "groups": [],
   "scene_order": [
     {
-      "name": "scene__facecam"
+      "name": "scene__layer__facecam"
     },
     {
       "name": "scene__zoom"
@@ -2898,7 +2898,7 @@
       "name": "scene__aoe2_eyetracker"
     },
     {
-      "name": "scene__eyetracker"
+      "name": "scene__layer__eyetracker"
     },
     {
       "name": "scene__browser"
@@ -2913,7 +2913,7 @@
       "name": "scene__vlc"
     },
     {
-      "name": "scene__alerts"
+      "name": "scene__layer__alerts"
     }
   ],
   "current_scene": "scene__aoe2_eyetracker",

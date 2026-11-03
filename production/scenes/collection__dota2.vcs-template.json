@@ -491,7 +491,7 @@
       "id": "source-clone",
       "versioned_id": "source-clone",
       "settings": {
-        "clone": "scene__dota2_normalized"
+        "clone": "scene__layer__dota2_normalized"
       },
       "mixers": 255,
       "sync": 0,
@@ -670,7 +670,7 @@
       "id": "source-clone",
       "versioned_id": "source-clone",
       "settings": {
-        "clone": "scene__facecam_ingame",
+        "clone": "scene__layer__facecam_ingame",
         "audio": false
       },
       "mixers": 192,
@@ -705,7 +705,7 @@
       "id": "source-clone",
       "versioned_id": "source-clone",
       "settings": {
-        "clone": "scene__facecam_ingame",
+        "clone": "scene__layer__facecam_ingame",
         "same_clones": "~fade__clone__facecam_gameplay",
         "audio": false
       },
@@ -853,7 +853,7 @@
       "versioned_id": "source-clone",
       "settings": {
         "active_clone": false,
-        "clone": "scene__dota2_normalized",
+        "clone": "scene__layer__dota2_normalized",
         "audio": false
       },
       "mixers": 255,
@@ -1049,7 +1049,7 @@
     },
     {
       "prev_ver": 553648128,
-      "name": "scene__facecam",
+      "name": "scene__layer__facecam",
       "uuid": "0496eed9-07df-46f4-83bd-53a54a834ec5",
       "id": "scene",
       "versioned_id": "scene",
@@ -1203,7 +1203,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__facecam",
+            "name": "scene__layer__facecam",
             "source_uuid": "0496eed9-07df-46f4-83bd-53a54a834ec5",
             "visible": true,
             "locked": false,
@@ -1258,7 +1258,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__alerts",
+            "name": "scene__layer__alerts",
             "source_uuid": "1470a3a0-6e8c-4385-bb78-8acf62fb73a8",
             "visible": true,
             "locked": false,
@@ -1352,7 +1352,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "scene__facecam",
+            "name": "scene__layer__facecam",
             "source_uuid": "0496eed9-07df-46f4-83bd-53a54a834ec5",
             "visible": true,
             "locked": false,
@@ -1407,7 +1407,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__alerts",
+            "name": "scene__layer__alerts",
             "source_uuid": "1470a3a0-6e8c-4385-bb78-8acf62fb73a8",
             "visible": true,
             "locked": false,
@@ -1490,7 +1490,7 @@
     },
     {
       "prev_ver": 553648128,
-      "name": "scene__dota2_eyetracker",
+      "name": "scene__nolive__dota2_eyetracker",
       "uuid": "defdc75c-d917-4a07-9d81-7988f663b54a",
       "id": "scene",
       "versioned_id": "scene",
@@ -1554,7 +1554,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__eyetracker",
+            "name": "scene__layer__eyetracker",
             "source_uuid": "0deac58a-96bf-4295-8bec-01c60bdf1281",
             "visible": true,
             "locked": false,
@@ -1744,7 +1744,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__facecam",
+            "name": "scene__layer__facecam",
             "source_uuid": "0496eed9-07df-46f4-83bd-53a54a834ec5",
             "visible": true,
             "locked": false,
@@ -1799,7 +1799,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__alerts",
+            "name": "scene__layer__alerts",
             "source_uuid": "1470a3a0-6e8c-4385-bb78-8acf62fb73a8",
             "visible": true,
             "locked": false,
@@ -1948,7 +1948,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__facecam",
+            "name": "scene__layer__facecam",
             "source_uuid": "0496eed9-07df-46f4-83bd-53a54a834ec5",
             "visible": true,
             "locked": false,
@@ -2003,7 +2003,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__alerts",
+            "name": "scene__layer__alerts",
             "source_uuid": "1470a3a0-6e8c-4385-bb78-8acf62fb73a8",
             "visible": true,
             "locked": false,
@@ -2152,7 +2152,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__facecam",
+            "name": "scene__layer__facecam",
             "source_uuid": "0496eed9-07df-46f4-83bd-53a54a834ec5",
             "visible": true,
             "locked": false,
@@ -2372,7 +2372,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__alerts",
+            "name": "scene__layer__alerts",
             "source_uuid": "1470a3a0-6e8c-4385-bb78-8acf62fb73a8",
             "visible": true,
             "locked": false,
@@ -2463,7 +2463,7 @@
     },
     {
       "prev_ver": 553648128,
-      "name": "scene__alerts",
+      "name": "scene__layer__alerts",
       "uuid": "1470a3a0-6e8c-4385-bb78-8acf62fb73a8",
       "id": "scene",
       "versioned_id": "scene",
@@ -2553,7 +2553,7 @@
     },
     {
       "prev_ver": 553648128,
-      "name": "scene__eyetracker",
+      "name": "scene__layer__eyetracker",
       "uuid": "0deac58a-96bf-4295-8bec-01c60bdf1281",
       "id": "scene",
       "versioned_id": "scene",
@@ -2707,7 +2707,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__facecam",
+            "name": "scene__layer__facecam",
             "source_uuid": "0496eed9-07df-46f4-83bd-53a54a834ec5",
             "visible": true,
             "locked": false,
@@ -2762,7 +2762,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__eyetracker",
+            "name": "scene__layer__eyetracker",
             "source_uuid": "0deac58a-96bf-4295-8bec-01c60bdf1281",
             "visible": true,
             "locked": false,
@@ -2817,7 +2817,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__alerts",
+            "name": "scene__layer__alerts",
             "source_uuid": "1470a3a0-6e8c-4385-bb78-8acf62fb73a8",
             "visible": true,
             "locked": false,
@@ -2913,7 +2913,7 @@
         "custom_size": false,
         "items": [
           {
-            "name": "scene__gameplay__fundamental_sources",
+            "name": "scene__layer_ig__fundamental_sources",
             "source_uuid": "2c71c882-ea84-4000-b3e5-dd1117d3fcd1",
             "visible": true,
             "locked": false,
@@ -2968,7 +2968,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__gameplay__music_media",
+            "name": "scene__layer_ig__music_media",
             "source_uuid": "b08689ec-4bf9-471e-b673-6613645ddd36",
             "visible": true,
             "locked": false,
@@ -3023,7 +3023,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__gameplay__audio_clips_media",
+            "name": "scene__layer_ig__audio_clips_media",
             "source_uuid": "a4ac037d-f4b9-4a0b-bbcf-034904067700",
             "visible": true,
             "locked": false,
@@ -3078,7 +3078,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__gameplay__script__shopwatcher",
+            "name": "scene__layer_ig__script__shopwatcher",
             "source_uuid": "97e14c91-3dc3-4928-93e2-028e12126261",
             "visible": true,
             "locked": false,
@@ -3133,7 +3133,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__gameplay__overlayed_media",
+            "name": "scene__layer_ig__overlayed_media",
             "source_uuid": "98213545-dba0-4886-b906-1de455a710a7",
             "visible": true,
             "locked": false,
@@ -3188,7 +3188,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__gameplay__zoomed_areas",
+            "name": "scene__layer_ig__zoomed_areas",
             "source_uuid": "61b8791c-4878-408f-8b63-afa8c5b83ef8",
             "visible": true,
             "locked": false,
@@ -3243,7 +3243,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__alerts",
+            "name": "scene__layer__alerts",
             "source_uuid": "1470a3a0-6e8c-4385-bb78-8acf62fb73a8",
             "visible": true,
             "locked": false,
@@ -3429,7 +3429,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__facecam_ingame",
+            "name": "scene__layer__facecam_ingame",
             "source_uuid": "784c71f0-c940-4739-a89a-afe22dbd72b1",
             "visible": true,
             "locked": false,
@@ -3484,7 +3484,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__alerts",
+            "name": "scene__layer__alerts",
             "source_uuid": "1470a3a0-6e8c-4385-bb78-8acf62fb73a8",
             "visible": true,
             "locked": false,
@@ -3569,7 +3569,7 @@
     },
     {
       "prev_ver": 553648128,
-      "name": "scene__dota2_normalized",
+      "name": "scene__layer__dota2_normalized",
       "uuid": "cef4d3ee-9d94-46c2-b9fd-5500ad33b39f",
       "id": "scene",
       "versioned_id": "scene",
@@ -3659,7 +3659,7 @@
     },
     {
       "prev_ver": 553648128,
-      "name": "scene__facecam_ingame",
+      "name": "scene__layer__facecam_ingame",
       "uuid": "784c71f0-c940-4739-a89a-afe22dbd72b1",
       "id": "scene",
       "versioned_id": "scene",
@@ -3723,7 +3723,7 @@
             "private_settings": {}
           },
           {
-            "name": "scene__facecam",
+            "name": "scene__layer__facecam",
             "source_uuid": "0496eed9-07df-46f4-83bd-53a54a834ec5",
             "visible": true,
             "locked": false,
@@ -3806,7 +3806,7 @@
     },
     {
       "prev_ver": 553648128,
-      "name": "scene__gameplay__script__shopwatcher",
+      "name": "scene__layer_ig__script__shopwatcher",
       "uuid": "97e14c91-3dc3-4928-93e2-028e12126261",
       "id": "scene",
       "versioned_id": "scene",
@@ -4010,7 +4010,7 @@
     },
     {
       "prev_ver": 553648128,
-      "name": "scene__gameplay__zoomed_areas",
+      "name": "scene__layer_ig__zoomed_areas",
       "uuid": "61b8791c-4878-408f-8b63-afa8c5b83ef8",
       "id": "scene",
       "versioned_id": "scene",
@@ -4214,7 +4214,7 @@
     },
     {
       "prev_ver": 553648128,
-      "name": "scene__gameplay__overlayed_media",
+      "name": "scene__layer_ig__overlayed_media",
       "uuid": "98213545-dba0-4886-b906-1de455a710a7",
       "id": "scene",
       "versioned_id": "scene",
@@ -4361,7 +4361,7 @@
     },
     {
       "prev_ver": 553648128,
-      "name": "scene__gameplay__audio_clips_media",
+      "name": "scene__layer_ig__audio_clips_media",
       "uuid": "a4ac037d-f4b9-4a0b-bbcf-034904067700",
       "id": "scene",
       "versioned_id": "scene",
@@ -4451,7 +4451,7 @@
     },
     {
       "prev_ver": 553648128,
-      "name": "scene__gameplay__music_media",
+      "name": "scene__layer_ig__music_media",
       "uuid": "b08689ec-4bf9-471e-b673-6613645ddd36",
       "id": "scene",
       "versioned_id": "scene",
@@ -4541,7 +4541,7 @@
     },
     {
       "prev_ver": 553648128,
-      "name": "scene__gameplay__fundamental_sources",
+      "name": "scene__layer_ig__fundamental_sources",
       "uuid": "2c71c882-ea84-4000-b3e5-dd1117d3fcd1",
       "id": "scene",
       "versioned_id": "scene",
@@ -4819,7 +4819,7 @@
   "groups": [],
   "scene_order": [
     {
-      "name": "scene__alerts"
+      "name": "scene__layer__alerts"
     },
     {
       "name": "scene__browser"
@@ -4831,19 +4831,19 @@
       "name": "scene__dota2"
     },
     {
-      "name": "scene__dota2_eyetracker"
+      "name": "scene__nolive__dota2_eyetracker"
     },
     {
-      "name": "scene__dota2_normalized"
+      "name": "scene__layer__dota2_normalized"
     },
     {
-      "name": "scene__eyetracker"
+      "name": "scene__layer__eyetracker"
     },
     {
-      "name": "scene__facecam"
+      "name": "scene__layer__facecam"
     },
     {
-      "name": "scene__facecam_ingame"
+      "name": "scene__layer__facecam_ingame"
     },
     {
       "name": "scene__lounge"
@@ -4852,22 +4852,22 @@
       "name": "scene__metascene"
     },
     {
-      "name": "scene__gameplay__fundamental_sources"
+      "name": "scene__layer_ig__fundamental_sources"
     },
     {
-      "name": "scene__gameplay__music_media"
+      "name": "scene__layer_ig__music_media"
     },
     {
-      "name": "scene__gameplay__audio_clips_media"
+      "name": "scene__layer_ig__audio_clips_media"
     },
     {
-      "name": "scene__gameplay__overlayed_media"
+      "name": "scene__layer_ig__overlayed_media"
     },
     {
-      "name": "scene__gameplay__zoomed_areas"
+      "name": "scene__layer_ig__zoomed_areas"
     },
     {
-      "name": "scene__gameplay__script__shopwatcher"
+      "name": "scene__layer_ig__script__shopwatcher"
     },
     {
       "name": "scene__osu"

@@ -727,7 +727,7 @@
     },
     {
       "prev_ver": 553648128,
-      "name": "capture__spout_metascene",
+      "name": "capture__spout__metascene",
       "uuid": "9d7d3bff-426e-43dc-a472-55cef9bbd42e",
       "id": "spout_capture",
       "versioned_id": "spout_capture",
@@ -1984,7 +1984,7 @@
             "private_settings": {}
           },
           {
-            "name": "capture__spout_metascene",
+            "name": "capture__spout__metascene",
             "source_uuid": "9d7d3bff-426e-43dc-a472-55cef9bbd42e",
             "visible": true,
             "locked": false,

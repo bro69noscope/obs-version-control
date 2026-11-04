@@ -2916,8 +2916,8 @@
       "name": "scene__layer__alerts"
     }
   ],
-  "current_scene": "scene__aoe2_eyetracker",
-  "current_program_scene": "scene__aoe2_eyetracker",
+  "current_scene": "scene__metascene",
+  "current_program_scene": "scene__metascene",
   "canvases": [],
   "current_transition": "Fade",
   "transition_duration": 300,
@@ -2948,7 +2948,7 @@
   "saved_projectors": [],
   "preview_locked": false,
   "scaling_enabled": false,
-  "scaling_level": -8,
+  "scaling_level": 0,
   "scaling_off_x": 0.0,
   "scaling_off_y": 0.0,
   "virtual-camera": {

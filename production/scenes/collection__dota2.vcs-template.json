@@ -4879,8 +4879,8 @@
       "name": "scene__layer_ig__zoomed_areas"
     }
   ],
-  "current_scene": "scene__center_monitor",
-  "current_program_scene": "scene__center_monitor",
+  "current_scene": "scene__metascene",
+  "current_program_scene": "scene__metascene",
   "canvases": [],
   "current_transition": "Cut",
   "transition_duration": 300,
@@ -4911,7 +4911,7 @@
   "saved_projectors": [],
   "preview_locked": false,
   "scaling_enabled": false,
-  "scaling_level": -13,
+  "scaling_level": 0,
   "scaling_off_x": 0.0,
   "scaling_off_y": 0.0,
   "virtual-camera": {

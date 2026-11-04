@@ -2470,6 +2470,15 @@
   "groups": [],
   "scene_order": [
     {
+      "name": "scene__center_monitor"
+    },
+    {
+      "name": "scene__lounge"
+    },
+    {
+      "name": "scene__obs_prod_showoff"
+    },
+    {
       "name": "scene__layer__alerts"
     },
     {
@@ -2480,15 +2489,6 @@
     },
     {
       "name": "scene__layer__facecam"
-    },
-    {
-      "name": "scene__lounge"
-    },
-    {
-      "name": "scene__center_monitor"
-    },
-    {
-      "name": "scene__obs_prod_showoff"
     }
   ],
   "current_scene": "scene__obs_prod_showoff",

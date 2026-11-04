@@ -4819,9 +4819,6 @@
   "groups": [],
   "scene_order": [
     {
-      "name": "scene__layer__alerts"
-    },
-    {
       "name": "scene__browser"
     },
     {
@@ -4831,7 +4828,25 @@
       "name": "scene__dota2"
     },
     {
+      "name": "scene__lounge"
+    },
+    {
+      "name": "scene__metascene"
+    },
+    {
+      "name": "scene__osu"
+    },
+    {
+      "name": "scene__vlc"
+    },
+    {
+      "name": "scene__zoom"
+    },
+    {
       "name": "scene__nolive__dota2_eyetracker"
+    },
+    {
+      "name": "scene__layer__alerts"
     },
     {
       "name": "scene__layer__dota2_normalized"
@@ -4846,10 +4861,7 @@
       "name": "scene__layer__facecam_ingame"
     },
     {
-      "name": "scene__lounge"
-    },
-    {
-      "name": "scene__metascene"
+      "name": "scene__layer_ig__audio_clips_media"
     },
     {
       "name": "scene__layer_ig__fundamental_sources"
@@ -4858,25 +4870,13 @@
       "name": "scene__layer_ig__music_media"
     },
     {
-      "name": "scene__layer_ig__audio_clips_media"
-    },
-    {
       "name": "scene__layer_ig__overlayed_media"
-    },
-    {
-      "name": "scene__layer_ig__zoomed_areas"
     },
     {
       "name": "scene__layer_ig__script__shopwatcher"
     },
     {
-      "name": "scene__osu"
-    },
-    {
-      "name": "scene__vlc"
-    },
-    {
-      "name": "scene__zoom"
+      "name": "scene__layer_ig__zoomed_areas"
     }
   ],
   "current_scene": "scene__center_monitor",

@@ -556,7 +556,7 @@
       "versioned_id": "browser_source",
       "settings": {
         "is_local_file": false,
-        "local_file": "{{STREAMING_REPO_PATH}}external/html/alerts-overlays/production/alerts-overlay.production.html",
+        "local_file": "{{BRO_NLLS_REPO_PATH}}external/html/alerts-overlays/production/alerts-overlay.production.html",
         "url": "{{ALERTS_OVERLAYS_STATIC_BASE_URL}}/production/alerts-overlay.production.html?env=production",
         "width": 1920,
         "height": 1080,

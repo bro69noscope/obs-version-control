@@ -609,10 +609,10 @@
       "versioned_id": "text_gdiplus_v3",
       "settings": {
         "outline": false,
+        "text": "what the obs preview looks like:",
         "bk_opacity": 0,
         "outline_size": 5,
-        "outline_color": 4278190080,
-        "text": "what the obs preview looks like:"
+        "outline_color": 4278190080
       },
       "mixers": 0,
       "sync": 0,

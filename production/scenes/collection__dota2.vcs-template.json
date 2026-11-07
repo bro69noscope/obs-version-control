@@ -170,7 +170,7 @@
       "settings": {
         "device_id": "{{MAIN_CAMERA_DEVICE}}",
         "last_video_device_id": "{{MAIN_CAMERA_DEVICE}}",
-        "video_device_id": "OBS Virtual Camera:",
+        "video_device_id": "{{MAIN_CAMERA_DEVICE}}",
         "active": true
       },
       "mixers": 192,
@@ -527,7 +527,7 @@
       "settings": {
         "read_from_file": false,
         "outline": true,
-        "text": "BRB in tay mins\nElapsed: 00:01",
+        "text": "BRB in test mins\nElapsed: 22:12",
         "antialiasing": true
       },
       "mixers": 0,
@@ -2319,7 +2319,7 @@
           {
             "name": "text__brb_in_x_mins",
             "source_uuid": "1ff67ca3-1ce9-4018-87cf-35ce39cceaf8",
-            "visible": false,
+            "visible": true,
             "locked": false,
             "rot": 0.0,
             "scale_ref": {
